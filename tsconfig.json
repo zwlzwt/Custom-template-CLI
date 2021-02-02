@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "module": "System",
+    "target": "es6",
+    "sourceMap": true,
+    "outDir": "dist",
+    "baseUrl": "src"
+  },
+  "include": [
+    "./**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/*.spec.ts"
+  ]
+}
