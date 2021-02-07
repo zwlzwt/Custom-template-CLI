@@ -128,7 +128,7 @@ async function creatApp(
       const stats = await fs.stat(process.cwd() + `/${name}/${templateName}`)
       if (stats.isDirectory()) {
         await exec(
-          `rimraf .git && git init && git add . && git commit -m \"create front-end app\"`,
+          `rm -rf .git && git init && git add . && git commit -m \"create front-end app\"`,
           { cwd: `./${name}/${templateName}` }
         )
       }
@@ -195,5 +195,5 @@ function init(): void {
 
   creatApp(projectName, templeName, templateUrl)
 }
-
-init()
+// module.exports === export default
+module.exports = init

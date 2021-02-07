@@ -3,14 +3,14 @@
     "module": "System",
     "target": "es6",
     "sourceMap": true,
-    "outDir": "dist",
+    "outDir": "lib",
     "baseUrl": "src"
   },
   "include": [
-    "./**/*"
+    "src/**/*"
   ],
   "exclude": [
     "node_modules",
     "**/*.spec.ts"
-  ]
+  ],
 }
