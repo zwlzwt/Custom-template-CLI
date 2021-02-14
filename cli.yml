@@ -1,0 +1,1665 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: zsh
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: /Users/zwlzwt/Documents
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 151
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 20
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 50
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: Terminalizer
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 12
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 1976
+    content: "\e[33mWarning:\e[0m Calling `brew list` to only list formulae is deprecated! Use `brew list --formula` instead.\r\n"
+  - delay: 364
+    content: "\r\nThe default interactive shell is now zsh.\r\nTo update your account to use zsh, please run `chsh -s /bin/zsh`.\r\nFor more details, please visit https://support.apple.com/kb/HT208050.\r\n\e[?1034h\e[1;34mzwlzwt \e[1;32m~/Documents \e[1;37m \U0001D77A "
+  - delay: 2641
+    content: c
+  - delay: 303
+    content: r
+  - delay: 89
+    content: e
+  - delay: 176
+    content: a
+  - delay: 312
+    content: t
+  - delay: 94
+    content: e
+  - delay: 713
+    content: '-'
+  - delay: 297
+    content: t
+  - delay: 80
+    content: e
+  - delay: 248
+    content: m
+  - delay: 272
+    content: p
+  - delay: 332
+    content: l
+  - delay: 164
+    content: a
+  - delay: 376
+    content: t
+  - delay: 175
+    content: e
+  - delay: 665
+    content: ' '
+  - delay: 264
+    content: '-'
+  - delay: 154
+    content: '-'
+  - delay: 222
+    content: h
+  - delay: 116
+    content: e
+  - delay: 860
+    content: l
+  - delay: 232
+    content: p
+  - delay: 416
+    content: "\r\n"
+  - delay: 234
+    content: "Usage: create-template \e[32m[project-directory]\e[39m [options]\r\n\r\nreact-starter-cli command\r\n\r\nArguments:\r\n  project-directory\r\n\r\nOptions:\r\n  -V, --version      output the version number\r\n  -h, --help         display help for command\r\n\r\nOnly \e[32m[project-directory]\e[39m is \e[31mrequired\e[39m.\r\n\r\nAnd default option template is: \e[32m<react-starter>\e[39m\r\n"
+  - delay: 5
+    content: "\e[1;34mzwlzwt \e[1;32m~/Documents \e[1;37m \U0001D77A "
+  - delay: 2712
+    content: create-template --help
+  - delay: 353
+    content: "\b\e[K"
+  - delay: 177
+    content: "\b\e[K"
+  - delay: 157
+    content: "\b\e[K"
+  - delay: 163
+    content: "\b\e[K"
+  - delay: 141
+    content: "\b\e[K"
+  - delay: 170
+    content: "\b\e[K"
+  - delay: 1495
+    content: "\b\e[K"
+  - delay: 408
+    content: "\r\n"
+  - delay: 135
+    content: "Please specify the project directory:\r\n  \e[36mcreate-template\e[39m \e[32m<project-directory>\e[39m\r\n\r\nFor example:\r\n  \e[36mcreate-template\e[39m \e[32mCustom-react-project\e[39m\r\n\r\nRun \e[36mcreate-template --help\e[39m to see all options.\r\n\e[1;34mzwlzwt \e[1;32m~/Documents \e[1;37m \U0001D77A "
+  - delay: 2506
+    content: create-template
+  - delay: 952
+    content: ' '
+  - delay: 611
+    content: t
+  - delay: 109
+    content: e
+  - delay: 320
+    content: s
+  - delay: 359
+    content: t
+  - delay: 1057
+    content: '-'
+  - delay: 384
+    content: c
+  - delay: 888
+    content: "\b\e[K"
+  - delay: 448
+    content: t
+  - delay: 96
+    content: e
+  - delay: 216
+    content: m
+  - delay: 264
+    content: p
+  - delay: 240
+    content: l
+  - delay: 144
+    content: a
+  - delay: 256
+    content: t
+  - delay: 80
+    content: e
+  - delay: 1480
+    content: "\r\n"
+  - delay: 148
+    content: "\e[32m?\e[39m \e[1mWhich template you want choice?\e[22m\r\n\e[36m❯ react-starter\e[39m\r\n  react-material-admin-template\r\n  react-frame-application\r\n  custom template\r\nwebpack official template for react\e[?25l\e[35D\e[35C"
+  - delay: 2592
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mWhich template you want choice?\e[22m \e[36mreact-starter\e[39m\e[47D\e[47C\r\n\e[?25h"
+  - delay: 7
+    content: "\r\nCreating a new React app in \e[32m/Users/zwlzwt/Documents/test-template\e[39m.\r\n"
+  - delay: 20
+    content: "git version 2.24.3 (Apple Git-128)\r\n\r\n\e[34mnow clone the template in \e[32mtest-template\e[39m\e[34m....\e[39m\r\n\r\n\e[35mFind folder successfully!\e[39m\r\nhttps://github.com/webpack/react-starter.git react-starter\r\n"
+  - delay: 560
+    content: "\r\n\e[34mDownloading success!!!\e[39m\r\n\r\n"
+  - delay: 154
+    content: "\e[34mDelete the origin git and add new git commit first time!!!\e[39m\r\n\r\n\e[32mInstall dependencies....\e[39m\r\n"
+  - delay: 903
+    content: "\e[?25l⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠦ rollbackFailedOptional: \e[34;40mverb\e[0m \e[35mnpm-session\e[0m 31c184819472b07e\e[0m\e[K\r"
+  - delay: 62
+    content: "⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠇ preinstall:react-starter: \e[7msill\e[0m \e[35minstall\e[0m runPreinstallTopLevelLifecycles\e[0m\e[K\r"
+  - delay: 128
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠧ fetchMetadata: \e[7msill\e[0m \e[35minstall\e[0m loadAllDepsIntoIdealTree\e[0m\e[K\r"
+  - delay: 72
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠧ fetchMetadata: \e[7msill\e[0m \e[35minstall\e[0m loadAllDepsIntoIdealTree\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠧ fetchMetadata: \e[7msill\e[0m \e[35minstall\e[0m loadAllDepsIntoIdealTree\e[0m\e[K\r"
+  - delay: 49
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠧ fetchMetadata: \e[7msill\e[0m \e[35minstall\e[0m loadAllDepsIntoIdealTree\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠧ fetchMetadata: \e[7msill\e[0m \e[35minstall\e[0m loadAllDepsIntoIdealTree\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠧ fetchMetadata: \e[7msill\e[0m \e[35minstall\e[0m loadAllDepsIntoIdealTree\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠸ fetchMetadata: \e[7msill\e[0m \e[35mpacote\e[0m range manifest for babel-core@^5.0.12 fetched in 366ms\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠴ fetchMetadata: \e[7msill\e[0m \e[35mpacote\e[0m range manifest for express@^4.7.2 fetched in 414ms\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠙ fetchMetadata: \e[7msill\e[0m \e[35mpacote\e[0m range manifest for file-loader@^0.8.1 fetched in 112ms\e[0m\e[K\r"
+  - delay: 49
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠧ fetchMetadata: \e[7msill\e[0m \e[35mpacote\e[0m range manifest for less-loader@^2.0.0 fetched in 110ms\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠧ fetchMetadata: \e[7msill\e[0m \e[35mpacote\e[0m range manifest for react-proxy-loader@^0.3.1 fetched in 135ms\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠼ fetchMetadata: \e[7msill\e[0m \e[35mpacote\e[0m range manifest for stats-webpack-plugin@^0.1.2 fetched in 93ms\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠸ fetchMetadata: \e[7msill\e[0m \e[35mpacote\e[0m range manifest for webpack-dev-server@^1.4.7 fetched in 98ms\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠧ fetchMetadata: \e[7msill\e[0m \e[35mpacote\e[0m range manifest for webpack@^1.8.5 fetched in 150ms\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠙ fetchMetadata: \e[7msill\e[0m \e[35mpacote\e[0m range manifest for babel-plugin-proto-to-assign@^1.0.3 fetched in 94ms\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠙ fetchMetadata: \e[7msill\e[0m \e[35mpacote\e[0m range manifest for babel-plugin-proto-to-assign@^1.0.3 fetched in 94ms\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠏ fetchMetadata: \e[32;40mhttp\e[0m \e[35mfetch\e[0m GET 304 https://registry.npmjs.org/core-js 85ms (from cache)\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠙ fetchMetadata: \e[7msill\e[0m \e[35mpacote\e[0m range manifest for detect-indent@^3.0.0 fetched in 92ms\e[0m\e[K\r"
+  - delay: 45
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠧ fetchMetadata: \e[7msill\e[0m \e[35mpacote\e[0m range manifest for detect-indent@^3.0.0 fetched in 92ms\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠋ fetchMetadata: \e[7msill\e[0m \e[35mpacote\e[0m range manifest for output-file-sync@^1.1.0 fetched in 82ms\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠇ fetchMetadata: \e[7msill\e[0m \e[35mpacote\e[0m version manifest for regenerator@0.8.40 fetched in 98ms\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠙ fetchMetadata: \e[7msill\e[0m \e[35mpacote\e[0m range manifest for resolve@^1.1.6 fetched in 133ms\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠧ fetchMetadata: \e[7msill\e[0m \e[35mpacote\e[0m range manifest for on-finished@~2.3.0 fetched in 62ms\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠴ fetchMetadata: \e[7msill\e[0m \e[35mpacote\e[0m version manifest for raw-body@2.4.0 fetched in 69ms\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠙ fetchMetadata: \e[7msill\e[0m \e[35mpacote\e[0m range manifest for doctrine@^0.6.2 fetched in 84ms\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠼ fetchMetadata: \e[7msill\e[0m \e[35mpacote\e[0m range manifest for inquirer@^0.8.2 fetched in 78ms\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠙ fetchMetadata: \e[7msill\e[0m \e[35mpacote\e[0m range manifest for optionator@^0.5.0 fetched in 75ms\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠹ fetchMetadata: \e[7msill\e[0m \e[35mpacote\e[0m range manifest for accepts@~1.3.7 fetched in 67ms\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠦ fetchMetadata: \e[7msill\e[0m \e[35mpacote\e[0m range manifest for finalhandler@~1.1.2 fetched in 69ms\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠦ fetchMetadata: \e[7msill\e[0m \e[35mpacote\e[0m range manifest for finalhandler@~1.1.2 fetched in 69ms\e[0m\e[K\r"
+  - delay: 49
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠦ fetchMetadata: \e[7msill\e[0m \e[35mpacote\e[0m range manifest for finalhandler@~1.1.2 fetched in 69ms\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠹ fetchMetadata: \e[7msill\e[0m \e[35mpacote\e[0m range manifest for loader-utils@^0.2.9 fetched in 11ms\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠇ fetchMetadata: \e[7msill\e[0m \e[35mpacote\e[0m range manifest for source-map@0.1.x fetched in 14ms\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠹ fetchMetadata: \e[7msill\e[0m \e[35mpacote\e[0m range manifest for errno@^0.1.1 fetched in 94ms\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠧ fetchMetadata: \e[7msill\e[0m \e[35mpacote\e[0m range manifest for loader-utils@^1.0.2 fetched in 6ms\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠹ fetchMetadata: \e[7msill\e[0m \e[35mpacote\e[0m range manifest for invariant@^2.0.0 fetched in 85ms\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠧ fetchMetadata: \e[7msill\e[0m \e[35mpacote\e[0m version manifest for readable-stream@1.0.27-1 fetched in 62ms\e[0m\e[K\r"
+  - delay: 49
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠴ fetchMetadata: \e[7msill\e[0m \e[35mpacote\e[0m range manifest for strip-ansi@^3.0.0 fetched in 64ms\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠸ fetchMetadata: \e[7msill\e[0m \e[35mpacote\e[0m range manifest for supports-color@^3.1.1 fetched in 102ms\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠙ fetchMetadata: \e[7msill\e[0m \e[35mpacote\e[0m range manifest for node-libs-browser@^0.7.0 fetched in 76ms\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠴ fetchMetadata: \e[7msill\e[0m \e[35mpacote\e[0m range manifest for webpack-core@~0.6.9 fetched in 76ms\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠼ fetchMetadata: \e[7msill\e[0m \e[35mpacote\e[0m range manifest for defs@~1.1.0 fetched in 74ms\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠦ fetchMetadata: \e[7msill\e[0m \e[35mpacote\e[0m range manifest for recast@^0.10.10 fetched in 81ms\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠴ fetchMetadata: \e[7msill\e[0m \e[35mpacote\e[0m range manifest for readable-stream@^2.2.2 fetched in 2ms\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠸ fetchMetadata: \e[7msill\e[0m \e[35mpacote\e[0m range manifest for mime-types@~2.1.24 fetched in 65ms\e[0m\e[K\r"
+  - delay: 49
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠋ fetchMetadata: \e[7msill\e[0m \e[35mpacote\e[0m range manifest for esrecurse@^4.1.0 fetched in 70ms\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠸ fetchMetadata: \e[7msill\e[0m \e[35mpacote\e[0m range manifest for generate-object-property@^1.1.0 fetched in 59ms\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠸ fetchMetadata: \e[7msill\e[0m \e[35mpacote\e[0m range manifest for levn@~0.2.5 fetched in 65ms\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠏ fetchMetadata: \e[7msill\e[0m \e[35mpacote\e[0m range manifest for type-check@~0.3.1 fetched in 72ms\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠏ fetchMetadata: \e[7msill\e[0m \e[35mpacote\e[0m range manifest for type-check@~0.3.1 fetched in 72ms\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠸ fetchMetadata: \e[7msill\e[0m \e[35mpacote\e[0m range manifest for clean-css@3.1.x fetched in 11ms\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠧ fetchMetadata: \e[7msill\e[0m \e[35mpacote\e[0m range manifest for cli@0.6.x fetched in 61ms\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠙ fetchMetadata: \e[7msill\e[0m \e[35mpacote\e[0m range manifest for lodash.keys@^3.0.0 fetched in 80ms\e[0m\e[K\r"
+  - delay: 49
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠏ fetchMetadata: \e[7msill\e[0m \e[35mpacote\e[0m range manifest for har-validator@~4.2.1 fetched in 71ms\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠋ fetchMetadata: \e[7msill\e[0m \e[35mpacote\e[0m range manifest for http-signature@~1.1.0 fetched in 71ms\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠼ fetchMetadata: \e[7msill\e[0m \e[35mpacote\e[0m range manifest for http-errors@~1.6.2 fetched in 4ms\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠙ fetchMetadata: \e[7msill\e[0m \e[35mpacote\e[0m range manifest for eventsource@^1.0.7 fetched in 90ms\e[0m\e[K\r"
+  - delay: 49
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠴ fetchMetadata: \e[7msill\e[0m \e[35mpacote\e[0m range manifest for is-glob@^3.1.0 fetched in 73ms\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠙ fetchMetadata: \e[7msill\e[0m \e[35mpacote\e[0m version manifest for crypto-browserify@3.3.0 fetched in 75ms\e[0m\e[K\r"
+  - delay: 49
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠙ fetchMetadata: \e[32;40mhttp\e[0m \e[35mfetch\e[0m GET 304 https://registry.npmjs.org/stream-http 57ms (from cache)\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠦ fetchMetadata: \e[7msill\e[0m \e[35mpacote\e[0m version manifest for vm-browserify@0.0.4 fetched in 76ms\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠙ fetchMetadata: \e[7msill\e[0m \e[35mpacote\e[0m range manifest for alter@~0.2.0 fetched in 56ms\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠹ fetchMetadata: \e[7msill\e[0m \e[35mpacote\e[0m range manifest for string_decoder@~1.1.1 fetched in 7ms\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠹ fetchMetadata: \e[7msill\e[0m \e[35mpacote\e[0m range manifest for has@^1.0.3 fetched in 74ms\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠴ fetchMetadata: \e[7msill\e[0m \e[35mpacote\e[0m range manifest for strip-ansi@^2.0.1 fetched in 1ms\e[0m\e[K\r"
+  - delay: 49
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠸ fetchMetadata: \e[7msill\e[0m \e[35mpacote\e[0m range manifest for es6-iterator@^2.0.3 fetched in 137ms\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠹ fetchMetadata: \e[7msill\e[0m \e[35mpacote\e[0m range manifest for es6-set@~0.1.5 fetched in 89ms\e[0m\e[K\r"
+  - delay: 49
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠦ fetchMetadata: \e[7msill\e[0m \e[35mpacote\e[0m range manifest for lower-case-first@^1.0.0 fetched in 65ms\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠴ fetchMetadata: \e[7msill\e[0m \e[35mpacote\e[0m range manifest for glob@~ 3.2.1 fetched in 1ms\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠸ fetchMetadata: \e[7msill\e[0m \e[35mpacote\e[0m range manifest for title-case@^1.1.0 fetched in 71ms\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠏ fetchMetadata: \e[7msill\e[0m \e[35mpacote\e[0m range manifest for title-case@^1.1.0 fetched in 71ms\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠧ fetchMetadata: \e[7msill\e[0m \e[35mpacote\e[0m range manifest for ajv@^4.9.1 fetched in 96ms\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠦ fetchMetadata: \e[7msill\e[0m \e[35mpacote\e[0m range manifest for jsprim@^1.2.2 fetched in 90ms\e[0m\e[K\r"
+  - delay: 49
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠸ fetchMetadata: \e[7msill\e[0m \e[35mpacote\e[0m range manifest for original@^1.0.0 fetched in 102ms\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠹ fetchMetadata: \e[7msill\e[0m \e[35mpacote\e[0m range manifest for parse-glob@^3.0.4 fetched in 70ms\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠦ fetchMetadata: \e[7msill\e[0m \e[35mpacote\e[0m range manifest for normalize-path@^2.0.1 fetched in 101ms\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠴ fetchMetadata: \e[7msill\e[0m \e[35mpacote\e[0m range manifest for normalize-path@^2.0.1 fetched in 101ms\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠸ fetchMetadata: \e[7msill\e[0m \e[35mpacote\e[0m range manifest for anymatch@^1.3.0 fetched in 63ms\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠸ fetchMetadata: \e[7msill\e[0m \e[35mpacote\e[0m range manifest for os-locale@^1.4.0 fetched in 74ms\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠏ fetchMetadata: \e[30;43mWARN\e[0m \e[35mdeprecated\e[0m minimatch@0.3.0: Please update to minimatch 3.0.2 or higher to avoid a RegExp DoS issue\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠼ fetchMetadata: \e[7msill\e[0m \e[35mpacote\e[0m range manifest for json-stable-stringify@^1.0.1 fetched in 70ms\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠦ fetchMetadata: \e[7msill\e[0m \e[35mpacote\e[0m range manifest for bcrypt-pbkdf@^1.0.0 fetched in 66ms\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠇ fetchMetadata: \e[7msill\e[0m \e[35mpacote\e[0m range manifest for for-own@^0.1.4 fetched in 67ms\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠴ fetchMetadata: \e[7msill\e[0m \e[35mpacote\e[0m range manifest for is-equal-shallow@^0.1.3 fetched in 76ms\e[0m\e[K\r"
+  - delay: 49
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠦ fetchMetadata: \e[7msill\e[0m \e[35mpacote\e[0m range manifest for extglob@^2.0.4 fetched in 8ms\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠙ fetchMetadata: \e[7msill\e[0m \e[35mpacote\e[0m range manifest for fragment-cache@^0.2.1 fetched in 57ms\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠇ fetchMetadata: \e[7msill\e[0m \e[35mpacote\e[0m range manifest for expand-brackets@^2.1.4 fetched in 2ms\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠼ fetchMetadata: \e[7msill\e[0m \e[35mpacote\e[0m range manifest for snapdragon-node@^2.0.1 fetched in 66ms\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠦ fetchMetadata: \e[7msill\e[0m \e[35mpacote\e[0m range manifest for define-property@^0.2.5 fetched in 2ms\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠧ fetchMetadata: \e[7msill\e[0m \e[35mpacote\e[0m range manifest for is-descriptor@^0.1.0 fetched in 3ms\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠋ fetchMetadata: \e[7msill\e[0m \e[35mpacote\e[0m range manifest for is-descriptor@^0.1.0 fetched in 3ms\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠹ fetchMetadata: \e[7msill\e[0m \e[35mpacote\e[0m range manifest for mixin-deep@^1.2.0 fetched in 72ms\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠼ fetchMetadata: \e[7msill\e[0m \e[35mpacote\e[0m range manifest for mixin-deep@^1.2.0 fetched in 72ms\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠙ fetchMetadata: \e[7msill\e[0m \e[35mpacote\e[0m range manifest for set-value@^2.0.0 fetched in 52ms\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠙ fetchMetadata: \e[7msill\e[0m \e[35mpacote\e[0m range manifest for has-value@^0.3.1 fetched in 3ms\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m  \e[27m\e[90m░░░░░░░░░░░░░░░░\e[0m⸩ ⠇ fetchMetadata: \e[7msill\e[0m \e[35mpacote\e[0m range manifest for has-values@^0.1.4 fetched in 42ms\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m  \e[27m\e[90m░░░░░░░░░░░░░░░░\e[0m⸩ ⠇ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m webpack@1.15.0 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m  \e[27m\e[90m░░░░░░░░░░░░░░░░\e[0m⸩ ⠼ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m concat-map@0.0.1 checking installable status\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[7m  \e[27m\e[90m░░░░░░░░░░░░░░░░\e[0m⸩ ⠋ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m stable@0.1.8 checking installable status\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m  \e[27m\e[90m░░░░░░░░░░░░░░░░\e[0m⸩ ⠇ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m json5@0.5.1 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m   \e[27m\e[90m░░░░░░░░░░░░░░░\e[0m⸩ ⠦ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m negotiator@0.6.2 checking installable status\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[7m   \e[27m\e[90m░░░░░░░░░░░░░░░\e[0m⸩ ⠼ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m upper-case@1.1.3 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m   \e[27m\e[90m░░░░░░░░░░░░░░░\e[0m⸩ ⠼ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m asap@2.0.6 checking installable status\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m   \e[27m\e[90m░░░░░░░░░░░░░░░\e[0m⸩ ⠇ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m assert-plus@1.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 56
+    content: "⸨\e[7m    \e[27m\e[90m░░░░░░░░░░░░░░\e[0m⸩ ⠇ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m json5@1.0.1 checking installable status\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[7m    \e[27m\e[90m░░░░░░░░░░░░░░\e[0m⸩ ⠹ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m util-deprecate@1.0.2 checking installable status\e[0m\e[K\r"
+  - delay: 48
+    content: "⸨\e[7m    \e[27m\e[90m░░░░░░░░░░░░░░\e[0m⸩ ⠼ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m querystring@0.2.0 checking installable status\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m    \e[27m\e[90m░░░░░░░░░░░░░░\e[0m⸩ ⠼ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m math-random@1.0.4 checking installable status\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m    \e[27m\e[90m░░░░░░░░░░░░░░\e[0m⸩ ⠹ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m split-string@3.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[7m    \e[27m\e[90m░░░░░░░░░░░░░░\e[0m⸩ ⠇ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m arr-union@3.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[7m    \e[27m\e[90m░░░░░░░░░░░░░░\e[0m⸩ ⠦ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m safe-regex@1.1.0 checking installable status\e[0m\e[K\r"
+  - delay: 56
+    content: "⸨\e[7m    \e[27m\e[90m░░░░░░░░░░░░░░\e[0m⸩ ⠼ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m source-map@0.4.4 checking installable status\e[0m\e[K\r"
+  - delay: 56
+    content: "⸨\e[7m    \e[27m\e[90m░░░░░░░░░░░░░░\e[0m⸩ ⠦ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m string_decoder@1.1.1 checking installable status\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m    \e[27m\e[90m░░░░░░░░░░░░░░\e[0m⸩ ⠹ loadDep:isarray: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m xml-escape@1.0.0 checking installable status\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[7m     \e[27m\e[90m░░░░░░░░░░░░░\e[0m⸩ ⠇ fetchMetadata: \e[7msill\e[0m \e[35mresolveWithNewModule\e[0m sprintf-js@1.0.3 checking installable status\e[0m\e[K\r"
+  - delay: 202
+    content: "⸨\e[7m       \e[27m\e[90m░░░░░░░░░░░\e[0m⸩ ⠸ diffTrees: \e[7msill\e[0m \e[35minstall\e[0m generateActionsToTake\e[0m\e[K\r"
+  - delay: 413
+    content: "⸨\e[7m       \e[27m\e[90m░░░░░░░░░░░\e[0m⸩ ⠼ postinstall: \e[7msill\e[0m \e[35minstall\e[0m executeActions\e[0m\e[K\r"
+  - delay: 61
+    content: "⸨\e[7m       \e[27m\e[90m░░░░░░░░░░░\e[0m⸩ ⠸ extract:webpack-dev-server: \e[34;40mverb\e[0m \e[35mlock\e[0m using /Users/zwlzwt/.npm/_locks/staging-abb780a1d6ac96d8.lock for /Users/zwlzwt/Documents\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m       \e[27m\e[90m░░░░░░░░░░░\e[0m⸩ ⠦ extract:webpack-dev-server: \e[34;40mverb\e[0m \e[35mlock\e[0m using /Users/zwlzwt/.npm/_locks/staging-abb780a1d6ac96d8.lock for /Users/zwlzwt/Documents\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m       \e[27m\e[90m░░░░░░░░░░░\e[0m⸩ ⠦ extract:webpack-dev-server: \e[34;40mverb\e[0m \e[35mlock\e[0m using /Users/zwlzwt/.npm/_locks/staging-abb780a1d6ac96d8.lock for /Users/zwlzwt/Documents\e[0m\e[K\r"
+  - delay: 74
+    content: "⸨\e[7m        \e[27m\e[90m░░░░░░░░░░\e[0m⸩ ⠸ extract:ast-traverse: \e[7msill\e[0m \e[35mextract\e[0m commoner@0.10.8\e[0m\e[K\r"
+  - delay: 65
+    content: "⸨\e[7m        \e[27m\e[90m░░░░░░░░░░\e[0m⸩ ⠦ extract:asap: \e[7msill\e[0m \e[35mextract\e[0m inflight@1.0.6\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[7m        \e[27m\e[90m░░░░░░░░░░\e[0m⸩ ⠸ extract:atob: \e[7msill\e[0m \e[35mextract\e[0m base62@^1.1.0 extracted to /Users/zwlzwt/Documents/test-template/react-starter/node_modules/.staging\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[7m        \e[27m\e[90m░░░░░░░░░░\e[0m⸩ ⠦ extract:util: \e[7msill\e[0m \e[35mextract\e[0m extract-text-webpack-plugin@^0.8.0 extracted to /Users/zwlzwt/Documents/test-template/react-starter/\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m        \e[27m\e[90m░░░░░░░░░░\e[0m⸩ ⠇ extract:babel-eslint: \e[7msill\e[0m \e[35mextract\e[0m isarray@1.0.0\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[7m        \e[27m\e[90m░░░░░░░░░░\e[0m⸩ ⠧ extract:ast-types: \e[7msill\e[0m \e[35mextract\e[0m utils-merge@1.0.1\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m        \e[27m\e[90m░░░░░░░░░░\e[0m⸩ ⠦ extract:isarray: \e[7msill\e[0m \e[35mtarball\e[0m trying readable-stream@^2.0.5 by hash: sha512-Ebho8K4jIbHAxnuxi7o42OrZgF/ZTNcsZj6nRKyUmkhLFq8CHIt\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m        \e[27m\e[90m░░░░░░░░░░\e[0m⸩ ⠦ extract:inherits: \e[7msill\e[0m \e[35mextract\e[0m snapdragon@0.8.2\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m        \e[27m\e[90m░░░░░░░░░░\e[0m⸩ ⠦ extract:optimist: \e[7msill\e[0m \e[35mextract\e[0m webpack-core@~0.6.9 extracted to /Users/zwlzwt/Documents/test-template/react-starter/node_module\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[7m        \e[27m\e[90m░░░░░░░░░░\e[0m⸩ ⠴ extract:readable-stream: \e[7msill\e[0m \e[35mextract\e[0m react-router@^0.13.2 extracted to /Users/zwlzwt/Documents/test-template/react-starter/nod\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m        \e[27m\e[90m░░░░░░░░░░\e[0m⸩ ⠇ extract:pascal-case: \e[7msill\e[0m \e[35mextract\e[0m source-map@0.1.34\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[7m         \e[27m\e[90m░░░░░░░░░\e[0m⸩ ⠹ extract:upper-case: \e[7msill\e[0m \e[35mextract\e[0m type@1.2.0\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[7m         \e[27m\e[90m░░░░░░░░░\e[0m⸩ ⠙ extract:union-value: \e[7msill\e[0m \e[35mextract\e[0m to-regex-range@2.1.1\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m         \e[27m\e[90m░░░░░░░░░\e[0m⸩ ⠙ extract:trim-right: \e[7msill\e[0m \e[35mextract\e[0m supports-color@2.0.0\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[7m         \e[27m\e[90m░░░░░░░░░\e[0m⸩ ⠙ extract:d: \e[7msill\e[0m \e[35mextract\e[0m stream-cache@0.0.2\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[7m         \e[27m\e[90m░░░░░░░░░\e[0m⸩ ⠦ extract:chalk: \e[7msill\e[0m \e[35mextract\e[0m alter@0.2.0\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[7m         \e[27m\e[90m░░░░░░░░░\e[0m⸩ ⠼ extract:string_decoder: \e[7msill\e[0m \e[35mextract\e[0m uuid@3.4.0\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[7m         \e[27m\e[90m░░░░░░░░░\e[0m⸩ ⠧ extract:define-property: \e[7msill\e[0m \e[35mextract\e[0m readable-stream@1.0.27-1 extracted to /Users/zwlzwt/Documents/test-template/react-starter\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[7m         \e[27m\e[90m░░░░░░░░░\e[0m⸩ ⠏ extract:ms: \e[7msill\e[0m \e[35mextract\e[0m sha.js@2.2.6\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[7m         \e[27m\e[90m░░░░░░░░░\e[0m⸩ ⠦ extract:source-list-map: \e[7msill\e[0m \e[35mextract\e[0m simple-is@~0.2.0 extracted to /Users/zwlzwt/Documents/test-template/react-starter/node_mo\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[7m         \e[27m\e[90m░░░░░░░░░\e[0m⸩ ⠙ extract:setprototypeof: \e[7msill\e[0m \e[35mextract\e[0m resolve-url@0.2.1\e[0m\e[K\r"
+  - delay: 49
+    content: "⸨\e[7m         \e[27m\e[90m░░░░░░░░░\e[0m⸩ ⠴ extract:minimatch: \e[7msill\e[0m \e[35mtarball\e[0m trying micromatch@^2.1.5 by hash: sha1-hmd8l9FyCzY0MdBNDRUpO9OMFWU=\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[7m          \e[27m\e[90m░░░░░░░░\e[0m⸩ ⠏ extract:recast: \e[7msill\e[0m \e[35mextract\e[0m reduce-component@1.0.1\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[7m          \e[27m\e[90m░░░░░░░░\e[0m⸩ ⠦ extract:remove-trailing-separator: \e[7msill\e[0m \e[35mtarball\e[0m trying extend-shallow@^2.0.1 by hash: sha1-Ua99YUrZqfYQ6huvu5idaxxWiQ8=\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[7m          \e[27m\e[90m░░░░░░░░\e[0m⸩ ⠼ extract:hawk: \e[7msill\e[0m \e[35mextract\e[0m is-number@4.0.0\e[0m\e[K\r"
+  - delay: 60
+    content: "⸨\e[7m          \e[27m\e[90m░░░░░░░░\e[0m⸩ ⠦ extract:is-accessor-descriptor: \e[7msill\e[0m \e[35mextract\e[0m private@0.1.8\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m          \e[27m\e[90m░░░░░░░░\e[0m⸩ ⠧ extract:is-number: \e[7msill\e[0m \e[35mextract\e[0m output-file-sync@1.1.2\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m          \e[27m\e[90m░░░░░░░░\e[0m⸩ ⠹ extract:errno: \e[7msill\e[0m \e[35mextract\e[0m collection-visit@1.0.0\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m          \e[27m\e[90m░░░░░░░░\e[0m⸩ ⠏ extract:performance-now: \e[7msill\e[0m \e[35mextract\e[0m querystring@0.2.0 extracted to /Users/zwlzwt/Documents/test-template/react-starter/node_m\e[0m\e[K\r"
+  - delay: 49
+    content: "⸨\e[7m          \e[27m\e[90m░░░░░░░░\e[0m⸩ ⠸ extract:array-unique: \e[7msill\e[0m \e[35mextract\e[0m lower-case-first@1.0.2\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m          \e[27m\e[90m░░░░░░░░\e[0m⸩ ⠦ extract:minimist: \e[7msill\e[0m \e[35mtarball\e[0m trying lodash._baseassign@^3.0.0 by hash: sha1-jDigmVAPIVrQnlnxci/QxSv+Ck4=\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m           \e[27m\e[90m░░░░░░░\e[0m⸩ ⠦ extract:lodash._pickbycallback: \e[7msill\e[0m \e[35mextract\e[0m jsonpointer@4.1.0\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m           \e[27m\e[90m░░░░░░░\e[0m⸩ ⠼ extract:lru-cache: \e[7msill\e[0m \e[35mtarball\e[0m trying json-stringify-safe@~5.0.1 by hash: sha1-Epai1Y/UXxmg9s4B1lcB4sc1tus=\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m           \e[27m\e[90m░░░░░░░\e[0m⸩ ⠴ extract:lazy-cache: \e[7msill\e[0m \e[35mextract\e[0m is-primitive@2.0.0\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m           \e[27m\e[90m░░░░░░░\e[0m⸩ ⠸ extract:object-assign: \e[7msill\e[0m \e[35mextract\e[0m is-integer@1.0.7\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m           \e[27m\e[90m░░░░░░░\e[0m⸩ ⠇ extract:is-equal-shallow: \e[7msill\e[0m \e[35mextract\e[0m has-value@1.0.0\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m           \e[27m\e[90m░░░░░░░\e[0m⸩ ⠙ extract:json-stable-stringify: \e[7msill\e[0m \e[35mextract\e[0m is-glob@3.1.0\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m           \e[27m\e[90m░░░░░░░\e[0m⸩ ⠸ extract:is-dotfile: \e[7msill\e[0m \e[35mextract\e[0m invert-kv@^1.0.0 extracted to /Users/zwlzwt/Documents/test-template/react-starter/node_modules\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m           \e[27m\e[90m░░░░░░░\e[0m⸩ ⠏ extract:is-glob: \e[7msill\e[0m \e[35mextract\e[0m formidable@1.0.16\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[7m           \e[27m\e[90m░░░░░░░\e[0m⸩ ⠙ extract:get-stdin: \e[7msill\e[0m \e[35mextract\e[0m exit@0.1.2\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[7m           \e[27m\e[90m░░░░░░░\e[0m⸩ ⠼ extract:doctrine: \e[7msill\e[0m \e[35mextract\e[0m memory-fs@0.2.0\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[7m           \e[27m\e[90m░░░░░░░\e[0m⸩ ⠦ extract:fastparse: \e[7msill\e[0m \e[35mtarball\e[0m trying esutils@^1.1.6 by hash: sha1-wBzKqa5LiXxtDD4hCuUvPHqEQ3U=\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠏ extract:extsprintf: \e[7msill\e[0m \e[35mtarball\e[0m trying deep-is@~0.1.2 by hash: sha1-s2nW+128E+7PUk+RsHD+7cNXzzQ=\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠴ extract:memory-fs: \e[7msill\e[0m \e[35mextract\e[0m domain-browser@^1.1.1 extracted to /Users/zwlzwt/Documents/test-template/react-starter/node_mod\e[0m\e[K\r"
+  - delay: 57
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠼ extract:defined: \e[7msill\e[0m \e[35mextract\e[0m assert-plus@^1.0.0 extracted to /Users/zwlzwt/Documents/test-template/react-starter/node_modules/\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠦ extract:connect-history-api-fallback: \e[7msill\e[0m \e[35mextract\e[0m dashdash@^1.12.0 extracted to /Users/zwlzwt/Documents/test-template/react-st\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠸ extract:isarray: \e[7msill\e[0m \e[35mextract\e[0m react@^0.13.1 extracted to /Users/zwlzwt/Documents/test-template/react-starter/node_modules/.stag\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠋ extract:source-map: \e[7msill\e[0m \e[35mextract\e[0m source-map@0.4.x extracted to /Users/zwlzwt/Documents/test-template/react-starter/node_modules\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠦ extract:json5: \e[7msill\e[0m \e[35mextract\e[0m json5@^0.4.0 extracted to /Users/zwlzwt/Documents/test-template/react-starter/node_modules/.staging\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠦ extract:json5: \e[7msill\e[0m \e[35mextract\e[0m json5@^0.4.0 extracted to /Users/zwlzwt/Documents/test-template/react-starter/node_modules/.staging\e[0m\e[K\r"
+  - delay: 49
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠇ extract:babel-core: \e[7msill\e[0m \e[35mextract\e[0m babel-core@^5.0.12 extracted to /Users/zwlzwt/Documents/test-template/react-starter/node_modul\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠇ extract:babel-core: \e[7msill\e[0m \e[35mextract\e[0m babel-core@^5.0.12 extracted to /Users/zwlzwt/Documents/test-template/react-starter/node_modul\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠇ extract:babel-core: \e[7msill\e[0m \e[35mextract\e[0m babel-core@^5.0.12 extracted to /Users/zwlzwt/Documents/test-template/react-starter/node_modul\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠏ extract:lodash: \e[7msill\e[0m \e[35mextract\e[0m lodash@^3.10.0 extracted to /Users/zwlzwt/Documents/test-template/react-starter/node_modules/.stag\e[0m\e[K\r"
+  - delay: 49
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠏ extract:lodash: \e[7msill\e[0m \e[35mextract\e[0m lodash@^3.10.0 extracted to /Users/zwlzwt/Documents/test-template/react-starter/node_modules/.stag\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠋ extract:rx: \e[7msill\e[0m \e[35mextract\e[0m rx@^2.4.3 extracted to /Users/zwlzwt/Documents/test-template/react-starter/node_modules/.staging/rx-c4\e[0m\e[K\r"
+  - delay: 49
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠋ extract:rx: \e[7msill\e[0m \e[35mextract\e[0m rx@^2.4.3 extracted to /Users/zwlzwt/Documents/test-template/react-starter/node_modules/.staging/rx-c4\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠹ extract:less: \e[7msill\e[0m \e[35mextract\e[0m less@^2.1.2 extracted to /Users/zwlzwt/Documents/test-template/react-starter/node_modules/.staging/l\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠋ finalize:webpack-dev-server: \e[7msill\e[0m \e[35mdoSerial\e[0m finalize 5480\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠸ finalize:is-descriptor: \e[7msill\e[0m \e[35mfinalize\e[0m /Users/zwlzwt/Documents/test-template/react-starter/node_modules/base/node_modules/is-des\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠹ finalize:decamelize: \e[7msill\e[0m \e[35mfinalize\e[0m /Users/zwlzwt/Documents/test-template/react-starter/node_modules/decamelize\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠼ finalize:etag: \e[7msill\e[0m \e[35mfinalize\e[0m /Users/zwlzwt/Documents/test-template/react-starter/node_modules/etag\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠇ finalize:has-flag: \e[7msill\e[0m \e[35mfinalize\e[0m /Users/zwlzwt/Documents/test-template/react-starter/node_modules/has-flag\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠙ finalize:kind-of: \e[7msill\e[0m \e[35mfinalize\e[0m /Users/zwlzwt/Documents/test-template/react-starter/node_modules/is-descriptor/node_modules/kin\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠦ finalize:json3: \e[7msill\e[0m \e[35mfinalize\e[0m /Users/zwlzwt/Documents/test-template/react-starter/node_modules/json3\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠇ finalize:marked: \e[7msill\e[0m \e[35mfinalize\e[0m /Users/zwlzwt/Documents/test-template/react-starter/node_modules/marked\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠧ finalize:object.omit: \e[7msill\e[0m \e[35mfinalize\e[0m /Users/zwlzwt/Documents/test-template/react-starter/node_modules/object.omit\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠼ finalize:json5: \e[7msill\e[0m \e[35mfinalize\e[0m /Users/zwlzwt/Documents/test-template/react-starter/node_modules/react-proxy-loader/node_modules/\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠴ finalize:align-text: \e[7msill\e[0m \e[35mfinalize\e[0m /Users/zwlzwt/Documents/test-template/react-starter/node_modules/align-text\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠸ finalize:cli: \e[7msill\e[0m \e[35mfinalize\e[0m /Users/zwlzwt/Documents/test-template/react-starter/node_modules/cli\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠋ finalize:static-extend: \e[7msill\e[0m \e[35mfinalize\e[0m /Users/zwlzwt/Documents/test-template/react-starter/node_modules/static-extend\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠏ finalize:http-errors: \e[7msill\e[0m \e[35mfinalize\e[0m /Users/zwlzwt/Documents/test-template/react-starter/node_modules/http-errors\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠧ finalize:isarray: \e[7msill\e[0m \e[35mfinalize\e[0m /Users/zwlzwt/Documents/test-template/react-starter/node_modules/unset-value/node_modules/isarr\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠹ finalize:cache-base: \e[7msill\e[0m \e[35mfinalize\e[0m /Users/zwlzwt/Documents/test-template/react-starter/node_modules/cache-base\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠸ finalize:punycode: \e[7msill\e[0m \e[35mfinalize\e[0m /Users/zwlzwt/Documents/test-template/react-starter/node_modules/url/node_modules/punycode\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠇ finalize:readable-stream: \e[7msill\e[0m \e[35mfinalize\e[0m /Users/zwlzwt/Documents/test-template/react-starter/node_modules/readdirp/node_modules/\e[0m\e[K\r"
+  - delay: 49
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠦ finalize:async: \e[7msill\e[0m \e[35mfinalize\e[0m /Users/zwlzwt/Documents/test-template/react-starter/node_modules/watchpack/node_modules/async\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠇ finalize:yargs: \e[7msill\e[0m \e[35mfinalize\e[0m /Users/zwlzwt/Documents/test-template/react-starter/node_modules/webpack/node_modules/yargs\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠦ finalize:node-libs-browser: \e[7msill\e[0m \e[35mfinalize\e[0m /Users/zwlzwt/Documents/test-template/react-starter/node_modules/node-libs-browser\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠇ finalize:react-router: \e[7msill\e[0m \e[35mfinalize\e[0m /Users/zwlzwt/Documents/test-template/react-starter/node_modules/react-router\e[0m\e[K\r"
+  - delay: 64
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠦ refresh-package-json:webpack-dev-server: \e[32;40mtiming\e[0m \e[35maction:finalize\e[0m Completed in 1076ms\e[0m\e[K\r"
+  - delay: 62
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠦ refresh-package-json:webpack-dev-server: \e[32;40mtiming\e[0m \e[35maction:finalize\e[0m Completed in 1076ms\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠦ refresh-package-json:define-property: \e[7msill\e[0m \e[35mrefresh-package-json\e[0m /Users/zwlzwt/Documents/test-template/react-starter/node_module\e[0m\e[K\r"
+  - delay: 56
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠦ refresh-package-json:define-property: \e[7msill\e[0m \e[35mrefresh-package-json\e[0m /Users/zwlzwt/Documents/test-template/react-starter/node_module\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠧ refresh-package-json:babel-core: \e[7msill\e[0m \e[35mrefresh-package-json\e[0m /Users/zwlzwt/Documents/test-template/react-starter/node_modules/wor\e[0m\e[K\r"
+  - delay: 60
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠦ refresh-package-json:uglify-js: \e[7msill\e[0m \e[35mrefresh-package-json\e[0m /Users/zwlzwt/Documents/test-template/react-starter/node_modules/nano\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠼ refresh-package-json:expand-brackets: \e[7msill\e[0m \e[35mrefresh-package-json\e[0m /Users/zwlzwt/Documents/test-template/react-starter/node_module\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠦ refresh-package-json:braces: \e[7msill\e[0m \e[35mrefresh-package-json\e[0m /Users/zwlzwt/Documents/test-template/react-starter/node_modules/es6-wea\e[0m\e[K\r"
+  - delay: 58
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠦ refresh-package-json:es6-symbol: \e[7msill\e[0m \e[35mrefresh-package-json\e[0m /Users/zwlzwt/Documents/test-template/react-starter/node_modules/str\e[0m\e[K\r"
+  - delay: 49
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠴ refresh-package-json:inquirer: \e[7msill\e[0m \e[35mrefresh-package-json\e[0m /Users/zwlzwt/Documents/test-template/react-starter/node_modules/sntp\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠦ refresh-package-json:string_decoder: \e[7msill\e[0m \e[35mrefresh-package-json\e[0m /Users/zwlzwt/Documents/test-template/react-starter/node_modules\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠦ refresh-package-json:setprototypeof: \e[7msill\e[0m \e[35mrefresh-package-json\e[0m /Users/zwlzwt/Documents/test-template/react-starter/node_modules\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠼ refresh-package-json:safe-buffer: \e[7msill\e[0m \e[35mrefresh-package-json\e[0m /Users/zwlzwt/Documents/test-template/react-starter/node_modules/re\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠦ refresh-package-json:esprima: \e[7msill\e[0m \e[35mrefresh-package-json\e[0m /Users/zwlzwt/Documents/test-template/react-starter/node_modules/proxy-\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠦ refresh-package-json:promise: \e[7msill\e[0m \e[35mrefresh-package-json\e[0m /Users/zwlzwt/Documents/test-template/react-starter/node_modules/nan\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠦ refresh-package-json:path-parse: \e[7msill\e[0m \e[35mrefresh-package-json\e[0m /Users/zwlzwt/Documents/test-template/react-starter/node_modules/mim\e[0m\e[K\r"
+  - delay: 57
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠧ refresh-package-json:debug: \e[7msill\e[0m \e[35mrefresh-package-json\e[0m /Users/zwlzwt/Documents/test-template/react-starter/node_modules/babel-pl\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠇ refresh-package-json:ms: \e[7msill\e[0m \e[35mrefresh-package-json\e[0m /Users/zwlzwt/Documents/test-template/react-starter/node_modules/leven\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠙ refresh-package-json:minimist: \e[7msill\e[0m \e[35mrefresh-package-json\e[0m /Users/zwlzwt/Documents/test-template/react-starter/node_modules/is-nu\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠦ refresh-package-json:json5: \e[7msill\e[0m \e[35mrefresh-package-json\e[0m /Users/zwlzwt/Documents/test-template/react-starter/node_modules/is-glob\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠧ refresh-package-json:jsbn: \e[7msill\e[0m \e[35mrefresh-package-json\e[0m /Users/zwlzwt/Documents/test-template/react-starter/node_modules/indexof\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠧ refresh-package-json:extglob: \e[7msill\e[0m \e[35mrefresh-package-json\e[0m /Users/zwlzwt/Documents/test-template/react-starter/node_modules/get-st\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠴ refresh-package-json:assert-plus: \e[7msill\e[0m \e[35mrefresh-package-json\e[0m /Users/zwlzwt/Documents/test-template/react-starter/node_modules/de\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠧ refresh-package-json:function-bind: \e[7msill\e[0m \e[35mrefresh-package-json\e[0m /Users/zwlzwt/Documents/test-template/react-starter/node_modules/\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠙ refresh-package-json:is-accessor-descriptor: \e[7msill\e[0m \e[35mrefresh-package-json\e[0m /Users/zwlzwt/Documents/test-template/react-starter/node\e[0m\e[K\r"
+  - delay: 61
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠸ preinstall:webpack-dev-server: \e[32;40mtiming\e[0m \e[35maction:refresh-package-json\e[0m Completed in 1329ms\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠸ preinstall:mute-stream: \e[32minfo\e[0m \e[35mlifecycle\e[0m json5@0.5.1~preinstall: json5@0.5.1\e[0m\e[K\r"
+  - delay: 49
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠏ build:webpack-dev-server: \e[7msill\e[0m \e[35mdoSerial\e[0m build 5480\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠇ build:buffer: \e[7msill\e[0m \e[35mlinkStuff\e[0m buffer@4.9.2 has /Users/zwlzwt/Documents/test-template/react-starter/node_modules as its parent no\e[0m\e[K\r"
+  - delay: 59
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠼ build:prr: \e[7msill\e[0m \e[35mlinkStuff\e[0m prr@1.0.1 has /Users/zwlzwt/Documents/test-template/react-starter/node_modules as its parent node_mod\e[0m\e[K\r"
+  - delay: 57
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠦ build:bcrypt-pbkdf: \e[7msill\e[0m \e[35mlinkStuff\e[0m bcrypt-pbkdf@1.0.2 has /Users/zwlzwt/Documents/test-template/react-starter/node_modules as i\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠧ build:uglify-js: \e[7msill\e[0m \e[35mgently link\e[0m link does not already exist {\e[0m\e[K\r"
+  - delay: 65
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠼ install:webpack-dev-server: \e[7msill\e[0m \e[35mdoSerial\e[0m install 5480\e[0m\e[K\r"
+  - delay: 47
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠼ install:is-glob: \e[32minfo\e[0m \e[35mlifecycle\e[0m is-glob@3.1.0~install: is-glob@3.1.0\e[0m\e[K\r"
+  - delay: 26
+    content: "\r\e[K\e[?25h\r\n> fsevents@1.2.13 install /Users/zwlzwt/Documents/test-template/react-starter/node_modules/fsevents\r\n> node install.js\r\n\r\n"
+  - delay: 4313
+    content: "  SOLINK_MODULE(target) Release/.node\r\n"
+  - delay: 203
+    content: "  CXX(target) Release/obj.target/fse/fsevents.o\r\n"
+  - delay: 3122
+    content: "  SOLINK_MODULE(target) Release/fse.node\r\n"
+  - delay: 168
+    content: "\e[?25l⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠴ install:urix: \e[32minfo\e[0m \e[35mlifecycle\e[0m urix@0.1.0~install: urix@0.1.0\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠙ postinstall:webpack-dev-server: \e[7msill\e[0m \e[35mdoSerial\e[0m postinstall 5480\e[0m\e[K\r"
+  - delay: 49
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠸ postinstall:isarray: \e[32minfo\e[0m \e[35mlifecycle\e[0m isarray@1.0.0~postinstall: isarray@1.0.0\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠏ postinstall:has-value: \e[32minfo\e[0m \e[35mlifecycle\e[0m has-value@0.3.1~postinstall: has-value@0.3.1\e[0m\e[K\r"
+  - delay: 213
+    content: "⸨\e[7m             \e[27m\e[90m░░░░░\e[0m⸩ ⠧ prepare:react-starter: \e[32minfo\e[0m \e[35mlifecycle\e[0m react-starter@0.0.0~prepare: react-starter@0.0.0\e[0m\e[K\r"
+  - delay: 154
+    content: "⸨\e[7m             \e[27m\e[90m░░░░░\e[0m⸩ ⠙ prepare:react-starter: \e[32minfo\e[0m \e[35mlifecycle\e[0m react-starter@0.0.0~prepare: react-starter@0.0.0\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[7m             \e[27m\e[90m░░░░░\e[0m⸩ ⠙ prepare:react-starter: \e[32minfo\e[0m \e[35mlifecycle\e[0m react-starter@0.0.0~prepare: react-starter@0.0.0\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m             \e[27m\e[90m░░░░░\e[0m⸩ ⠙ prepare:react-starter: \e[32minfo\e[0m \e[35mlifecycle\e[0m react-starter@0.0.0~prepare: react-starter@0.0.0\e[0m\e[K\r"
+  - delay: 49
+    content: "⸨\e[7m             \e[27m\e[90m░░░░░\e[0m⸩ ⠙ prepare:react-starter: \e[32minfo\e[0m \e[35mlifecycle\e[0m react-starter@0.0.0~prepare: react-starter@0.0.0\e[0m\e[K\r"
+  - delay: 15
+    content: "\r\e[K\e[?25hadded 685 packages from 461 contributors and audited 685 packages in 21.286s\r\n"
+  - delay: 218
+    content: "\r\n6 packages are looking for funding\r\n  run `npm fund` for details\r\n\r\nfound \e[91m60\e[0m vulnerabilities (23 \e[1mlow\e[0m, 8 \e[93mmoderate\e[0m, 28 \e[91mhigh\e[0m, 1 \e[95mcritical\e[0m)\r\n  run `npm audit fix` to fix them, or `npm audit` for details\r\n\e[?25l⸨\e[7m             \e[27m\e[90m░░░░░\e[0m⸩ ⠴ prepare:react-starter: \e[7msill\e[0m \e[35minstall\e[0m printInstalled\e[0m\e[K\r"
+  - delay: 9
+    content: "\r\e[K\e[?25h"
+  - delay: 41
+    content: "\e[1;34mzwlzwt \e[1;32m~/Documents \e[1;37m \U0001D77A "
+  - delay: 14743
+    content: create-template test-template
+  - delay: 591
+    content: "\b\e[K"
+  - delay: 171
+    content: "\b\e[K"
+  - delay: 157
+    content: "\b\e[K"
+  - delay: 147
+    content: "\b\e[K"
+  - delay: 139
+    content: "\b\e[K"
+  - delay: 162
+    content: "\b\e[K"
+  - delay: 167
+    content: "\b\e[K"
+  - delay: 171
+    content: "\b\e[K"
+  - delay: 157
+    content: "\b\e[K"
+  - delay: 163
+    content: "\b\e[K"
+  - delay: 166
+    content: "\b\e[K"
+  - delay: 224
+    content: "\b\e[K"
+  - delay: 264
+    content: "\b\e[K"
+  - delay: 560
+    content: t
+  - delay: 112
+    content: e
+  - delay: 272
+    content: s
+  - delay: 248
+    content: t
+  - delay: 567
+    content: '-'
+  - delay: 505
+    content: "\a"
+  - delay: 723
+    content: "\r\ntest-cli/      test-template/ \r\n\e[1;34mzwlzwt \e[1;32m~/Documents \e[1;37m \U0001D77A create-template test-"
+  - delay: 2077
+    content: t
+  - delay: 120
+    content: e
+  - delay: 328
+    content: m
+  - delay: 575
+    content: p
+  - delay: 209
+    content: l
+  - delay: 152
+    content: a
+  - delay: 311
+    content: t
+  - delay: 160
+    content: e
+  - delay: 1553
+    content: "\r\n"
+  - delay: 210
+    content: "\e[32m?\e[39m \e[1mWhich template you want choice?\e[22m\r\n\e[36m❯ react-starter\e[39m\r\n  react-material-admin-template\r\n  react-frame-application\r\n  custom template\r\nwebpack official template for react\e[?25l\e[35D\e[35C"
+  - delay: 679
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mWhich template you want choice?\e[22m\r\n  react-starter\r\n\e[36m❯ react-material-admin-template\e[39m\r\n  react-frame-application\r\n  custom template\r\nThis is a simple responsive admin template using React and Material-UI components.\e[?25l\e[82D\e[82C"
+  - delay: 199
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mWhich template you want choice?\e[22m\r\n  react-starter\r\n  react-material-admin-template\r\n\e[36m❯ react-frame-application\e[39m\r\n  custom template\r\nA React + Redux application without server render.\e[?25l\e[50D\e[50C"
+  - delay: 190
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mWhich template you want choice?\e[22m\r\n  react-starter\r\n  react-material-admin-template\r\n  react-frame-application\r\n\e[36m❯ custom template\e[39m\e[?25l\e[17D\e[17C"
+  - delay: 585
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mWhich template you want choice?\e[22m \e[36mcustom template\e[39m\e[49D\e[49C\r\n\e[?25h\e[32m?\e[39m \e[1mPlease input your own template git name:\e[22m \e[43D\e[43C"
+  - delay: 6541
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git name:\e[22m r\e[44D\e[44C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git name:\e[22m r\e[44D\e[44C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git name:\e[22m re\e[45D\e[45C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git name:\e[22m re\e[45D\e[45C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git name:\e[22m rea\e[46D\e[46C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git name:\e[22m rea\e[46D\e[46C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git name:\e[22m reac\e[47D\e[47C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git name:\e[22m reac\e[47D\e[47C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git name:\e[22m react\e[48D\e[48C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git name:\e[22m react\e[48D\e[48C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git name:\e[22m react-\e[49D\e[49C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git name:\e[22m react-\e[49D\e[49C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git name:\e[22m react-f\e[50D\e[50C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git name:\e[22m react-f\e[50D\e[50C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git name:\e[22m react-fr\e[51D\e[51C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git name:\e[22m react-fr\e[51D\e[51C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git name:\e[22m react-fra\e[52D\e[52C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git name:\e[22m react-fra\e[52D\e[52C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git name:\e[22m react-fram\e[53D\e[53C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git name:\e[22m react-fram\e[53D\e[53C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git name:\e[22m react-frame\e[54D\e[54C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git name:\e[22m react-frame\e[54D\e[54C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git name:\e[22m react-frame-\e[55D\e[55C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git name:\e[22m react-frame-\e[55D\e[55C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git name:\e[22m react-frame-a\e[56D\e[56C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git name:\e[22m react-frame-a\e[56D\e[56C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git name:\e[22m react-frame-ap\e[57D\e[57C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git name:\e[22m react-frame-ap\e[57D\e[57C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git name:\e[22m react-frame-app\e[58D\e[58C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git name:\e[22m react-frame-app\e[58D\e[58C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git name:\e[22m react-frame-appl\e[59D\e[59C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git name:\e[22m react-frame-appl\e[59D\e[59C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git name:\e[22m react-frame-appli\e[60D\e[60C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git name:\e[22m react-frame-appli\e[60D\e[60C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git name:\e[22m react-frame-applic\e[61D\e[61C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git name:\e[22m react-frame-applic\e[61D\e[61C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git name:\e[22m react-frame-applica\e[62D\e[62C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git name:\e[22m react-frame-applica\e[62D\e[62C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git name:\e[22m react-frame-applicat\e[63D\e[63C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git name:\e[22m react-frame-applicat\e[63D\e[63C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git name:\e[22m react-frame-applicati\e[64D\e[64C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git name:\e[22m react-frame-applicati\e[64D\e[64C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git name:\e[22m react-frame-applicatio\e[65D\e[65C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git name:\e[22m react-frame-applicatio\e[65D\e[65C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git name:\e[22m react-frame-application\e[66D\e[66C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git name:\e[22m react-frame-application\e[66D\e[66C"
+  - delay: 1080
+    content: "\e[2K\e[G\e[33m⠋\e[39m \e[1mPlease input your own template git name:\e[22m react-frame-application\e[66D\e[66C\e[2K\e[G\e[33m⠋\e[39m \e[1mPlease input your own template git name:\e[22m react-frame-application\e[66D\e[66C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git name:\e[22m \e[36mreact-frame-application\e[39m\e[66D\e[66C\r\n\e[?25h\e[32m?\e[39m \e[1mPlease input your own template git url:\e[22m \e[42D\e[42C"
+  - delay: 6344
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git url:\e[22m h\e[43D\e[43C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git url:\e[22m h\e[43D\e[43C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git url:\e[22m ht\e[44D\e[44C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git url:\e[22m ht\e[44D\e[44C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git url:\e[22m htt\e[45D\e[45C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git url:\e[22m htt\e[45D\e[45C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git url:\e[22m http\e[46D\e[46C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git url:\e[22m http\e[46D\e[46C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git url:\e[22m https\e[47D\e[47C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git url:\e[22m https\e[47D\e[47C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git url:\e[22m https:\e[48D\e[48C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git url:\e[22m https:\e[48D\e[48C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git url:\e[22m https:/\e[49D\e[49C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git url:\e[22m https:/\e[49D\e[49C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git url:\e[22m https://\e[50D\e[50C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git url:\e[22m https://\e[50D\e[50C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git url:\e[22m https://g\e[51D\e[51C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git url:\e[22m https://g\e[51D\e[51C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git url:\e[22m https://gi\e[52D\e[52C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git url:\e[22m https://gi\e[52D\e[52C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git url:\e[22m https://git\e[53D\e[53C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git url:\e[22m https://git\e[53D\e[53C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git url:\e[22m https://gith\e[54D\e[54C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git url:\e[22m https://gith\e[54D\e[54C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git url:\e[22m https://githu\e[55D\e[55C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git url:\e[22m https://githu\e[55D\e[55C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git url:\e[22m https://github\e[56D\e[56C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git url:\e[22m https://github\e[56D\e[56C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git url:\e[22m https://github.\e[57D\e[57C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git url:\e[22m https://github.\e[57D\e[57C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git url:\e[22m https://github.c\e[58D\e[58C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git url:\e[22m https://github.c\e[58D\e[58C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git url:\e[22m https://github.co\e[59D\e[59C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git url:\e[22m https://github.co\e[59D\e[59C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git url:\e[22m https://github.com\e[60D\e[60C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git url:\e[22m https://github.com\e[60D\e[60C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git url:\e[22m https://github.com/\e[61D\e[61C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git url:\e[22m https://github.com/\e[61D\e[61C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git url:\e[22m https://github.com/z\e[62D\e[62C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git url:\e[22m https://github.com/z\e[62D\e[62C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git url:\e[22m https://github.com/zw\e[63D\e[63C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git url:\e[22m https://github.com/zw\e[63D\e[63C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git url:\e[22m https://github.com/zwl\e[64D\e[64C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git url:\e[22m https://github.com/zwl\e[64D\e[64C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git url:\e[22m https://github.com/zwlz\e[65D\e[65C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git url:\e[22m https://github.com/zwlz\e[65D\e[65C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git url:\e[22m https://github.com/zwlzw\e[66D\e[66C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git url:\e[22m https://github.com/zwlzw\e[66D\e[66C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git url:\e[22m https://github.com/zwlzwt\e[67D\e[67C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git url:\e[22m https://github.com/zwlzwt\e[67D\e[67C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git url:\e[22m https://github.com/zwlzwt/\e[68D\e[68C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git url:\e[22m https://github.com/zwlzwt/\e[68D\e[68C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git url:\e[22m https://github.com/zwlzwt/r\e[69D\e[69C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git url:\e[22m https://github.com/zwlzwt/r\e[69D\e[69C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git url:\e[22m https://github.com/zwlzwt/re\e[70D\e[70C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git url:\e[22m https://github.com/zwlzwt/re\e[70D\e[70C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git url:\e[22m https://github.com/zwlzwt/rea\e[71D\e[71C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git url:\e[22m https://github.com/zwlzwt/rea\e[71D\e[71C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git url:\e[22m https://github.com/zwlzwt/reac\e[72D\e[72C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git url:\e[22m https://github.com/zwlzwt/reac\e[72D\e[72C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git url:\e[22m https://github.com/zwlzwt/react\e[73D\e[73C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git url:\e[22m https://github.com/zwlzwt/react\e[73D\e[73C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git url:\e[22m https://github.com/zwlzwt/react-\e[74D\e[74C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git url:\e[22m https://github.com/zwlzwt/react-\e[74D\e[74C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git url:\e[22m https://github.com/zwlzwt/react-f\e[75D\e[75C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git url:\e[22m https://github.com/zwlzwt/react-f\e[75D\e[75C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git url:\e[22m https://github.com/zwlzwt/react-fr\e[76D\e[76C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git url:\e[22m https://github.com/zwlzwt/react-fr\e[76D\e[76C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git url:\e[22m https://github.com/zwlzwt/react-fra\e[77D\e[77C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git url:\e[22m https://github.com/zwlzwt/react-fra\e[77D\e[77C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git url:\e[22m https://github.com/zwlzwt/react-fram\e[78D\e[78C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git url:\e[22m https://github.com/zwlzwt/react-fram\e[78D\e[78C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git url:\e[22m https://github.com/zwlzwt/react-frame\e[79D\e[79C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git url:\e[22m https://github.com/zwlzwt/react-frame\e[79D\e[79C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git url:\e[22m https://github.com/zwlzwt/react-frame-\e[80D\e[80C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git url:\e[22m https://github.com/zwlzwt/react-frame-\e[80D\e[80C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git url:\e[22m https://github.com/zwlzwt/react-frame-a\e[81D\e[81C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git url:\e[22m https://github.com/zwlzwt/react-frame-a\e[81D\e[81C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git url:\e[22m https://github.com/zwlzwt/react-frame-ap\e[82D\e[82C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git url:\e[22m https://github.com/zwlzwt/react-frame-ap\e[82D\e[82C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git url:\e[22m https://github.com/zwlzwt/react-frame-app\e[83D\e[83C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git url:\e[22m https://github.com/zwlzwt/react-frame-app\e[83D\e[83C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git url:\e[22m https://github.com/zwlzwt/react-frame-appl\e[84D\e[84C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git url:\e[22m https://github.com/zwlzwt/react-frame-appl\e[84D\e[84C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git url:\e[22m https://github.com/zwlzwt/react-frame-appli\e[85D\e[85C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git url:\e[22m https://github.com/zwlzwt/react-frame-appli\e[85D\e[85C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git url:\e[22m https://github.com/zwlzwt/react-frame-applic\e[86D\e[86C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git url:\e[22m https://github.com/zwlzwt/react-frame-applic\e[86D\e[86C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git url:\e[22m https://github.com/zwlzwt/react-frame-applica\e[87D\e[87C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git url:\e[22m https://github.com/zwlzwt/react-frame-applica\e[87D\e[87C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git url:\e[22m https://github.com/zwlzwt/react-frame-applicat\e[88D\e[88C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git url:\e[22m https://github.com/zwlzwt/react-frame-applicat\e[88D\e[88C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git url:\e[22m https://github.com/zwlzwt/react-frame-applicati\e[89D\e[89C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git url:\e[22m https://github.com/zwlzwt/react-frame-applicati\e[89D\e[89C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git url:\e[22m https://github.com/zwlzwt/react-frame-applicatio\e[90D\e[90C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git url:\e[22m https://github.com/zwlzwt/react-frame-applicatio\e[90D\e[90C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git url:\e[22m https://github.com/zwlzwt/react-frame-application\e[91D\e[91C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git url:\e[22m https://github.com/zwlzwt/react-frame-application\e[91D\e[91C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git url:\e[22m https://github.com/zwlzwt/react-frame-application.\e[92D\e[92C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git url:\e[22m https://github.com/zwlzwt/react-frame-application.\e[92D\e[92C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git url:\e[22m https://github.com/zwlzwt/react-frame-application.g\e[93D\e[93C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git url:\e[22m https://github.com/zwlzwt/react-frame-application.g\e[93D\e[93C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git url:\e[22m https://github.com/zwlzwt/react-frame-application.gi\e[94D\e[94C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git url:\e[22m https://github.com/zwlzwt/react-frame-application.gi\e[94D\e[94C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git url:\e[22m https://github.com/zwlzwt/react-frame-application.git\e[95D\e[95C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git url:\e[22m https://github.com/zwlzwt/react-frame-application.git\e[95D\e[95C"
+  - delay: 933
+    content: "\e[2K\e[G\e[33m⠋\e[39m \e[1mPlease input your own template git url:\e[22m https://github.com/zwlzwt/react-frame-application.git\e[95D\e[95C\e[2K\e[G\e[33m⠋\e[39m \e[1mPlease input your own template git url:\e[22m https://github.com/zwlzwt/react-frame-application.git\e[95D\e[95C\e[2K\e[G\e[32m?\e[39m \e[1mPlease input your own template git url:\e[22m \e[36mhttps://github.com/zwlzwt/react-frame-application.git\e[39m\e[95D\e[95C\r\n\e[?25h"
+  - delay: 6
+    content: "\r\nCreating a new React app in \e[32m/Users/zwlzwt/Documents/test-template\e[39m.\r\n"
+  - delay: 42
+    content: "git version 2.24.3 (Apple Git-128)\r\n\r\n\e[34mnow clone the template in \e[32mtest-template\e[39m\e[34m....\e[39m\r\n"
+  - delay: 1891
+    content: "\r\n\e[35mFind folder successfully!\e[39m\r\nhttps://github.com/zwlzwt/react-frame-application.git react-frame-application\r\n"
+  - delay: 547
+    content: "\r\n\e[34mDownloading success!!!\e[39m\r\n\r\n"
+  - delay: 108
+    content: "\e[34mDelete the origin git and add new git commit first time!!!\e[39m\r\n\r\n\e[32mInstall dependencies....\e[39m\r\n"
+  - delay: 812
+    content: "\e[?25l⸨\e[90m░░░░░░░░░░░░░░░░░░\e[0m⸩ ⠦ rollbackFailedOptional: \e[34;40mverb\e[0m \e[35mnpm-session\e[0m 8d6addf557d0ffb3\e[0m\e[K\r"
+  - delay: 48
+    content: "⸨\e[7m \e[27m\e[90m░░░░░░░░░░░░░░░░░\e[0m⸩ ⠴ loadIdealTree:loadAllDepsIntoIdealTree: \e[7msill\e[0m \e[35minstall\e[0m loadIdealTree\e[0m\e[K\r"
+  - delay: 877
+    content: "⸨\e[7m  \e[27m\e[90m░░░░░░░░░░░░░░░░\e[0m⸩ ⠧ loadDep:whatwg-fetch: \e[7msill\e[0m \e[35minstall\e[0m loadAllDepsIntoIdealTree\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m  \e[27m\e[90m░░░░░░░░░░░░░░░░\e[0m⸩ ⠧ loadDep:dom-matches: \e[7msill\e[0m \e[35minstall\e[0m loadAllDepsIntoIdealTree\e[0m\e[K\r"
+  - delay: 68
+    content: "⸨\e[7m  \e[27m\e[90m░░░░░░░░░░░░░░░░\e[0m⸩ ⠧ loadDep:warning: \e[7msill\e[0m \e[35minstall\e[0m loadAllDepsIntoIdealTree\e[0m\e[K\r"
+  - delay: 49
+    content: "⸨\e[7m  \e[27m\e[90m░░░░░░░░░░░░░░░░\e[0m⸩ ⠧ loadDep:pinkie-promise: \e[7msill\e[0m \e[35minstall\e[0m loadAllDepsIntoIdealTree\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m   \e[27m\e[90m░░░░░░░░░░░░░░░\e[0m⸩ ⠧ loadDep:estraverse: \e[7msill\e[0m \e[35minstall\e[0m loadAllDepsIntoIdealTree\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m    \e[27m\e[90m░░░░░░░░░░░░░░\e[0m⸩ ⠧ loadDep:isobject: \e[7msill\e[0m \e[35minstall\e[0m loadAllDepsIntoIdealTree\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[7m    \e[27m\e[90m░░░░░░░░░░░░░░\e[0m⸩ ⠧ loadDep:to-regex: \e[7msill\e[0m \e[35minstall\e[0m loadAllDepsIntoIdealTree\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m    \e[27m\e[90m░░░░░░░░░░░░░░\e[0m⸩ ⠧ loadDep:inherits: \e[7msill\e[0m \e[35minstall\e[0m loadAllDepsIntoIdealTree\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m    \e[27m\e[90m░░░░░░░░░░░░░░\e[0m⸩ ⠧ loadDep:concat-map: \e[7msill\e[0m \e[35minstall\e[0m loadAllDepsIntoIdealTree\e[0m\e[K\r"
+  - delay: 49
+    content: "⸨\e[7m    \e[27m\e[90m░░░░░░░░░░░░░░\e[0m⸩ ⠧ loadDep:remove-trailing-separator: \e[7msill\e[0m \e[35minstall\e[0m loadAllDepsIntoIdealTree\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m    \e[27m\e[90m░░░░░░░░░░░░░░\e[0m⸩ ⠧ loadDep:punycode: \e[7msill\e[0m \e[35minstall\e[0m loadAllDepsIntoIdealTree\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[7m    \e[27m\e[90m░░░░░░░░░░░░░░\e[0m⸩ ⠧ loadDep:lodash: \e[7msill\e[0m \e[35minstall\e[0m loadAllDepsIntoIdealTree\e[0m\e[K\r"
+  - delay: 65
+    content: "⸨\e[7m    \e[27m\e[90m░░░░░░░░░░░░░░\e[0m⸩ ⠧ loadDep:semver: \e[7msill\e[0m \e[35minstall\e[0m loadAllDepsIntoIdealTree\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m    \e[27m\e[90m░░░░░░░░░░░░░░\e[0m⸩ ⠧ loadDep:@babel/plugin-transform-react-jsx-source: \e[7msill\e[0m \e[35minstall\e[0m loadAllDepsIntoIdealTree\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m    \e[27m\e[90m░░░░░░░░░░░░░░\e[0m⸩ ⠧ loadDep:postcss-zindex: \e[7msill\e[0m \e[35minstall\e[0m loadAllDepsIntoIdealTree\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[7m    \e[27m\e[90m░░░░░░░░░░░░░░\e[0m⸩ ⠧ loadDep:svgo: \e[7msill\e[0m \e[35minstall\e[0m loadAllDepsIntoIdealTree\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m     \e[27m\e[90m░░░░░░░░░░░░░\e[0m⸩ ⠧ loadDep:utila: \e[7msill\e[0m \e[35minstall\e[0m loadAllDepsIntoIdealTree\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m     \e[27m\e[90m░░░░░░░░░░░░░\e[0m⸩ ⠧ loadDep:package-json: \e[7msill\e[0m \e[35minstall\e[0m loadAllDepsIntoIdealTree\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m     \e[27m\e[90m░░░░░░░░░░░░░\e[0m⸩ ⠧ loadDep:mime-db: \e[7msill\e[0m \e[35minstall\e[0m loadAllDepsIntoIdealTree\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m     \e[27m\e[90m░░░░░░░░░░░░░\e[0m⸩ ⠧ loadDep:through: \e[7msill\e[0m \e[35minstall\e[0m loadAllDepsIntoIdealTree\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[7m     \e[27m\e[90m░░░░░░░░░░░░░\e[0m⸩ ⠧ loadDep:babel-types: \e[7msill\e[0m \e[35minstall\e[0m loadAllDepsIntoIdealTree\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[7m     \e[27m\e[90m░░░░░░░░░░░░░\e[0m⸩ ⠧ loadDep:source-map: \e[7msill\e[0m \e[35minstall\e[0m loadAllDepsIntoIdealTree\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[7m     \e[27m\e[90m░░░░░░░░░░░░░\e[0m⸩ ⠧ loadDep:object-assign: \e[7msill\e[0m \e[35minstall\e[0m loadAllDepsIntoIdealTree\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[7m     \e[27m\e[90m░░░░░░░░░░░░░\e[0m⸩ ⠧ loadDep:through: \e[7msill\e[0m \e[35minstall\e[0m loadAllDepsIntoIdealTree\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[7m     \e[27m\e[90m░░░░░░░░░░░░░\e[0m⸩ ⠧ loadDep:untildify: \e[7msill\e[0m \e[35minstall\e[0m loadAllDepsIntoIdealTree\e[0m\e[K\r"
+  - delay: 460
+    content: "⸨\e[7m       \e[27m\e[90m░░░░░░░░░░░\e[0m⸩ ⠹ diffTrees: \e[7msill\e[0m \e[35minstall\e[0m generateActionsToTake\e[0m\e[K\r"
+  - delay: 71
+    content: "⸨\e[7m       \e[27m\e[90m░░░░░░░░░░░\e[0m⸩ ⠹ diffTrees: \e[7msill\e[0m \e[35minstall\e[0m generateActionsToTake\e[0m\e[K\r"
+  - delay: 742
+    content: "⸨\e[7m       \e[27m\e[90m░░░░░░░░░░░\e[0m⸩ ⠴ postinstall: \e[7msill\e[0m \e[35minstall\e[0m executeActions\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[7m       \e[27m\e[90m░░░░░░░░░░░\e[0m⸩ ⠧ extract:webpack-hot-middleware: \e[34;40mverb\e[0m \e[35mlock\e[0m using /Users/zwlzwt/.npm/_locks/staging-33b0295d57a2765d.lock for /Users/zwlzwt/Docum\e[0m\e[K\r"
+  - delay: 65
+    content: "⸨\e[7m       \e[27m\e[90m░░░░░░░░░░░\e[0m⸩ ⠧ extract:webpack-hot-middleware: \e[34;40mverb\e[0m \e[35mlock\e[0m using /Users/zwlzwt/.npm/_locks/staging-33b0295d57a2765d.lock for /Users/zwlzwt/Docum\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[7m       \e[27m\e[90m░░░░░░░░░░░\e[0m⸩ ⠧ extract:webpack-hot-middleware: \e[34;40mverb\e[0m \e[35mlock\e[0m using /Users/zwlzwt/.npm/_locks/staging-33b0295d57a2765d.lock for /Users/zwlzwt/Docum\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[7m       \e[27m\e[90m░░░░░░░░░░░\e[0m⸩ ⠧ extract:webpack-hot-middleware: \e[34;40mverb\e[0m \e[35mlock\e[0m using /Users/zwlzwt/.npm/_locks/staging-33b0295d57a2765d.lock for /Users/zwlzwt/Docum\e[0m\e[K\r"
+  - delay: 63
+    content: "⸨\e[7m        \e[27m\e[90m░░░░░░░░░░\e[0m⸩ ⠴ extract:regjsgen: \e[7msill\e[0m \e[35mextract\e[0m @babel/plugin-syntax-pipeline-operator@7.0.0-beta.40 extracted to /Users/zwlzwt/Documents/test-t\e[0m\e[K\r"
+  - delay: 103
+    content: "⸨\e[7m        \e[27m\e[90m░░░░░░░░░░\e[0m⸩ ⠏ extract:globals: \e[7msill\e[0m \e[35mextract\e[0m yeoman-environment@2.0.5\e[0m\e[K\r"
+  - delay: 61
+    content: "⸨\e[7m        \e[27m\e[90m░░░░░░░░░░\e[0m⸩ ⠏ extract:globals: \e[7msill\e[0m \e[35mextract\e[0m yeoman-environment@2.0.5\e[0m\e[K\r"
+  - delay: 56
+    content: "⸨\e[7m        \e[27m\e[90m░░░░░░░░░░\e[0m⸩ ⠏ extract:restore-cursor: \e[7msill\e[0m \e[35mextract\e[0m globby@4.1.0 extracted to /Users/zwlzwt/Documents/test-template/react-frame-application/no\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m        \e[27m\e[90m░░░░░░░░░░\e[0m⸩ ⠦ extract:mute-stream: \e[7msill\e[0m \e[35mextract\e[0m cross-spawn@5.1.0\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m        \e[27m\e[90m░░░░░░░░░░\e[0m⸩ ⠼ extract:html-webpack-plugin: \e[7msill\e[0m \e[35mextract\e[0m babylon@7.0.0-beta.40 extracted to /Users/zwlzwt/Documents/test-template/react-frame-\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m        \e[27m\e[90m░░░░░░░░░░\e[0m⸩ ⠴ extract:os-locale: \e[7msill\e[0m \e[35mextract\e[0m webpack-addons@1.1.5\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m        \e[27m\e[90m░░░░░░░░░░\e[0m⸩ ⠼ extract:mem-fs: \e[7msill\e[0m \e[35mextract\e[0m term-size@1.2.0 extracted to /Users/zwlzwt/Documents/test-template/react-frame-application/node_mo\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m        \e[27m\e[90m░░░░░░░░░░\e[0m⸩ ⠏ extract:xdg-basedir: \e[7msill\e[0m \e[35mextract\e[0m once@1.4.0\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m        \e[27m\e[90m░░░░░░░░░░\e[0m⸩ ⠼ extract:error: \e[7msill\e[0m \e[35mextract\e[0m move-concurrently@1.0.1 extracted to /Users/zwlzwt/Documents/test-template/react-frame-application/\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[7m        \e[27m\e[90m░░░░░░░░░░\e[0m⸩ ⠴ extract:duplexify: \e[7msill\e[0m \e[35mextract\e[0m resolve-dir@1.0.1 extracted to /Users/zwlzwt/Documents/test-template/react-frame-application/no\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[7m        \e[27m\e[90m░░░░░░░░░░\e[0m⸩ ⠏ extract:webpack-addons: \e[7msill\e[0m \e[35mextract\e[0m rc-progress@2.2.5\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[7m        \e[27m\e[90m░░░░░░░░░░\e[0m⸩ ⠹ extract:@babel/core: \e[7msill\e[0m \e[35mextract\e[0m postcss-svgo@2.1.6 extracted to /Users/zwlzwt/Documents/test-template/react-frame-application\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[7m        \e[27m\e[90m░░░░░░░░░░\e[0m⸩ ⠦ extract:diff: \e[7msill\e[0m \e[35mtarball\e[0m trying prop-types@15.6.1 by hash: sha512-4ec7bY1Y66LymSUOH/zARVYObB23AT2h8cf6e/O6ZALB/N0sqZFEx7rq6EY\e[0m\e[K\r"
+  - delay: 67
+    content: "⸨\e[7m        \e[27m\e[90m░░░░░░░░░░\e[0m⸩ ⠋ extract:rc-cascader: \e[7msill\e[0m \e[35mextract\e[0m rc-rate@2.4.0 extracted to /Users/zwlzwt/Documents/test-template/react-frame-application/node\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[7m        \e[27m\e[90m░░░░░░░░░░\e[0m⸩ ⠏ extract:mini-store: \e[7msill\e[0m \e[35mextract\e[0m rc-steps@3.1.0 extracted to /Users/zwlzwt/Documents/test-template/react-frame-application/node\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[7m        \e[27m\e[90m░░░░░░░░░░\e[0m⸩ ⠧ extract:whatwg-fetch: \e[7msill\e[0m \e[35mextract\e[0m rc-select@7.7.2 extracted to /Users/zwlzwt/Documents/test-template/react-frame-application/n\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[7m        \e[27m\e[90m░░░░░░░░░░\e[0m⸩ ⠏ extract:ansi-styles: \e[7msill\e[0m \e[35mextract\e[0m rc-tree-select@1.12.9 extracted to /Users/zwlzwt/Documents/test-template/react-frame-applicat\e[0m\e[K\r"
+  - delay: 56
+    content: "⸨\e[7m        \e[27m\e[90m░░░░░░░░░░\e[0m⸩ ⠋ extract:rc-progress: \e[7msill\e[0m \e[35mextract\e[0m warning@3.0.0 extracted to /Users/zwlzwt/Documents/test-template/react-frame-application/node\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[7m        \e[27m\e[90m░░░░░░░░░░\e[0m⸩ ⠦ extract:@babel/plugin-proposal-pipeline-operator: \e[7msill\e[0m \e[35mtarball\e[0m trying inherits@2.0.1 by hash: sha1-sX0I0ya0Qj5Wjv9xn5GwscvfafE=\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[7m        \e[27m\e[90m░░░░░░░░░░\e[0m⸩ ⠦ extract:postcss-merge-rules: \e[7msill\e[0m \e[35mextract\e[0m value-equal@0.4.0 extracted to /Users/zwlzwt/Documents/test-template/react-frame-appl\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m        \e[27m\e[90m░░░░░░░░░░\e[0m⸩ ⠇ extract:rc-tree: \e[7msill\e[0m \e[35mextract\e[0m parallel-transform@1.1.0 extracted to /Users/zwlzwt/Documents/test-template/react-frame-applicati\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m        \e[27m\e[90m░░░░░░░░░░\e[0m⸩ ⠙ extract:concat-stream: \e[7msill\e[0m \e[35mextract\e[0m punycode@1.3.2\e[0m\e[K\r"
+  - delay: 56
+    content: "⸨\e[7m        \e[27m\e[90m░░░░░░░░░░\e[0m⸩ ⠇ extract:util: \e[7msill\e[0m \e[35mextract\e[0m urix@0.1.0\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[7m        \e[27m\e[90m░░░░░░░░░░\e[0m⸩ ⠸ extract:got: \e[7msill\e[0m \e[35mextract\e[0m extglob@2.0.4 extracted to /Users/zwlzwt/Documents/test-template/react-frame-application/node_modules\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[7m        \e[27m\e[90m░░░░░░░░░░\e[0m⸩ ⠸ extract:ansi-styles: \e[7msill\e[0m \e[35mextract\e[0m package-json@4.0.1 extracted to /Users/zwlzwt/Documents/test-template/react-frame-application\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[7m        \e[27m\e[90m░░░░░░░░░░\e[0m⸩ ⠏ extract:isobject: \e[7msill\e[0m \e[35mextract\e[0m uglify-es@3.3.9\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[7m         \e[27m\e[90m░░░░░░░░░\e[0m⸩ ⠹ extract:extend-shallow: \e[7msill\e[0m \e[35mextract\e[0m @babel/plugin-transform-unicode-regex@7.0.0-beta.40 extracted to /Users/zwlzwt/Documents/t\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[7m         \e[27m\e[90m░░░░░░░░░\e[0m⸩ ⠦ extract:unicode-match-property-value-ecmascript: \e[7msill\e[0m \e[35mextract\e[0m underscore@1.6.0 extracted to /Users/zwlzwt/Documents/test-templa\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[7m         \e[27m\e[90m░░░░░░░░░\e[0m⸩ ⠴ extract:@babel/plugin-transform-exponentiation-operator: \e[7msill\e[0m \e[35mextract\e[0m @babel/helper-explode-assignable-expression@7.0.0-beta.40\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m         \e[27m\e[90m░░░░░░░░░\e[0m⸩ ⠴ extract:lazy-cache: \e[7msill\e[0m \e[35mextract\e[0m to-object-path@0.3.0 extracted to /Users/zwlzwt/Documents/test-template/react-frame-applicatio\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m         \e[27m\e[90m░░░░░░░░░\e[0m⸩ ⠇ extract:babel-plugin-transform-decorators: \e[7msill\e[0m \e[35mextract\e[0m babel-plugin-transform-class-properties@6.24.1 extracted to /Users/zwlz\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[7m         \e[27m\e[90m░░░░░░░░░\e[0m⸩ ⠧ extract:babel-plugin-transform-exponentiation-operator: \e[7msill\e[0m \e[35mextract\e[0m babel-helper-builder-binary-assignment-operator-visitor@6.\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[7m         \e[27m\e[90m░░░░░░░░░\e[0m⸩ ⠋ extract:babel-helper-get-function-arity: \e[7msill\e[0m \e[35mextract\e[0m @babel/generator@7.0.0-beta.40 extracted to /Users/zwlzwt/Documents/test-\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[7m         \e[27m\e[90m░░░░░░░░░\e[0m⸩ ⠏ extract:pause-stream: \e[7msill\e[0m \e[35mextract\e[0m textextensions@2.2.0 extracted to /Users/zwlzwt/Documents/test-template/react-frame-applicat\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[7m         \e[27m\e[90m░░░░░░░░░\e[0m⸩ ⠦ extract:postcss-minify-font-values: \e[7msill\e[0m \e[35mextract\e[0m postcss-discard-duplicates@2.1.0 extracted to /Users/zwlzwt/Documents/test-tem\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[7m         \e[27m\e[90m░░░░░░░░░\e[0m⸩ ⠏ extract:log-symbols: \e[7msill\e[0m \e[35mextract\e[0m source-map@0.6.1 extracted to /Users/zwlzwt/Documents/test-template/react-frame-application/n\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m         \e[27m\e[90m░░░░░░░░░\e[0m⸩ ⠇ extract:inquirer: \e[7msill\e[0m \e[35mextract\e[0m strip-bom@3.0.0 extracted to /Users/zwlzwt/Documents/test-template/react-frame-application/node_\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m         \e[27m\e[90m░░░░░░░░░\e[0m⸩ ⠸ extract:query-string: \e[7msill\e[0m \e[35mextract\e[0m stream-to-observable@0.2.0 extracted to /Users/zwlzwt/Documents/test-template/react-frame-ap\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m         \e[27m\e[90m░░░░░░░░░\e[0m⸩ ⠹ extract:is-accessor-descriptor: \e[7msill\e[0m \e[35mextract\e[0m slice-ansi@0.0.4\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[7m         \e[27m\e[90m░░░░░░░░░\e[0m⸩ ⠼ extract:sort-keys: \e[7msill\e[0m \e[35mextract\e[0m is-descriptor@0.1.6 extracted to /Users/zwlzwt/Documents/test-template/react-frame-application/\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[7m         \e[27m\e[90m░░░░░░░░░\e[0m⸩ ⠦ extract:cli-cursor: \e[7msill\e[0m \e[35mextract\e[0m source-map-support@0.4.18 extracted to /Users/zwlzwt/Documents/test-template/react-frame-appli\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[7m         \e[27m\e[90m░░░░░░░░░\e[0m⸩ ⠙ extract:shallow-equal: \e[7msill\e[0m \e[35mextract\e[0m hash-base@3.0.4\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[7m         \e[27m\e[90m░░░░░░░░░\e[0m⸩ ⠙ extract:read-chunk: \e[7msill\e[0m \e[35mextract\e[0m fbjs@0.8.16 extracted to /Users/zwlzwt/Documents/test-template/react-frame-application/node_mo\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m          \e[27m\e[90m░░░░░░░░\e[0m⸩ ⠹ extract:argparse: \e[7msill\e[0m \e[35mextract\e[0m run-async@2.3.0 extracted to /Users/zwlzwt/Documents/test-template/react-frame-application/node_\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m          \e[27m\e[90m░░░░░░░░\e[0m⸩ ⠋ extract:resolve-url: \e[7msill\e[0m \e[35mextract\e[0m require-main-filename@1.0.1 extracted to /Users/zwlzwt/Documents/test-template/react-frame-ap\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m          \e[27m\e[90m░░░░░░░░\e[0m⸩ ⠙ extract:postcss-modules-scope: \e[7msill\e[0m \e[35mextract\e[0m js-yaml@3.7.0 extracted to /Users/zwlzwt/Documents/test-template/react-frame-applic\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[7m          \e[27m\e[90m░░░░░░░░\e[0m⸩ ⠇ extract:babel-plugin-transform-es2015-spread: \e[7msill\e[0m \e[35mextract\e[0m babel-plugin-transform-es2015-for-of@6.23.0 extracted to /Users/zwlz\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[7m          \e[27m\e[90m░░░░░░░░\e[0m⸩ ⠋ extract:regenerator-runtime: \e[7msill\e[0m \e[35mextract\e[0m reduce-css-calc@1.3.0 extracted to /Users/zwlzwt/Documents/test-template/react-frame-\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[7m          \e[27m\e[90m░░░░░░░░\e[0m⸩ ⠴ extract:array-tree-filter: \e[7msill\e[0m \e[35mextract\e[0m relateurl@0.2.7 extracted to /Users/zwlzwt/Documents/test-template/react-frame-applicat\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m          \e[27m\e[90m░░░░░░░░\e[0m⸩ ⠦ extract:has-flag: \e[7msill\e[0m \e[35mextract\e[0m source-map@0.6.1\e[0m\e[K\r"
+  - delay: 58
+    content: "⸨\e[7m          \e[27m\e[90m░░░░░░░░\e[0m⸩ ⠦ extract:ansi-styles: \e[7msill\e[0m \e[35mextract\e[0m postcss-modules-values@1.3.0 extracted to /Users/zwlzwt/Documents/test-template/react-frame-a\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m          \e[27m\e[90m░░░░░░░░\e[0m⸩ ⠼ extract:find-cache-dir: \e[7msill\e[0m \e[35mextract\e[0m pkg-dir@2.0.0 extracted to /Users/zwlzwt/Documents/test-template/react-frame-application/n\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m          \e[27m\e[90m░░░░░░░░\e[0m⸩ ⠏ extract:is-path-inside: \e[7msill\e[0m \e[35mextract\e[0m p-locate@2.0.0\e[0m\e[K\r"
+  - delay: 56
+    content: "⸨\e[7m          \e[27m\e[90m░░░░░░░░\e[0m⸩ ⠴ extract:parse-passwd: \e[7msill\e[0m \e[35mextract\e[0m os-browserify@0.3.0\e[0m\e[K\r"
+  - delay: 56
+    content: "⸨\e[7m          \e[27m\e[90m░░░░░░░░\e[0m⸩ ⠦ extract:p-lazy: \e[7msill\e[0m \e[35mextract\e[0m p-timeout@1.2.1 extracted to /Users/zwlzwt/Documents/test-template/react-frame-application/node_mo\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[7m          \e[27m\e[90m░░░░░░░░\e[0m⸩ ⠇ extract:onetime: \e[7msill\e[0m \e[35mextract\e[0m loader-utils@0.2.17\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[7m          \e[27m\e[90m░░░░░░░░\e[0m⸩ ⠧ extract:is-accessor-descriptor: \e[7msill\e[0m \e[35mextract\e[0m figures@1.7.0 extracted to /Users/zwlzwt/Documents/test-template/react-frame-appli\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[7m          \e[27m\e[90m░░░░░░░░\e[0m⸩ ⠇ extract:object-keys: \e[7msill\e[0m \e[35mextract\e[0m is-fullwidth-code-point@1.0.0 extracted to /Users/zwlzwt/Documents/test-template/react-frame-\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[7m          \e[27m\e[90m░░░░░░░░\e[0m⸩ ⠋ extract:strip-ansi: \e[7msill\e[0m \e[35mextract\e[0m source-map@0.6.1 extracted to /Users/zwlzwt/Documents/test-template/react-frame-application/no\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[7m          \e[27m\e[90m░░░░░░░░\e[0m⸩ ⠇ extract:multimatch: \e[7msill\e[0m \e[35mextract\e[0m node-dir@0.1.8 extracted to /Users/zwlzwt/Documents/test-template/react-frame-application/node\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[7m          \e[27m\e[90m░░░░░░░░\e[0m⸩ ⠙ extract:create-ecdh: \e[7msill\e[0m \e[35mextract\e[0m decompress-response@3.3.0 extracted to /Users/zwlzwt/Documents/test-template/react-frame-appl\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m          \e[27m\e[90m░░░░░░░░\e[0m⸩ ⠏ extract:form-data: \e[7msill\e[0m \e[35mextract\e[0m lodash.throttle@4.1.1\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[7m           \e[27m\e[90m░░░░░░░\e[0m⸩ ⠼ extract:loose-envify: \e[7msill\e[0m \e[35mextract\e[0m ansi-styles@3.2.1 extracted to /Users/zwlzwt/Documents/test-template/react-frame-application\e[0m\e[K\r"
+  - delay: 56
+    content: "⸨\e[7m           \e[27m\e[90m░░░░░░░\e[0m⸩ ⠸ extract:@babel/plugin-transform-modules-commonjs: \e[7msill\e[0m \e[35mextract\e[0m grouped-queue@0.3.3 extracted to /Users/zwlzwt/Documents/test-te\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[7m           \e[27m\e[90m░░░░░░░\e[0m⸩ ⠴ extract:@babel/helper-function-name: \e[7msill\e[0m \e[35mextract\e[0m @babel/helper-define-map@7.0.0-beta.40 extracted to /Users/zwlzwt/Documents/t\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[7m           \e[27m\e[90m░░░░░░░\e[0m⸩ ⠇ extract:@babel/helper-regex: \e[7msill\e[0m \e[35mextract\e[0m regjsparser@0.2.1\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[7m           \e[27m\e[90m░░░░░░░\e[0m⸩ ⠙ extract:keyv: \e[7msill\e[0m \e[35mextract\e[0m isstream@0.1.2\e[0m\e[K\r"
+  - delay: 56
+    content: "⸨\e[7m           \e[27m\e[90m░░░░░░░\e[0m⸩ ⠹ extract:isurl: \e[7msill\e[0m \e[35mextract\e[0m is-regex@1.0.4\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[7m           \e[27m\e[90m░░░░░░░\e[0m⸩ ⠧ extract:styled-components: \e[7msill\e[0m \e[35mextract\e[0m is-typedarray@1.0.0 extracted to /Users/zwlzwt/Documents/test-template/react-frame-appl\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[7m           \e[27m\e[90m░░░░░░░\e[0m⸩ ⠧ extract:is-plain-obj: \e[7msill\e[0m \e[35mextract\e[0m is-odd@2.0.0 extracted to /Users/zwlzwt/Documents/test-template/react-frame-application/node\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m           \e[27m\e[90m░░░░░░░\e[0m⸩ ⠙ extract:extend-shallow: \e[7msill\e[0m \e[35mextract\e[0m is-absolute-url@2.1.0\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[7m           \e[27m\e[90m░░░░░░░\e[0m⸩ ⠴ extract:is-data-descriptor: \e[7msill\e[0m \e[35mextract\e[0m kind-of@3.2.2 extracted to /Users/zwlzwt/Documents/test-template/react-frame-applicati\e[0m\e[K\r"
+  - delay: 49
+    content: "⸨\e[7m           \e[27m\e[90m░░░░░░░\e[0m⸩ ⠹ extract:global-dirs: \e[7msill\e[0m \e[35mextract\e[0m is-arrayish@0.2.1 extracted to /Users/zwlzwt/Documents/test-template/react-frame-application/\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[7m           \e[27m\e[90m░░░░░░░\e[0m⸩ ⠏ extract:ansi-styles: \e[7msill\e[0m \e[35mextract\e[0m supports-color@5.3.0 extracted to /Users/zwlzwt/Documents/test-template/react-frame-applicati\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[7m           \e[27m\e[90m░░░░░░░\e[0m⸩ ⠇ extract:hoist-non-react-statics: \e[7msill\e[0m \e[35mextract\e[0m source-map@0.6.1 extracted to /Users/zwlzwt/Documents/test-template/react-frame-a\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m           \e[27m\e[90m░░░░░░░\e[0m⸩ ⠇ extract:chalk: \e[7msill\e[0m \e[35mextract\e[0m pify@2.3.0 extracted to /Users/zwlzwt/Documents/test-template/react-frame-application/node_modules/\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[7m           \e[27m\e[90m░░░░░░░\e[0m⸩ ⠦ extract:prepend-http: \e[7msill\e[0m \e[35mextract\e[0m get-caller-file@1.0.2 extracted to /Users/zwlzwt/Documents/test-template/react-frame-applica\e[0m\e[K\r"
+  - delay: 56
+    content: "⸨\e[7m           \e[27m\e[90m░░░░░░░\e[0m⸩ ⠹ extract:fast-deep-equal: \e[7msill\e[0m \e[35mextract\e[0m browserslist@1.7.7\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[7m           \e[27m\e[90m░░░░░░░\e[0m⸩ ⠹ extract:escape-string-regexp: \e[7msill\e[0m \e[35mextract\e[0m eventlistener@0.0.1 extracted to /Users/zwlzwt/Documents/test-template/react-frame-a\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠏ extract:duplexer: \e[7msill\e[0m \e[35mextract\e[0m dateformat@2.2.0\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠹ extract:dom-scroll-into-view: \e[7msill\e[0m \e[35mextract\e[0m yargs@1.2.6 extracted to /Users/zwlzwt/Documents/test-template/react-frame-applicati\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠙ extract:dargs: \e[7msill\e[0m \e[35mextract\e[0m cyclist@0.2.2 extracted to /Users/zwlzwt/Documents/test-template/react-frame-application/node_modul\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠦ extract:constants-browserify: \e[7msill\e[0m \e[35mtarball\e[0m trying cli-boxes@1.0.0 by hash: sha1-T6kXw+WclKAEzWH47lCdplFocUM=\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠸ extract:process-nextick-args: \e[7msill\e[0m \e[35mextract\e[0m clone@1.0.3 extracted to /Users/zwlzwt/Documents/test-template/react-frame-applicati\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠼ extract:chownr: \e[7msill\e[0m \e[35mtarball\e[0m trying babel-plugin-syntax-object-rest-spread@6.13.0 by hash: sha1-/WU28rzhODb/o6VFjEkDpZe7O/U=\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠼ extract:babel-plugin-syntax-object-rest-spread: \e[7msill\e[0m \e[35mextract\e[0m buffer-xor@1.0.3 extracted to /Users/zwlzwt/Documents/test-templat\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠼ extract:aws-sign2: \e[7msill\e[0m \e[35mextract\e[0m async-each@1.0.1 extracted to /Users/zwlzwt/Documents/test-template/react-frame-application/nod\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠴ extract:arr-diff: \e[7msill\e[0m \e[35mextract\e[0m arr-diff@4.0.0 extracted to /Users/zwlzwt/Documents/test-template/react-frame-application/node_m\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠋ extract:ansi-regex: \e[7msill\e[0m \e[35mextract\e[0m ansi-styles@2.2.1 extracted to /Users/zwlzwt/Documents/test-template/react-frame-application/n\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠇ extract:ajv: \e[7msill\e[0m \e[35mextract\e[0m ajv@4.11.8 extracted to /Users/zwlzwt/Documents/test-template/react-frame-application/node_modules/.s\e[0m\e[K\r"
+  - delay: 49
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠼ extract:babylon: \e[7msill\e[0m \e[35mextract\e[0m babylon@7.0.0-beta.40 extracted to /Users/zwlzwt/Documents/test-template/react-frame-application/\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠦ extract:bluebird: \e[7msill\e[0m \e[35mextract\e[0m bluebird@3.5.1 extracted to /Users/zwlzwt/Documents/test-template/react-frame-application/node_m\e[0m\e[K\r"
+  - delay: 49
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠦ extract:bluebird: \e[7msill\e[0m \e[35mextract\e[0m bluebird@3.5.1 extracted to /Users/zwlzwt/Documents/test-template/react-frame-application/node_m\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠦ extract:bluebird: \e[7msill\e[0m \e[35mextract\e[0m bluebird@3.5.1 extracted to /Users/zwlzwt/Documents/test-template/react-frame-application/node_m\e[0m\e[K\r"
+  - delay: 49
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠦ extract:bluebird: \e[7msill\e[0m \e[35mextract\e[0m bluebird@3.5.1 extracted to /Users/zwlzwt/Documents/test-template/react-frame-application/node_m\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠦ extract:bluebird: \e[7msill\e[0m \e[35mextract\e[0m bluebird@3.5.1 extracted to /Users/zwlzwt/Documents/test-template/react-frame-application/node_m\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠧ extract:webpack-cli: \e[7msill\e[0m \e[35mextract\e[0m webpack-cli@2.0.10 extracted to /Users/zwlzwt/Documents/test-template/react-frame-application\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠧ extract:webpack-cli: \e[7msill\e[0m \e[35mextract\e[0m webpack-cli@2.0.10 extracted to /Users/zwlzwt/Documents/test-template/react-frame-application\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠧ extract:webpack-cli: \e[7msill\e[0m \e[35mextract\e[0m webpack-cli@2.0.10 extracted to /Users/zwlzwt/Documents/test-template/react-frame-application\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠇ extract:prettier: \e[7msill\e[0m \e[35mextract\e[0m prettier@1.11.1 extracted to /Users/zwlzwt/Documents/test-template/react-frame-application/node_\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠏ extract:moment: \e[7msill\e[0m \e[35mextract\e[0m moment@2.21.0 extracted to /Users/zwlzwt/Documents/test-template/react-frame-application/node_modu\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠏ extract:moment: \e[7msill\e[0m \e[35mextract\e[0m moment@2.21.0 extracted to /Users/zwlzwt/Documents/test-template/react-frame-application/node_modu\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠏ extract:moment: \e[7msill\e[0m \e[35mextract\e[0m moment@2.21.0 extracted to /Users/zwlzwt/Documents/test-template/react-frame-application/node_modu\e[0m\e[K\r"
+  - delay: 49
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠋ extract:rx: \e[7msill\e[0m \e[35mextract\e[0m rx@4.1.0 extracted to /Users/zwlzwt/Documents/test-template/react-frame-application/node_modules/.stag\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠋ extract:rx: \e[7msill\e[0m \e[35mextract\e[0m rx@4.1.0 extracted to /Users/zwlzwt/Documents/test-template/react-frame-application/node_modules/.stag\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠋ extract:rx: \e[7msill\e[0m \e[35mextract\e[0m rx@4.1.0 extracted to /Users/zwlzwt/Documents/test-template/react-frame-application/node_modules/.stag\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠋ extract:rx: \e[7msill\e[0m \e[35mextract\e[0m rx@4.1.0 extracted to /Users/zwlzwt/Documents/test-template/react-frame-application/node_modules/.stag\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠋ extract:rx: \e[7msill\e[0m \e[35mextract\e[0m rx@4.1.0 extracted to /Users/zwlzwt/Documents/test-template/react-frame-application/node_modules/.stag\e[0m\e[K\r"
+  - delay: 49
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠋ extract:rx: \e[7msill\e[0m \e[35mextract\e[0m rx@4.1.0 extracted to /Users/zwlzwt/Documents/test-template/react-frame-application/node_modules/.stag\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠋ extract:rx: \e[7msill\e[0m \e[35mextract\e[0m rx@4.1.0 extracted to /Users/zwlzwt/Documents/test-template/react-frame-application/node_modules/.stag\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠋ extract:rx: \e[7msill\e[0m \e[35mextract\e[0m rx@4.1.0 extracted to /Users/zwlzwt/Documents/test-template/react-frame-application/node_modules/.stag\e[0m\e[K\r"
+  - delay: 49
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠋ extract:rx: \e[7msill\e[0m \e[35mextract\e[0m rx@4.1.0 extracted to /Users/zwlzwt/Documents/test-template/react-frame-application/node_modules/.stag\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠋ extract:rx: \e[7msill\e[0m \e[35mextract\e[0m rx@4.1.0 extracted to /Users/zwlzwt/Documents/test-template/react-frame-application/node_modules/.stag\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠋ extract:rx: \e[7msill\e[0m \e[35mextract\e[0m rx@4.1.0 extracted to /Users/zwlzwt/Documents/test-template/react-frame-application/node_modules/.stag\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠙ extract:caniuse-lite: \e[7msill\e[0m \e[35mextract\e[0m caniuse-lite@1.0.30000812 extracted to /Users/zwlzwt/Documents/test-template/react-frame-app\e[0m\e[K\r"
+  - delay: 49
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠙ extract:caniuse-lite: \e[7msill\e[0m \e[35mextract\e[0m caniuse-lite@1.0.30000812 extracted to /Users/zwlzwt/Documents/test-template/react-frame-app\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠹ extract:lodash: \e[7msill\e[0m \e[35mextract\e[0m lodash@4.17.5 extracted to /Users/zwlzwt/Documents/test-template/react-frame-application/node_modu\e[0m\e[K\r"
+  - delay: 49
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠸ extract:core-js: \e[7msill\e[0m \e[35mextract\e[0m core-js@1.2.7 extracted to /Users/zwlzwt/Documents/test-template/react-frame-application/node_mod\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠸ extract:core-js: \e[7msill\e[0m \e[35mextract\e[0m core-js@1.2.7 extracted to /Users/zwlzwt/Documents/test-template/react-frame-application/node_mod\e[0m\e[K\r"
+  - delay: 49
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠸ extract:core-js: \e[7msill\e[0m \e[35mextract\e[0m core-js@1.2.7 extracted to /Users/zwlzwt/Documents/test-template/react-frame-application/node_mod\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠸ extract:core-js: \e[7msill\e[0m \e[35mextract\e[0m core-js@1.2.7 extracted to /Users/zwlzwt/Documents/test-template/react-frame-application/node_mod\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠼ extract:date-fns: \e[7msill\e[0m \e[35mextract\e[0m date-fns@1.29.0 extracted to /Users/zwlzwt/Documents/test-template/react-frame-application/node_\e[0m\e[K\r"
+  - delay: 49
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠼ extract:date-fns: \e[7msill\e[0m \e[35mextract\e[0m date-fns@1.29.0 extracted to /Users/zwlzwt/Documents/test-template/react-frame-application/node_\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠼ extract:date-fns: \e[7msill\e[0m \e[35mextract\e[0m date-fns@1.29.0 extracted to /Users/zwlzwt/Documents/test-template/react-frame-application/node_\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠼ extract:date-fns: \e[7msill\e[0m \e[35mextract\e[0m date-fns@1.29.0 extracted to /Users/zwlzwt/Documents/test-template/react-frame-application/node_\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠴ extract:core-js: \e[7msill\e[0m \e[35mextract\e[0m core-js@2.5.3 extracted to /Users/zwlzwt/Documents/test-template/react-frame-application/node_mod\e[0m\e[K\r"
+  - delay: 49
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠧ extract:core-js: \e[7msill\e[0m \e[35mextract\e[0m core-js@2.5.3 extracted to /Users/zwlzwt/Documents/test-template/react-frame-application/node_mod\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠧ extract:core-js: \e[7msill\e[0m \e[35mextract\e[0m core-js@2.5.3 extracted to /Users/zwlzwt/Documents/test-template/react-frame-application/node_mod\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠧ extract:core-js: \e[7msill\e[0m \e[35mextract\e[0m core-js@2.5.3 extracted to /Users/zwlzwt/Documents/test-template/react-frame-application/node_mod\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠧ extract:core-js: \e[7msill\e[0m \e[35mextract\e[0m core-js@2.5.3 extracted to /Users/zwlzwt/Documents/test-template/react-frame-application/node_mod\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠧ extract:core-js: \e[7msill\e[0m \e[35mextract\e[0m core-js@2.5.3 extracted to /Users/zwlzwt/Documents/test-template/react-frame-application/node_mod\e[0m\e[K\r"
+  - delay: 49
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠇ extract:core-js: \e[7msill\e[0m \e[35mextract\e[0m core-js@2.5.3 extracted to /Users/zwlzwt/Documents/test-template/react-frame-application/node_mod\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠋ extract:core-js: \e[7msill\e[0m \e[35mextract\e[0m core-js@2.5.3 extracted to /Users/zwlzwt/Documents/test-template/react-frame-application/node_mod\e[0m\e[K\r"
+  - delay: 49
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠋ extract:core-js: \e[7msill\e[0m \e[35mextract\e[0m core-js@2.5.3 extracted to /Users/zwlzwt/Documents/test-template/react-frame-application/node_mod\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠋ extract:core-js: \e[7msill\e[0m \e[35mextract\e[0m core-js@2.5.3 extracted to /Users/zwlzwt/Documents/test-template/react-frame-application/node_mod\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠋ extract:core-js: \e[7msill\e[0m \e[35mextract\e[0m core-js@2.5.3 extracted to /Users/zwlzwt/Documents/test-template/react-frame-application/node_mod\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠙ extract:fsevents: \e[7msill\e[0m \e[35mextract\e[0m fsevents@1.1.3 extracted to /Users/zwlzwt/Documents/test-template/react-frame-application/node_m\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠙ extract:fsevents: \e[7msill\e[0m \e[35mextract\e[0m fsevents@1.1.3 extracted to /Users/zwlzwt/Documents/test-template/react-frame-application/node_m\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠙ extract:fsevents: \e[7msill\e[0m \e[35mextract\e[0m fsevents@1.1.3 extracted to /Users/zwlzwt/Documents/test-template/react-frame-application/node_m\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠙ extract:fsevents: \e[7msill\e[0m \e[35mextract\e[0m fsevents@1.1.3 extracted to /Users/zwlzwt/Documents/test-template/react-frame-application/node_m\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠙ extract:fsevents: \e[7msill\e[0m \e[35mextract\e[0m fsevents@1.1.3 extracted to /Users/zwlzwt/Documents/test-template/react-frame-application/node_m\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠙ extract:fsevents: \e[7msill\e[0m \e[35mextract\e[0m fsevents@1.1.3 extracted to /Users/zwlzwt/Documents/test-template/react-frame-application/node_m\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠹ extract:antd: \e[7msill\e[0m \e[35mextract\e[0m antd@3.2.3 extracted to /Users/zwlzwt/Documents/test-template/react-frame-application/node_modules/.\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠏ finalize:webpack-hot-middleware: \e[7msill\e[0m \e[35mdoSerial\e[0m finalize 11172\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠼ finalize:@babel/plugin-transform-for-of: \e[7msill\e[0m \e[35mfinalize\e[0m /Users/zwlzwt/Documents/test-template/react-frame-application/node_modul\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠸ finalize:aws4: \e[7msill\e[0m \e[35mfinalize\e[0m /Users/zwlzwt/Documents/test-template/react-frame-application/node_modules/aws4\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠙ finalize:co: \e[7msill\e[0m \e[35mfinalize\e[0m /Users/zwlzwt/Documents/test-template/react-frame-application/node_modules/co\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠧ finalize:utila: \e[7msill\e[0m \e[35mfinalize\e[0m /Users/zwlzwt/Documents/test-template/react-frame-application/node_modules/dom-converter/node_mod\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠼ finalize:forever-agent: \e[7msill\e[0m \e[35mfinalize\e[0m /Users/zwlzwt/Documents/test-template/react-frame-application/node_modules/forever-agent\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠇ finalize:isstream: \e[7msill\e[0m \e[35mfinalize\e[0m /Users/zwlzwt/Documents/test-template/react-frame-application/node_modules/fsevents/node_modul\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠼ finalize:tough-cookie: \e[7msill\e[0m \e[35mfinalize\e[0m /Users/zwlzwt/Documents/test-template/react-frame-application/node_modules/fsevents/node_m\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠴ finalize:process: \e[7msill\e[0m \e[35mfinalize\e[0m /Users/zwlzwt/Documents/test-template/react-frame-application/node_modules/global/node_modules/\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠧ finalize:ieee754: \e[7msill\e[0m \e[35mfinalize\e[0m /Users/zwlzwt/Documents/test-template/react-frame-application/node_modules/ieee754\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠼ finalize:is-descriptor: \e[7msill\e[0m \e[35mfinalize\e[0m /Users/zwlzwt/Documents/test-template/react-frame-application/node_modules/expand-bracket\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠙ finalize:buffer: \e[7msill\e[0m \e[35mfinalize\e[0m /Users/zwlzwt/Documents/test-template/react-frame-application/node_modules/buffer\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠦ finalize:is-descriptor: \e[7msill\e[0m \e[35mfinalize\e[0m /Users/zwlzwt/Documents/test-template/react-frame-application/node_modules/is-descriptor\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠧ finalize:lodash.debounce: \e[7msill\e[0m \e[35mfinalize\e[0m /Users/zwlzwt/Documents/test-template/react-frame-application/node_modules/lodash.debou\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠏ finalize:global: \e[7msill\e[0m \e[35mfinalize\e[0m /Users/zwlzwt/Documents/test-template/react-frame-application/node_modules/global\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠙ finalize:fsevents: \e[7msill\e[0m \e[35mfinalize\e[0m /Users/zwlzwt/Documents/test-template/react-frame-application/node_modules/fsevents\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠼ finalize:object-copy: \e[7msill\e[0m \e[35mfinalize\e[0m /Users/zwlzwt/Documents/test-template/react-frame-application/node_modules/object-copy\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠇ finalize:parse-passwd: \e[7msill\e[0m \e[35mfinalize\e[0m /Users/zwlzwt/Documents/test-template/react-frame-application/node_modules/parse-passwd\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠧ finalize:source-map: \e[7msill\e[0m \e[35mfinalize\e[0m /Users/zwlzwt/Documents/test-template/react-frame-application/node_modules/postcss-modules-l\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠙ finalize:array-tree-filter: \e[7msill\e[0m \e[35mfinalize\e[0m /Users/zwlzwt/Documents/test-template/react-frame-application/node_modules/rc-cascade\e[0m\e[K\r"
+  - delay: 49
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠇ finalize:postcss-modules-local-by-default: \e[7msill\e[0m \e[35mfinalize\e[0m /Users/zwlzwt/Documents/test-template/react-frame-application/node_mod\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠏ finalize:hash-base: \e[7msill\e[0m \e[35mfinalize\e[0m /Users/zwlzwt/Documents/test-template/react-frame-application/node_modules/md5.js/node_module\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠼ finalize:snapdragon-util: \e[7msill\e[0m \e[35mfinalize\e[0m /Users/zwlzwt/Documents/test-template/react-frame-application/node_modules/snapdragon-u\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠏ finalize:define-property: \e[7msill\e[0m \e[35mfinalize\e[0m /Users/zwlzwt/Documents/test-template/react-frame-application/node_modules/static-exten\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠇ finalize:stylis-rule-sheet: \e[7msill\e[0m \e[35mfinalize\e[0m /Users/zwlzwt/Documents/test-template/react-frame-application/node_modules/stylis-rul\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠇ finalize:postcss-reduce-transforms: \e[7msill\e[0m \e[35mfinalize\e[0m /Users/zwlzwt/Documents/test-template/react-frame-application/node_modules/po\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠧ finalize:babel-helper-explode-class: \e[7msill\e[0m \e[35mfinalize\e[0m /Users/zwlzwt/Documents/test-template/react-frame-application/node_modules/b\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠋ finalize:@babel/helper-explode-assignable-expression: \e[7msill\e[0m \e[35mfinalize\e[0m /Users/zwlzwt/Documents/test-template/react-frame-applicati\e[0m\e[K\r"
+  - delay: 49
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠹ finalize:regexpu-core: \e[7msill\e[0m \e[35mfinalize\e[0m /Users/zwlzwt/Documents/test-template/react-frame-application/node_modules/@babel/plugin-p\e[0m\e[K\r"
+  - delay: 49
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠴ finalize:got: \e[7msill\e[0m \e[35mfinalize\e[0m /Users/zwlzwt/Documents/test-template/react-frame-application/node_modules/package-json/node_module\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠹ finalize:use: \e[7msill\e[0m \e[35mfinalize\e[0m /Users/zwlzwt/Documents/test-template/react-frame-application/node_modules/use\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠧ finalize:read-pkg: \e[7msill\e[0m \e[35mfinalize\e[0m /Users/zwlzwt/Documents/test-template/react-frame-application/node_modules/read-pkg\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠼ finalize:prop-types: \e[7msill\e[0m \e[35mfinalize\e[0m /Users/zwlzwt/Documents/test-template/react-frame-application/node_modules/prop-types\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠏ finalize:svgo: \e[7msill\e[0m \e[35mfinalize\e[0m /Users/zwlzwt/Documents/test-template/react-frame-application/node_modules/svgo\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠴ finalize:html-minifier: \e[7msill\e[0m \e[35mfinalize\e[0m /Users/zwlzwt/Documents/test-template/react-frame-application/node_modules/html-minifier\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠇ finalize:inquirer: \e[7msill\e[0m \e[35mfinalize\e[0m /Users/zwlzwt/Documents/test-template/react-frame-application/node_modules/yeoman-environment/\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠏ finalize:css-loader: \e[7msill\e[0m \e[35mfinalize\e[0m /Users/zwlzwt/Documents/test-template/react-frame-application/node_modules/css-loader\e[0m\e[K\r"
+  - delay: 74
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠴ refresh-package-json:webpack-hot-middleware: \e[32;40mtiming\e[0m \e[35maction:finalize\e[0m Completed in 1829ms\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠴ refresh-package-json:webpack-hot-middleware: \e[32;40mtiming\e[0m \e[35maction:finalize\e[0m Completed in 1829ms\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠴ refresh-package-json:jsesc: \e[7msill\e[0m \e[35mrefresh-package-json\e[0m /Users/zwlzwt/Documents/test-template/react-frame-application/node_module\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠴ refresh-package-json:jsesc: \e[7msill\e[0m \e[35mrefresh-package-json\e[0m /Users/zwlzwt/Documents/test-template/react-frame-application/node_module\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠴ refresh-package-json:strip-ansi: \e[7msill\e[0m \e[35mrefresh-package-json\e[0m /Users/zwlzwt/Documents/test-template/react-frame-application/node_m\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠴ refresh-package-json:strip-ansi: \e[7msill\e[0m \e[35mrefresh-package-json\e[0m /Users/zwlzwt/Documents/test-template/react-frame-application/node_m\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠴ refresh-package-json:end-of-stream: \e[7msill\e[0m \e[35mrefresh-package-json\e[0m /Users/zwlzwt/Documents/test-template/react-frame-application/nod\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠦ refresh-package-json:once: \e[7msill\e[0m \e[35mrefresh-package-json\e[0m /Users/zwlzwt/Documents/test-template/react-frame-application/node_modules\e[0m\e[K\r"
+  - delay: 61
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠴ refresh-package-json:rc-collapse: \e[7msill\e[0m \e[35mrefresh-package-json\e[0m /Users/zwlzwt/Documents/test-template/react-frame-application/node_\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠼ refresh-package-json:assert-plus: \e[7msill\e[0m \e[35mrefresh-package-json\e[0m /Users/zwlzwt/Documents/test-template/react-frame-application/node_\e[0m\e[K\r"
+  - delay: 56
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠴ refresh-package-json:inherits: \e[7msill\e[0m \e[35mrefresh-package-json\e[0m /Users/zwlzwt/Documents/test-template/react-frame-application/node_mod\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠴ refresh-package-json:got: \e[7msill\e[0m \e[35mrefresh-package-json\e[0m /Users/zwlzwt/Documents/test-template/react-frame-application/node_modules/\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠴ refresh-package-json:postcss-selector-parser: \e[7msill\e[0m \e[35mrefresh-package-json\e[0m /Users/zwlzwt/Documents/test-template/react-frame-appli\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠴ refresh-package-json:tty-browserify: \e[7msill\e[0m \e[35mrefresh-package-json\e[0m /Users/zwlzwt/Documents/test-template/react-frame-application/no\e[0m\e[K\r"
+  - delay: 49
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠴ refresh-package-json:babel-preset-stage-3: \e[7msill\e[0m \e[35mrefresh-package-json\e[0m /Users/zwlzwt/Documents/test-template/react-frame-applicat\e[0m\e[K\r"
+  - delay: 49
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠸ refresh-package-json:babel-plugin-transform-es2015-shorthand-properties: \e[7msill\e[0m \e[35mrefresh-package-json\e[0m /Users/zwlzwt/Documents/test\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠴ refresh-package-json:rimraf: \e[7msill\e[0m \e[35mrefresh-package-json\e[0m /Users/zwlzwt/Documents/test-template/react-frame-application/node_modul\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠸ refresh-package-json:string-width: \e[7msill\e[0m \e[35mrefresh-package-json\e[0m /Users/zwlzwt/Documents/test-template/react-frame-application/node\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠋ refresh-package-json:string_decoder: \e[7msill\e[0m \e[35mrefresh-package-json\e[0m /Users/zwlzwt/Documents/test-template/react-frame-application/no\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠴ refresh-package-json:kind-of: \e[7msill\e[0m \e[35mrefresh-package-json\e[0m /Users/zwlzwt/Documents/test-template/react-frame-application/node_modu\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠋ refresh-package-json:md5.js: \e[7msill\e[0m \e[35mrefresh-package-json\e[0m /Users/zwlzwt/Documents/test-template/react-frame-application/node_modul\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠴ refresh-package-json:rxjs: \e[7msill\e[0m \e[35mrefresh-package-json\e[0m /Users/zwlzwt/Documents/test-template/react-frame-application/node_modules\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠴ refresh-package-json:babel-plugin-transform-es2015-typeof-symbol: \e[7msill\e[0m \e[35mrefresh-package-json\e[0m /Users/zwlzwt/Documents/test-templa\e[0m\e[K\r"
+  - delay: 56
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠸ refresh-package-json:prettier: \e[7msill\e[0m \e[35mrefresh-package-json\e[0m /Users/zwlzwt/Documents/test-template/react-frame-application/node_mod\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠦ refresh-package-json:source-map: \e[7msill\e[0m \e[35mrefresh-package-json\e[0m /Users/zwlzwt/Documents/test-template/react-frame-application/node_m\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠴ refresh-package-json:path-exists: \e[7msill\e[0m \e[35mrefresh-package-json\e[0m /Users/zwlzwt/Documents/test-template/react-frame-application/node_\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠴ refresh-package-json:object-keys: \e[7msill\e[0m \e[35mrefresh-package-json\e[0m /Users/zwlzwt/Documents/test-template/react-frame-application/node_\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠴ refresh-package-json:node-fetch: \e[7msill\e[0m \e[35mrefresh-package-json\e[0m /Users/zwlzwt/Documents/test-template/react-frame-application/node_m\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠴ refresh-package-json:hmac-drbg: \e[7msill\e[0m \e[35mrefresh-package-json\e[0m /Users/zwlzwt/Documents/test-template/react-frame-application/node_mo\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠴ refresh-package-json:lodash._getnative: \e[7msill\e[0m \e[35mrefresh-package-json\e[0m /Users/zwlzwt/Documents/test-template/react-frame-application\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠼ refresh-package-json:json5: \e[7msill\e[0m \e[35mrefresh-package-json\e[0m /Users/zwlzwt/Documents/test-template/react-frame-application/node_module\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠦ refresh-package-json:ajv: \e[7msill\e[0m \e[35mrefresh-package-json\e[0m /Users/zwlzwt/Documents/test-template/react-frame-application/node_modules/\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠴ refresh-package-json:expand-brackets: \e[7msill\e[0m \e[35mrefresh-package-json\e[0m /Users/zwlzwt/Documents/test-template/react-frame-application/n\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠹ refresh-package-json:kind-of: \e[7msill\e[0m \e[35mrefresh-package-json\e[0m /Users/zwlzwt/Documents/test-template/react-frame-application/node_modu\e[0m\e[K\r"
+  - delay: 48
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠦ refresh-package-json:supports-color: \e[7msill\e[0m \e[35mrefresh-package-json\e[0m /Users/zwlzwt/Documents/test-template/react-frame-application/no\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠴ refresh-package-json:has-flag: \e[7msill\e[0m \e[35mrefresh-package-json\e[0m /Users/zwlzwt/Documents/test-template/react-frame-application/node_mod\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠋ refresh-package-json:util-deprecate: \e[7msill\e[0m \e[35mrefresh-package-json\e[0m /Users/zwlzwt/Documents/test-template/react-frame-application/no\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠦ refresh-package-json:tough-cookie: \e[7msill\e[0m \e[35mrefresh-package-json\e[0m /Users/zwlzwt/Documents/test-template/react-frame-application/node\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠴ refresh-package-json:ini: \e[7msill\e[0m \e[35mrefresh-package-json\e[0m /Users/zwlzwt/Documents/test-template/react-frame-application/node_modules/\e[0m\e[K\r"
+  - delay: 55
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠸ refresh-package-json:aws-sign2: \e[7msill\e[0m \e[35mrefresh-package-json\e[0m /Users/zwlzwt/Documents/test-template/react-frame-application/node_mo\e[0m\e[K\r"
+  - delay: 56
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠴ refresh-package-json:fast-levenshtein: \e[7msill\e[0m \e[35mrefresh-package-json\e[0m /Users/zwlzwt/Documents/test-template/react-frame-application/\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠦ refresh-package-json:fast-json-stable-stringify: \e[7msill\e[0m \e[35mrefresh-package-json\e[0m /Users/zwlzwt/Documents/test-template/react-frame-ap\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠼ refresh-package-json:delayed-stream: \e[7msill\e[0m \e[35mrefresh-package-json\e[0m /Users/zwlzwt/Documents/test-template/react-frame-application/no\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠦ refresh-package-json:date-now: \e[7msill\e[0m \e[35mrefresh-package-json\e[0m /Users/zwlzwt/Documents/test-template/react-frame-application/node_mod\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠙ refresh-package-json:cli-width: \e[7msill\e[0m \e[35mrefresh-package-json\e[0m /Users/zwlzwt/Documents/test-template/react-frame-application/node_mo\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠦ refresh-package-json:caniuse-lite: \e[7msill\e[0m \e[35mrefresh-package-json\e[0m /Users/zwlzwt/Documents/test-template/react-frame-application/node\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠋ refresh-package-json:array-differ: \e[7msill\e[0m \e[35mrefresh-package-json\e[0m /Users/zwlzwt/Documents/test-template/react-frame-application/node\e[0m\e[K\r"
+  - delay: 57
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠹ preinstall:webpack-hot-middleware: \e[32;40mtiming\e[0m \e[35maction:refresh-package-json\e[0m Completed in 2423ms\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠹ preinstall:got: \e[32minfo\e[0m \e[35mlifecycle\e[0m tunnel-agent@0.6.0~preinstall: tunnel-agent@0.6.0\e[0m\e[K\r"
+  - delay: 58
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠹ preinstall:rxjs: \e[32minfo\e[0m \e[35mlifecycle\e[0m babel-plugin-transform-es2015-typeof-symbol@6.23.0~preinstall: babel-plugin-transform-es2015-ty\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠹ preinstall:lodash._getnative: \e[32minfo\e[0m \e[35mlifecycle\e[0m json5@0.5.1~preinstall: json5@0.5.1\e[0m\e[K\r"
+  - delay: 54
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠹ preinstall:ini: \e[32minfo\e[0m \e[35mlifecycle\e[0m fastparse@1.1.1~preinstall: fastparse@1.1.1\e[0m\e[K\r"
+  - delay: 83
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠙ build:array-unique: \e[7msill\e[0m \e[35mlinkStuff\e[0m array-unique@0.2.1 has /Users/zwlzwt/Documents/test-template/react-frame-application/node_mo\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠸ build:asynckit: \e[7msill\e[0m \e[35mlinkStuff\e[0m asynckit@0.4.0 has /Users/zwlzwt/Documents/test-template/react-frame-application/node_modules as\e[0m\e[K\r"
+  - delay: 56
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠧ build:delegates: \e[7msill\e[0m \e[35mlinkStuff\e[0m delegates@1.0.0 has /Users/zwlzwt/Documents/test-template/react-frame-application/node_modules/\e[0m\e[K\r"
+  - delay: 51
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠴ build:source-map: \e[7msill\e[0m \e[35mlinkStuff\e[0m source-map@0.6.1 has /Users/zwlzwt/Documents/test-template/react-frame-application/node_module\e[0m\e[K\r"
+  - delay: 59
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠹ build:loglevelnext: \e[7msill\e[0m \e[35mlinkStuff\e[0m loglevelnext@1.0.3 has /Users/zwlzwt/Documents/test-template/react-frame-application/node_mo\e[0m\e[K\r"
+  - delay: 57
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠴ build:preserve: \e[7msill\e[0m \e[35mlinkStuff\e[0m preserve@0.2.0 has /Users/zwlzwt/Documents/test-template/react-frame-application/node_modules as\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠇ build:argparse: \e[7msill\e[0m \e[35mlinkStuff\e[0m argparse@1.0.10 has /Users/zwlzwt/Documents/test-template/react-frame-application/node_modules a\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠇ build:bcrypt-pbkdf: \e[7msill\e[0m \e[35mlinkStuff\e[0m bcrypt-pbkdf@1.0.1 has /Users/zwlzwt/Documents/test-template/react-frame-application/node_mo\e[0m\e[K\r"
+  - delay: 52
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠇ build:whet.extend: \e[7msill\e[0m \e[35mlinkStuff\e[0m whet.extend@0.9.9 has /Users/zwlzwt/Documents/test-template/react-frame-application/node_modu\e[0m\e[K\r"
+  - delay: 85
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠇ install:webpack-hot-middleware: \e[7msill\e[0m \e[35mdoSerial\e[0m install 11172\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠹ install:emojis-list: \e[32minfo\e[0m \e[35mlifecycle\e[0m emojis-list@2.1.0~install: emojis-list@2.1.0\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠇ install:chalk: \e[32minfo\e[0m \e[35mlifecycle\e[0m chalk@2.3.2~install: chalk@2.3.2\e[0m\e[K\r"
+  - delay: 52
+    content: "\r\e[K\e[?25h\r\n> fsevents@1.1.3 install /Users/zwlzwt/Documents/test-template/react-frame-application/node_modules/fsevents\r\n> node install\r\n\r\n"
+  - delay: 990
+    content: "\e[37;40mnode-pre-gyp\e[0m \e[0m\e[31;40mERR!\e[0m \e[0m\e[35mTried to download(404): https://fsevents-binaries.s3-us-west-2.amazonaws.com/v1.1.3/fse-v1.1.3-node-v83-darwin-x64.tar.gz\e[0m \r\n\e[0m\e[37;40mnode-pre-gyp\e[0m \e[0m\e[31;40mERR!\e[0m \e[0m\e[35mPre-built binaries not found for fsevents@1.1.3 and node@14.15.4 (node-v83 ABI, unknown) (falling back to source compile with node-gyp)\e[0m \r\n\e[0m"
+  - delay: 12
+    content: "\e[37;40mnode-pre-gyp\e[0m \e[0m\e[31;40mERR!\e[0m \e[0m\e[35mTried to download(undefined): https://fsevents-binaries.s3-us-west-2.amazonaws.com/v1.1.3/fse-v1.1.3-node-v83-darwin-x64.tar.gz\e[0m \r\n\e[0m\e[37;40mnode-pre-gyp\e[0m \e[0m\e[31;40mERR!\e[0m \e[0m\e[35mPre-built binaries not found for fsevents@1.1.3 and node@14.15.4 (node-v83 ABI, unknown) (falling back to source compile with node-gyp)\e[0m \r\n\e[0m"
+  - delay: 4380
+    content: "  SOLINK_MODULE(target) Release/.node\r\n  SOLINK_MODULE(target) Release/.node\r\n"
+  - delay: 136
+    content: "  CXX(target) Release/obj.target/fse/fsevents.o\r\n  CXX(target) Release/obj.target/fse/fsevents.o\r\n"
+  - delay: 621
+    content: "In file included from In file included from ../fsevents.cc../fsevents.cc::66:\r\n:\r\nIn file included from In file included from ../../nan/nan.h../../nan/nan.h::202202:\r\n:\r\nIn file included from In file included from ../../nan/nan_converters.h../../nan/nan_converters.h::6767:\r\n:\r\n\e[1m\e[1m../../nan/nan_converters_43_inl.h../../nan/nan_converters_43_inl.h::2222::11::  \e[0m\e[0m\e[0;1;31m\e[0;1;31merrorerror: : \e[0m\e[0m\e[1m\e[1mno viable conversion from 'Local<v8::Context>' to 'v8::Isolate *'\e[0m\r\nno viable conversion from 'Local<v8::Context>' to 'v8::Isolate *'\e[0m\r\nX(Boolean)X(Boolean)\r\n\r\n\e[0;1;32m^~~~~~~~~~\e[0;1;32m\r\n^~~~~~~~~~\e[0m\r\n\e[0m\e[1m../../nan/nan_converters_43_inl.h\e[1m:../../nan/nan_converters_43_inl.h18::1823::23 :\e[0m \e[0;1;30m\e[0mnote\e[0;1;30m: note\e[0m: expanded\e[0m expandedfrom  frommacro  macro'X' \e[0m'X'\r\n\e[0m\r\n      val->To ## TYPE(v8::Isolate::GetCurrent()->GetCurrentContext())          \\      val->To ## TYPE(v8::Isolate::GetCurrent()->GetCurrentContext())          \\\r\n\r\n\e[0;1;32m\e[0;1;32m                      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\n\r\n\e[0m\e[0m\e[1m/Users/zwlzwt/Library/Caches/node-gyp/14.15.4/include/node/v8.h:2848:37: \e[0m\e[0;1;30mnote: \e[0mpassing argument to parameter 'isolate' here\e[0m\r\n\e[1m/Users/zwlzwt/Library/Caches/node-gyp/14.15.4/include/node/v8.h:2848:37: \e[0m\e[0;1;30mnote  Local<Boolean> ToBoolean(Isolate* isolate) const;: \r\n\e[0m\e[0;1;32mpassing                                    ^ \r\nargument\e[0m to parameter 'isolate' here\e[0m\r\n  Local<Boolean> ToBoolean(Isolate* isolate) const;\r\n\e[0;1;32m                                    ^\r\n\e[0mIn file included from ../fsevents.cc:6:\r\nIn file included from ../../nan/nan.h:202:\r\nIn file included from In file included from ../fsevents.cc../../nan/nan_converters.h::667:\r\n:\r\nIn file included from \e[1m../../nan/nan.h../../nan/nan_converters_43_inl.h::40202::\r\n1In file included from :../../nan/nan_converters.h :\e[0m67\e[0;1;31m:\r\nerror\e[1m: ../../nan/nan_converters_43_inl.h\e[0m:\e[1m40no: 1viable:  conversion\e[0m \e[0;1;31mfromerror : 'Local<v8::Context>'\e[0m \e[1mtono  'v8::Isolate *'viable\e[0m \r\nconversion from 'Local<v8::Context>' to 'v8::Isolate *'\e[0mX(bool, Boolean)\r\n\r\n\e[0;1;32m^~~~~~~~~~~~~~~~\r\n\e[0m\e[1m../../nan/nan_converters_43_inl.h:X(bool, Boolean)37\r\n:\e[0;1;32m29^~~~~~~~~~~~~~~~:\r\n \e[0m\e[0m\e[0;1;30mnote\e[1m: ../../nan/nan_converters_43_inl.h\e[0m:expanded37 :from29 :macro  \e[0m'X'\e[0;1;30m\e[0mnote\r\n: \e[0mexpanded from macro 'X'\e[0m\r\n  return val->NAME ## Value(isolate->GetCurrentContext());                     \\\r\n\e[0;1;32m                            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\n\e[0m\e[1m/Users/zwlzwt/Library/Caches/node-gyp/14.15.4/include/node/v8.h  return val->NAME ## Value(isolate->GetCurrentContext());                     \\:\r\n2858\e[0;1;32m:                            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~30\r\n:\e[0m \e[0m\e[0;1;30m\e[1mnote/Users/zwlzwt/Library/Caches/node-gyp/14.15.4/include/node/v8.h: :\e[0m2858passing: 30argument:  to\e[0m \e[0;1;30mnoteparameter:  \e[0m'isolate'passing  hereargument\e[0m \r\nto   bool BooleanValue(Isolate* isolate) const;parameter\r\n \e[0;1;32m'isolate'                             ^ \r\nhere\e[0m\e[0m\r\n  bool BooleanValue(Isolate* isolate) const;\r\n\e[0;1;32m                             ^\r\n\e[0m"
+  - delay: 7
+    content: "In file included from In file included from ../fsevents.cc../fsevents.cc::66:\r\n:\r\nIn file included from In file included from ../../nan/nan.h../../nan/nan.h::203203:\r\n:\r\nIn file included from In file included from ../../nan/nan_new.h../../nan/nan_new.h::189189:\r\n:\r\n\e[1m\e[1m../../nan/nan_implementation_12_inl.h../../nan/nan_implementation_12_inl.h::103103::4242::  \e[0m\e[0m\e[0;1;31m\e[0;1;31merrorerror: : \e[0m\e[0m\e[1m\e[1mnono  viableviable  conversionconversion  fromfrom  'v8::Isolate *''v8::Isolate *'  toto  'Local<v8::Context>''Local<v8::Context>'\e[0m\e[0m\r\n\r\n  return scope.Escape(v8::Function::New( isolate  return scope.Escape(v8::Function::New( isolate\r\n\r\n\e[0;1;32m\e[0;1;32m                                         ^~~~~~~                                         ^~~~~~~\r\n\r\n\e[0m\e[0m\e[1m/Users/zwlzwt/Library/Caches/node-gyp/14.15.4/include/node/v8.h\e[1m:/Users/zwlzwt/Library/Caches/node-gyp/14.15.4/include/node/v8.h190::1907::7 :\e[0m \e[0;1;30m\e[0mnote\e[0;1;30m: note\e[0m: \e[0mcandidatecandidate  constructorconstructor  (the implicit copy constructor)(the implicit copy constructor)  notnot  viable:viable:  nono  knownknown\r\n\r\n            conversionconversion  fromfrom  'v8::Isolate *''v8::Isolate *'  toto  'const v8::Local<v8::Context> &''const v8::Local<v8::Context> &'  forfor  1st1st  argumentargument\e[0m\e[0m\r\n\r\nclass Local {\r\n\e[0;1;32m      ^\r\n\e[0m\e[1m/Users/zwlzwt/Library/Caches/node-gyp/14.15.4/include/node/v8.h:190:7: \e[0m\e[0;1;30mnote: \e[0mcandidate constructor (the implicit move constructor) not viable: no known\r\n      conversion from 'v8::Isolate *' to 'v8::Local<v8::Context> &&' for 1st argument\e[0m\r\nclass Local {\r\n\e[0;1;32m      ^\r\n\e[0m\e[1m/Users/zwlzwt/Library/Caches/node-gyp/14.15.4/include/node/v8.h:190:7\e[1m:/Users/zwlzwt/Library/Caches/node-gyp/14.15.4/include/node/v8.h :\e[0m194\e[0;1;30m:note13: :\e[0m candidate\e[0m \e[0;1;30mconstructornote : (the implicit move constructor)\e[0m candidatenot  templateviable:  ignored:no  couldknown \r\nnot       conversionmatch  from'Local<type-parameter-0-0>' \r\n'v8::Isolate *'       againstto  'v8::Isolate *''v8::Local<v8::Context> &&'\e[0m \r\nfor 1st argument\e[0m\r\n  V8_INLINE Local(Local<S> that)\r\n\e[0;1;32m            ^\r\n\e[0m\e[1m\e[1m/Users/zwlzwt/Library/Caches/node-gyp/14.15.4/include/node/v8.h/Users/zwlzwt/Library/Caches/node-gyp/14.15.4/include/node/v8.h::1944446::1322::  \e[0m\e[0m\e[0;1;30m\e[0;1;30mnotenote: : \e[0m\e[0mcandidatepassing  templateargument  ignored:to  couldparameter  not'context'  matchhere \e[0m'Local<type-parameter-0-0>'\r\n\r\n      against 'v8::Isolate *'\e[0m\r\n  V8_INLINE Local(Local<S> that)\r\n      Local<Context> context, FunctionCallback callback,\e[0;1;32m\r\n            ^\e[0;1;32m\r\n\e[0m                     ^\r\n\e[0m\e[1m/Users/zwlzwt/Library/Caches/node-gyp/14.15.4/include/node/v8.h:4446:22: \e[0m\e[0;1;30mnote: \e[0mpassing argument to parameter 'context' here\e[0m\r\n      Local<Context> context, FunctionCallback callback,\r\n\e[0;1;32m                     ^\r\n\e[0m"
+  - delay: 11
+    content: "In file included from ../fsevents.cc:6:\r\nIn file included from In file included from ../../nan/nan.h../fsevents.cc::2036:\r\n:\r\nIn file included from In file included from ../../nan/nan_new.h../../nan/nan.h::189203:\r\n:\r\nIn file included from \e[1m../../nan/nan_new.h../../nan/nan_implementation_12_inl.h::189337:\r\n:\e[1m37../../nan/nan_implementation_12_inl.h:: 337\e[0m:\e[0;1;31m37error::  \e[0m\e[0m\e[1m\e[0;1;31merrortoo:  \e[0mfew\e[1m tooarguments  fewto  argumentsfunction  tocall,  functionexpected  call,2,  expectedhave  2,1 \e[0mhave\r\n 1\e[0m\r\n  return v8::StringObject::New(value).As<v8::StringObject>();\r\n  return v8::StringObject::New(value).As<v8::StringObject>();\e[0;1;32m\r\n         ~~~~~~~~~~~~~~~~~~~~~      ^\e[0;1;32m\r\n         ~~~~~~~~~~~~~~~~~~~~~      ^\e[0m\r\n\e[0m\e[1m/Users/zwlzwt/Library/Caches/node-gyp/14.15.4/include/node/v8.h:5854:3: \e[0m\e[0;1;30mnote: \e[0m'New' \e[1mdeclared/Users/zwlzwt/Library/Caches/node-gyp/14.15.4/include/node/v8.h :here5854\e[0m:\r\n3: \e[0m\e[0;1;30mnote: \e[0m'New' declared here\e[0m\r\n  static Local<Value> New(Isolate* isolate, Local<String> value);\r\n\e[0;1;32m  ^\r\n\e[0m  static Local<Value> New(Isolate* isolate, Local<String> value);\r\n\e[0;1;32m  ^\r\n\e[0m"
+  - delay: 9
+    content: "In file included from ../fsevents.cc:6:\r\n\e[1m../../nan/nan.h:839:18: \e[0m\e[0;1;35mwarning: \e[0m\e[1m'MakeCallback' is deprecated: Use MakeCallback(..., async_context) [-Wdeprecated-declarations]\e[0m\r\n    return node::MakeCallback(\r\n\e[0;1;32m                 ^\r\n\e[0m\e[1m/Users/zwlzwt/Library/Caches/node-gyp/14.15.4/include/node/node.h:190:1: \e[0m\e[0;1;30mnote: \e[0m'MakeCallback' has been explicitly marked deprecated here\e[0m\r\nIn file included from ../fsevents.cc:6:\r\n\e[1m../../nan/nan.h:839:18:NODE_DEPRECATED(\"Use MakeCallback(..., async_context)\", \r\n\e[0m\e[0;1;32m\e[0;1;35m^warning\r\n: \e[0m\e[0m\e[1m'MakeCallback' is\e[1m /Users/zwlzwt/Library/Caches/node-gyp/14.15.4/include/node/node.hdeprecated:: 108Use: 20MakeCallback(...,:  async_context)\e[0m \e[0;1;30mnote: \e[0mexpanded from macro 'NODE_DEPRECATED'\e[0m\r\n    __attribute__((deprecated(message))) declarator\r\n\e[0;1;32m                   ^\r\n\e[0m[-Wdeprecated-declarations]\e[0m\r\n    return node::MakeCallback(\r\n\e[0;1;32m                 ^\r\n\e[0m\e[1m/Users/zwlzwt/Library/Caches/node-gyp/14.15.4/include/node/node.h:190:1: \e[0m\e[0;1;30mnote: \e[0m'MakeCallback' has been explicitly marked deprecated here\e[0m\r\nNODE_DEPRECATED(\"Use MakeCallback(..., async_context)\",\r\n\e[0;1;32m^\r\n\e[0m\e[1m/Users/zwlzwt/Library/Caches/node-gyp/14.15.4/include/node/node.h:108:20: \e[0m\e[0;1;30mnote: \e[0mexpanded from macro 'NODE_DEPRECATED'\e[0m\r\n    __attribute__((deprecated(message))) declarator\r\n\e[0;1;32m                   ^\r\n\e[0mIn file included from ../fsevents.cc:6:\r\n\e[1m../../nan/nan.h:854:18: \e[0m\e[0;1;35mwarning: \e[0m\e[1m'MakeCallback' is deprecated: Use MakeCallback(..., async_context) [-Wdeprecated-declarations]\e[0m\r\n    return node::MakeCallback(\r\n\e[0;1;32m                 ^\r\n\e[0m\e[1m/Users/zwlzwt/Library/Caches/node-gyp/14.15.4/include/node/node.h:183:1: \e[0m\e[0;1;30mnote: \e[0m'MakeCallback' has been explicitly marked deprecated here\e[0m\r\nNODE_DEPRECATED(\"Use MakeCallback(..., async_context)\",\r\n\e[0;1;32m^\r\n\e[0m\e[1m/Users/zwlzwt/Library/Caches/node-gyp/14.15.4/include/node/node.h:108:20: \e[0m\e[0;1;30mnote: \e[0mexpanded from macro 'NODE_DEPRECATED'\e[0m\r\n    __attribute__((deprecated(message))) declarator\r\n\e[0;1;32m                   ^\r\n\e[0mIn file included from ../fsevents.cc:6:\r\n\e[1m../../nan/nan.h:854:18: \e[0m\e[0;1;35mwarning: \e[0m\e[1m'MakeCallback' is deprecated: Use MakeCallback(..., async_context) [-Wdeprecated-declarations]\e[0m\r\n    return node::MakeCallback(\r\n\e[0;1;32m                 ^\r\n\e[0m\e[1m/Users/zwlzwt/Library/Caches/node-gyp/14.15.4/include/node/node.h:183:1: \e[0m\e[0;1;30mIn file included from note../fsevents.cc: :\e[0m6'MakeCallback':\r\n \e[1mhas../../nan/nan.h :been869 :explicitly18 :marked  \e[0mdeprecated\e[0;1;35m warninghere: \e[0m\e[0m\r\n\e[1m'MakeCallback' is deprecated: Use MakeCallback(..., async_context) [-Wdeprecated-declarations]\e[0m\r\nNODE_DEPRECATED(\"Use MakeCallback(..., async_context)\",\r\n\e[0;1;32m^\r\n\e[0m    return node::MakeCallback(\r\n\e[1m\e[0;1;32m/Users/zwlzwt/Library/Caches/node-gyp/14.15.4/include/node/node.h                 ^:\r\n108\e[0m:20: \e[1m\e[0m/Users/zwlzwt/Library/Caches/node-gyp/14.15.4/include/node/node.h\e[0;1;30m:note176: :\e[0m1expanded:  from\e[0m \e[0;1;30mmacronote : 'NODE_DEPRECATED'\e[0m\e[0m'MakeCallback'\r\n has been explicitly marked deprecated here\e[0m\r\n    __attribute__((deprecated(message))) declarator\r\n\e[0;1;32m                   ^\r\n\e[0mNODE_DEPRECATED(\"Use MakeCallback(..., async_context)\",\r\n\e[0;1;32m^\r\n\e[0m\e[1m/Users/zwlzwt/Library/Caches/node-gyp/14.15.4/include/node/node.h:108:20: \e[0m\e[0;1;30mnote: \e[0mexpanded from macro 'NODE_DEPRECATED'\e[0m\r\n    __attribute__((deprecated(message))) declarator\r\n\e[0;1;32m                   ^\r\n\e[0mIn file included from ../fsevents.cc:6:\r\n\e[1m../../nan/nan.h:869:18: \e[0m\e[0;1;35mwarning: \e[0m\e[1m'MakeCallback' is deprecated: Use MakeCallback(..., async_context) [-Wdeprecated-declarations]\e[0m\r\n    return node::MakeCallback(\r\n\e[0;1;32m                 ^\r\n\e[0m\e[1m/Users/zwlzwt/Library/Caches/node-gyp/14.15.4/include/node/node.h:176:1: \e[0m\e[0;1;30mnote: \e[0m'MakeCallback' has been explicitly marked deprecated here\e[0m\r\nNODE_DEPRECATED(\"Use MakeCallback(..., async_context)\",\r\n\e[0;1;32m^\r\n\e[0m\e[1m/Users/zwlzwt/Library/Caches/node-gyp/14.15.4/include/node/node.h:108:20: \e[0m\e[0;1;30mnote: \e[0mexpanded from macro 'NODE_DEPRECATED'\e[0m\r\n    __attribute__((deprecated(message))) declarator\r\n\e[0;1;32m                   ^\r\n\e[0m"
+  - delay: 5
+    content: "In file included from ../fsevents.cc:6:\r\n\e[1m../../nan/nan.h:916:53: \e[0m\e[0;1;31merror: \e[0m\e[1mtoo few arguments to function call, single argument 'context' was not specified\e[0m\r\n      v8::Local<v8::String> string = from->ToString();\r\n\e[0;1;32m                                     ~~~~~~~~~~~~~~ ^\r\n\e[0m\e[1m/Users/zwlzwt/Library/Caches/node-gyp/14.15.4/include/node/v8.h:2810:3: \e[0m\e[0;1;30mnote: \e[0m'ToString' declared here\e[0m\r\n  V8_WARN_UNUSED_RESULT MaybeLocal<String> ToString(\r\n\e[0;1;32m  ^\r\n\e[0m\e[1m/Users/zwlzwt/Library/Caches/node-gyp/14.15.4/include/node/v8config.h:431:31: \e[0m\e[0;1;30mnote: \e[0mexpanded from macro 'V8_WARN_UNUSED_RESULT'\e[0m\r\n#define V8_WARN_UNUSED_RESULT __attribute__((warn_unused_result))\r\n\e[0;1;32m                              ^\r\n\e[0mIn file included from ../fsevents.cc:6:\r\n\e[1m../../nan/nan.h:916:53: \e[0m\e[0;1;31merror: \e[0m\e[1mtoo few arguments to function call, single argument 'context' was not specified\e[0m\r\n      v8::Local<v8::String> string = from->ToString();\r\n\e[0;1;32m                                     ~~~~~~~~~~~~~~ ^\r\n\e[0m\e[1m/Users/zwlzwt/Library/Caches/node-gyp/14.15.4/include/node/v8.h:2810:3: \e[0m\e[0;1;30mnote: \e[0m'ToString' declared here\e[0m\r\n  V8_WARN_UNUSED_RESULT MaybeLocal<String> ToString(\r\n\e[0;1;32m  ^\r\n\e[0m\e[1m/Users/zwlzwt/Library/Caches/node-gyp/14.15.4/include/node/v8config.h:431:31: \e[0m\e[0;1;30mnote: \e[0mexpanded from macro 'V8_WARN_UNUSED_RESULT'\e[0m\r\n#define V8_WARN_UNUSED_RESULT __attribute__((warn_unused_result))\r\n\e[0;1;32m                              ^\r\n\e[0mIn file included from ../fsevents.ccIn file included from :../fsevents.cc6::\r\n6\e[1m:\r\n../../nan/nan.h\e[1m:../../nan/nan.h926::92637::37 :\e[0m \e[0;1;31m\e[0merror\e[0;1;31m: error\e[0m: \e[1m\e[0mcannot\e[1m initializecannot  ainitialize  parametera  ofparameter  typeof  'v8::Isolate *'type  with'v8::Isolate *'  anwith  lvaluean  oflvalue  typeof  'char *'type\e[0m \r\n'char *'\e[0m\r\n        length_ = string->WriteUtf8(str_, static_cast<int>(len), 0, flags);\r\n\e[0;1;32m                                    ^~~~\r\n\e[0m        length_ = string->WriteUtf8(str_, static_cast<int>(len), 0, flags);\r\n\e[1m\e[0;1;32m/Users/zwlzwt/Library/Caches/node-gyp/14.15.4/include/node/v8.h                                    ^~~~:\r\n3037\e[0m:26: \e[0m\e[0;1;30mnote\e[1m: /Users/zwlzwt/Library/Caches/node-gyp/14.15.4/include/node/v8.h\e[0m:passing3037 :argument26 :to  \e[0mparameter\e[0;1;30m note'isolate':  \e[0mherepassing\e[0m \r\nargument to parameter 'isolate' here\e[0m\r\n  int WriteUtf8(Isolate* isolate, char* buffer, int length = -1,\r\n\e[0;1;32m                         ^\r\n\e[0m  int WriteUtf8(Isolate* isolate, char* buffer, int length = -1,\r\n\e[0;1;32m                         ^\r\n\e[0m"
+  - delay: 5
+    content: "In file included from ../fsevents.cc:6:\r\n\e[1m../../nan/nan.h:1648:31: \e[0m\e[0;1;35mwarning: \e[0m\e[1m'MakeCallback' is deprecated: Use MakeCallback(..., async_context) [-Wdeprecated-declarations]\e[0m\r\n    return scope.Escape(node::MakeCallback(\r\n\e[0;1;32m                              ^\r\n\e[0m\e[1m/Users/zwlzwt/Library/Caches/node-gyp/14.15.4/include/node/node.h:190:1: \e[0m\e[0;1;30mnote: \e[0m'MakeCallback' has been explicitly marked deprecated here\e[0m\r\nNODE_DEPRECATED(\"Use MakeCallback(..., async_context)\",\r\n\e[0;1;32m^\r\n\e[0m\e[1m/Users/zwlzwt/Library/Caches/node-gyp/14.15.4/include/node/node.h:108:20: \e[0m\e[0;1;30mnote: \e[0mexpanded from macro 'NODE_DEPRECATED'\e[0m\r\n    __attribute__((deprecated(message))) declarator\r\n\e[0;1;32m                   ^\r\n\e[0mIn file included from ../fsevents.cc:6:\r\n\e[1m../../nan/nan.h:1648:31: \e[0m\e[0;1;35mwarning: \e[0m\e[1m'MakeCallback' is deprecated: Use MakeCallback(..., async_context) [-Wdeprecated-declarations]\e[0m\r\n    return scope.Escape(node::MakeCallback(\r\n\e[0;1;32m                              ^\r\n\e[0m\e[1m/Users/zwlzwt/Library/Caches/node-gyp/14.15.4/include/node/node.h:190:1: \e[0m\e[0;1;30mnote: \e[0m'MakeCallback' has been explicitly marked deprecated here\e[0m\r\nNODE_DEPRECATED(\"Use MakeCallback(..., async_context)\",\r\n\e[0;1;32m^\r\n\e[0m\e[1m/Users/zwlzwt/Library/Caches/node-gyp/14.15.4/include/node/node.h:108:20: \e[0m\e[0;1;30mnote: \e[0mexpanded from macro 'NODE_DEPRECATED'\e[0m\r\n    __attribute__((deprecated(message))) declarator\r\n\e[0;1;32m                   ^\r\n\e[0mIn file included from ../fsevents.cc:6:\r\n\e[1m../../nan/nan.h:1719:28: \e[0m\e[0;1;31merror: \e[0m\e[1mno matching member function for call to 'Set'\e[0m\r\n    New(persistentHandle)->Set(New(key).ToLocalChecked(), value);\r\n\e[0;1;32m    ~~~~~~~~~~~~~~~~~~~~~~~^~~\r\n\e[0m\e[1m/Users/zwlzwt/Library/Caches/node-gyp/14.15.4/include/node/v8.h:3670:37: \e[0m\e[0;1;30mnote: \e[0mcandidate function not viable: requires 3 arguments, but 2 were provided\e[0m\r\n  V8_WARN_UNUSED_RESULT Maybe<bool> Set(Local<Context> context,\r\n\e[0;1;32m                                    ^\r\n\e[0m\e[1m/Users/zwlzwt/Library/Caches/node-gyp/14.15.4/include/node/v8.h:3673:37: \e[0m\e[0;1;30mnote: \e[0mcandidate function not viable: requires 3 arguments, but 2 were provided\e[0m\r\n  V8_WARN_UNUSED_RESULT Maybe<bool> Set(Local<Context> context, uint32_t index,\r\n\e[0;1;32m                                    ^\r\n\e[0mIn file included from ../fsevents.cc:6:\r\n\e[1m../../nan/nan.h:1725:28: \e[0m\e[0;1;31merror: \e[0m\e[1mno matching member function for call to 'Set'\e[0m\r\n    New(persistentHandle)->Set(key, value);\r\n\e[0;1;32m    ~~~~~~~~~~~~~~~~~~~~~~~^~~\r\n\e[0m\e[1m/Users/zwlzwt/Library/Caches/node-gyp/14.15.4/include/node/v8.h:3670:37: \e[0m\e[0;1;30mnote: \e[0mcandidate function not viable: requires 3 arguments, but 2 were provided\e[0m\r\n  V8_WARN_UNUSED_RESULT Maybe<bool> Set(Local<Context> context,\r\n\e[0;1;32m                                    ^\r\n\e[0m\e[1m/Users/zwlzwt/Library/Caches/node-gyp/14.15.4/include/node/v8.h:3673:37: \e[0m\e[0;1;30mnote: \e[0mcandidate function not viable: requires 3 arguments, but 2 were provided\e[0m\r\n  V8_WARN_UNUSED_RESULT Maybe<bool> Set(Local<Context> context, uint32_t index,\r\n\e[0;1;32m                                    ^\r\n\e[0mIn file included from ../fsevents.cc:6:\r\n\e[1m../../nan/nan.h:1719:28: \e[0m\e[0;1;31merror: \e[0m\e[1mno matching member function for call to 'Set'\e[0m\r\n    New(persistentHandle)->Set(New(key).ToLocalChecked(), value);\r\nIn file included from \e[0;1;32m    ~~~~~~~~~~~~~~~~~~~~~~~^~~../fsevents.cc\r\n:\e[0m6:\r\n\e[1m../../nan/nan.h:1731:28:\e[1m /Users/zwlzwt/Library/Caches/node-gyp/14.15.4/include/node/v8.h\e[0m:\e[0;1;31m3670error:: 37\e[0m:\e[1m \e[0mno\e[0;1;30m notematching:  \e[0mmembercandidate  functionfunction  fornot  callviable:  torequires  'Set'3\e[0m \r\narguments, but 2 were provided\e[0m\r\n    New(persistentHandle)->Set(index, value);\r\n\e[0;1;32m    ~~~~~~~~~~~~~~~~~~~~~~~^~~\r\n\e[0m  V8_WARN_UNUSED_RESULT Maybe<bool> Set(Local<Context> context,\r\n\e[1m\e[0;1;32m/Users/zwlzwt/Library/Caches/node-gyp/14.15.4/include/node/v8.h                                    ^:\r\n3670\e[0m:37: \e[1m\e[0m/Users/zwlzwt/Library/Caches/node-gyp/14.15.4/include/node/v8.h\e[0;1;30m:note3673: :\e[0m37candidate:  function\e[0m \e[0;1;30mnotnote : viable:\e[0m candidaterequires  function3  notarguments,  viable:but  requires2  3were  arguments,provided \e[0mbut\r\n 2 were provided\e[0m\r\n  V8_WARN_UNUSED_RESULT Maybe<bool> Set(Local<Context> context, uint32_t index,\r\n\e[0;1;32m  V8_WARN_UNUSED_RESULT Maybe<bool> Set(Local<Context> context,                                    ^\r\n\r\n\e[0m\e[0;1;32m                                    ^\r\n\e[0m\e[1m/Users/zwlzwt/Library/Caches/node-gyp/14.15.4/include/node/v8.h:3673:37: \e[0m\e[0;1;30mnote: \e[0mcandidate function not viable: requires 3 arguments, but 2 were provided\e[0m\r\n  V8_WARN_UNUSED_RESULT Maybe<bool> Set(Local<Context> context, uint32_t index,\r\n\e[0;1;32m                                    ^\r\n\e[0mIn file included from ../fsevents.cc:6:\r\n\e[1m../../nan/nan.h:1725:28: \e[0m\e[0;1;31merror: \e[0m\e[1mno matching member function for call to 'Set'\e[0m\r\n    New(persistentHandle)->Set(key, value);\r\n\e[0;1;32m    ~~~~~~~~~~~~~~~~~~~~~~~^~~\r\n\e[0m\e[1m/Users/zwlzwt/Library/Caches/node-gyp/14.15.4/include/node/v8.h:3670:37: \e[0m\e[0;1;30mnote: \e[0mcandidate function not viable: requires 3 arguments, but 2 were provided\e[0m\r\n  V8_WARN_UNUSED_RESULT Maybe<bool> Set(Local<Context> context,\r\n\e[0;1;32m                                    ^\r\n\e[0m\e[1m/Users/zwlzwt/Library/Caches/node-gyp/14.15.4/include/node/v8.h:3673:37: \e[0m\e[0;1;30mnote: \e[0mcandidate function not viable: requires 3 arguments, but 2 were provided\e[0m\r\nIn file included from ../fsevents.cc:6:\r\n\e[1m../../nan/nan.h:1737:  V8_WARN_UNUSED_RESULT Maybe<bool> Set(Local<Context> context, uint32_t index,32\r\n:\e[0;1;32m                                     ^\e[0m\r\n\e[0;1;31m\e[0merror: \e[0m\e[1mno matching member function for call to 'Get'\e[0m\r\n        New(persistentHandle)->Get(New(key).ToLocalChecked()));\r\n\e[0;1;32m        ~~~~~~~~~~~~~~~~~~~~~~~^~~\r\n\e[0m\e[1m/Users/zwlzwt/Library/Caches/node-gyp/14.15.4/include/node/v8.h:3717:43: \e[0m\e[0;1;30mnote: \e[0mcandidate function not viable: In file included from requires../fsevents.cc :26 :\r\narguments,\e[1m ../../nan/nan.hbut: 17311: 28was:  provided\e[0m\e[0m\e[0;1;31m\r\nerror: \e[0m\e[1mno matching member function for call to 'Set'\e[0m\r\n    New(persistentHandle)->Set(index, value);\r\n\e[0;1;32m  V8_WARN_UNUSED_RESULT MaybeLocal<Value> Get(Local<Context> context,    ~~~~~~~~~~~~~~~~~~~~~~~^~~\r\n\r\n\e[0;1;32m\e[0m                   \e[1m/Users/zwlzwt/Library/Caches/node-gyp/14.15.4/include/node/v8.h:3670:37: \e[0m\e[0;1;30mnote: \e[0mcandidate function not viable: requires 3 arguments, but 2 were                       ^ provided\e[0m\r\n\r\n\e[0m\e[1m/Users/zwlzwt/Library/Caches/node-gyp/14.15.4/include/node/v8.h:3720:43: \e[0m\e[0;1;30mnote: \e[0m  V8_WARN_UNUSED_RESULT Maybe<bool> Set(Local<Context> context,candidate\r\n \e[0;1;32mfunction                                    ^ \r\nnot\e[0m viable: requires \e[1m2/Users/zwlzwt/Library/Caches/node-gyp/14.15.4/include/node/v8.h :arguments,3673 :but37 :1  \e[0mwas\e[0;1;30m noteprovided: \e[0m\e[0mcandidate function not viable: \r\nrequires 3 arguments, but 2 were provided\e[0m\r\n  V8_WARN_UNUSED_RESULT MaybeLocal<Value> Get(Local<Context> context,\r\n\e[0;1;32m                                          ^\r\n\e[0m  V8_WARN_UNUSED_RESULT Maybe<bool> Set(Local<Context> context, uint32_t index,\r\n\e[0;1;32m                                    ^\r\n\e[0mIn file included from ../fsevents.cc:6:\r\n\e[1m../../nan/nan.h:1743:In file included from 48../fsevents.cc:: 6\e[0m:\r\n\e[0;1;31m\e[1merror../../nan/nan.h: :\e[0m1737\e[1m:no32 :matching  \e[0mmember\e[0;1;31m errorfunction:  \e[0mfor\e[1m callno  tomatching  'Get'member\e[0m \r\nfunction for call to 'Get'\e[0m\r\n    return scope.Escape(New(persistentHandle)->Get(key));\r\n\e[0;1;32m                        ~~~~~~~~~~~~~~~~~~~~~~~^~~\r\n\e[0m\e[1m/Users/zwlzwt/Library/Caches/node-gyp/14.15.4/include/node/v8.h:3717:43: \e[0m\e[0;1;30mnote: \e[0mcandidate function         New(persistentHandle)->Get(New(key).ToLocalChecked()));not \r\nviable: requires\e[0;1;32m 2        ~~~~~~~~~~~~~~~~~~~~~~~^~~ arguments,\r\n but\e[0m 1 was provided\e[0m\r\n\e[1m/Users/zwlzwt/Library/Caches/node-gyp/14.15.4/include/node/v8.h:3717:43: \e[0m\e[0;1;30mnote: \e[0m  V8_WARN_UNUSED_RESULT MaybeLocal<Value> Get(Local<Context> context,candidate\r\n \e[0;1;32mfunction                                          ^ \r\nnot\e[0m viable: \e[1mrequires/Users/zwlzwt/Library/Caches/node-gyp/14.15.4/include/node/v8.h :23720 :arguments,43 :but  \e[0m1\e[0;1;30m notewas:  \e[0mprovidedcandidate\e[0m \r\nfunction not viable: requires 2 arguments, but 1 was provided\e[0m\r\n  V8_WARN_UNUSED_RESULT MaybeLocal<Value> Get(Local<Context> context,\r\n\e[0;1;32m                                          ^\r\n\e[0m\e[1m/Users/zwlzwt/Library/Caches/node-gyp/14.15.4/include/node/v8.h:3720:  V8_WARN_UNUSED_RESULT MaybeLocal<Value> Get(Local<Context> context,43\r\n:\e[0;1;32m                                           ^\e[0m\r\n\e[0;1;30m\e[0mnote: \e[0mcandidate function not viable: requires 2 arguments, but 1 was provided\e[0m\r\n  V8_WARN_UNUSED_RESULT MaybeLocal<Value> Get(Local<Context> context,\r\n\e[0;1;32m                                          ^\r\n\e[0mIn file included from ../fsevents.cc:6:\r\n\e[1m../../nan/nan.h:1748:48: \e[0m\e[0;1;31merror: \e[0mIn file included from \e[1m../fsevents.ccno: 6matching:\r\n \e[1mmember../../nan/nan.h :function1743 :for48 :call  \e[0mto\e[0;1;31m error'Get': \e[0m\e[0m\r\n\e[1mno matching member function for call to 'Get'\e[0m\r\n    return scope.Escape(New(persistentHandle)->Get(key));\r\n\e[0;1;32m                        ~~~~~~~~~~~~~~~~~~~~~~~^~~\r\n\e[0m\e[1m/Users/zwlzwt/Library/Caches/node-gyp/14.15.4/include/node/v8.h:3717:43:     return scope.Escape(New(persistentHandle)->Get(index));\e[0m\r\n\e[0;1;30mnote\e[0;1;32m:                         ~~~~~~~~~~~~~~~~~~~~~~~^~~\e[0m\r\ncandidate\e[0m function not viable: requires 2\e[1m /Users/zwlzwt/Library/Caches/node-gyp/14.15.4/include/node/v8.harguments,: 3717but: 431:  was\e[0m \e[0;1;30mprovidednote\e[0m: \r\n\e[0mcandidate function not viable: requires  V8_WARN_UNUSED_RESULT MaybeLocal<Value> Get(Local<Context> context, \r\n2\e[0;1;32m                                           ^arguments,\r\n \e[0mbut \e[1m1/Users/zwlzwt/Library/Caches/node-gyp/14.15.4/include/node/v8.h :was3720 :provided43\e[0m:\r\n \e[0m\e[0;1;30mnote: \e[0mcandidate function not viable: requires 2 arguments, but 1 was provided\e[0m\r\n  V8_WARN_UNUSED_RESULT MaybeLocal<Value> Get(Local<Context> context,\r\n\e[0;1;32m                                          ^\r\n\e[0m\e[1m  V8_WARN_UNUSED_RESULT MaybeLocal<Value> Get(Local<Context> context,/Users/zwlzwt/Library/Caches/nod\r\ne-gyp/14.15.4/include/node/v8.h:\e[0;1;32m                                          ^3720\r\n:\e[0m43: \e[0m\e[0;1;30mnote: \e[0mcandidate function not viable: requires 2 arguments, but 1 was provided\e[0m\r\n  V8_WARN_UNUSED_RESULT MaybeLocal<Value> Get(Local<Context> context,\r\n\e[0;1;32m                                          ^\r\n\e[0mIn file included from ../fsevents.cc:6:\r\n\e[1m../../nan/nan.h:1748:48: \e[0m\e[0;1;31merror: \e[0m\e[1mno matching member function for call to 'Get'\e[0m\r\n    return scope.Escape(New(persistentHandle)->Get(index));\r\n\e[0;1;32m                        ~~~~~~~~~~~~~~~~~~~~~~~^~~\r\n\e[0m\e[1m/Users/zwlzwt/Library/Caches/node-gyp/14.15.4/include/node/v8.h:3717:43: \e[0m\e[0;1;30mnote: \e[0mcandidate function not viable: requires 2 arguments, but 1 was provided\e[0m\r\n  V8_WARN_UNUSED_RESULT MaybeLocal<Value> Get(Local<Context> context,\r\n\e[0;1;32m                                          ^\r\n\e[0m\e[1m/Users/zwlzwt/Library/Caches/node-gyp/14.15.4/include/node/v8.h:3720:43: \e[0m\e[0;1;30mnote: \e[0mcandidate function not viable: requires 2 arguments, but 1 was provided\e[0m\r\n  V8_WARN_UNUSED_RESULT MaybeLocal<Value> Get(Local<Context> context,\r\n\e[0;1;32m                                          ^\r\n\e[0m"
+  - delay: 15
+    content: "In file included from In file included from ../fsevents.cc../fsevents.cc::66:\r\n:\r\nIn file included from In file included from ../../nan/nan.h../../nan/nan.h::25582558:\r\n:\r\n\e[1m\e[1m../../nan/nan_object_wrap.h../../nan/nan_object_wrap.h::2424::2525::  \e[0m\e[0m\e[0;1;31m\e[0;1;31merrorerror: : \e[0m\e[0m\e[1m\e[1mnono  membermember  namednamed  'IsNearDeath''IsNearDeath'  inin  'Nan::Persistent<v8::Object, v8::NonCopyablePersistentTraits<v8::Object> >''Nan::Persistent<v8::Object, v8::NonCopyablePersistentTraits<v8::Object> >'\e[0m\e[0m\r\n\r\n    assert(persistent().IsNearDeath());\r\n\e[0;1;32m           ~~~~~~~~~~~~ ^\r\n\e[0m    assert(persistent().IsNearDeath());\r\n\e[0;1;32m           ~~~~~~~~~~~~ ^\r\n\e[0m\e[1m/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/assert.h:93:25: \e[0m\e[0;1;30mnote: \e[0m\e[1mexpanded/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/assert.h :from93 :macro25\r\n:       'assert'\e[0m\e[0m\e[0;1;30m\r\nnote: \e[0mexpanded from macro\r\n      'assert'\e[0m\r\n    (__builtin_expect(!(e), 0) ? __assert_rtn(__func__, __FILE__, __LINE__, #e) : (void)0)\r\n\e[0;1;32m                        ^\r\n\e[0m    (__builtin_expect(!(e), 0) ? __assert_rtn(__func__, __FILE__, __LINE__, #e) : (void)0)\r\n\e[0;1;32m                        ^\r\n\e[0mIn file included from ../fsevents.cc:6:\r\nIn file included from ../../nan/nan.h:2558:\r\n\e[1m../../nan/nan_object_wrap.h:67:18: \e[0m\e[0;1;31merror: \e[0m\e[1mno member named 'MarkIndependent' in 'Nan::Persistent<v8::Object, v8::NonCopyablePersistentTraits<v8::Object>\r\nIn file included from       ../fsevents.cc>':\e[0m6\r\n:\r\nIn file included from ../../nan/nan.h:2558:\r\n\e[1m../../nan/nan_object_wrap.h:67:18: \e[0m    persistent().MarkIndependent();\e[0;1;31m\r\nerror\e[0;1;32m:     ~~~~~~~~~~~~ ^\e[0m\r\n\e[1m\e[0mno member named 'MarkIndependent' in 'Nan::Persistent<v8::Object, v8::NonCopyablePersistentTraits<v8::Object>\r\n      >'\e[0m\r\n    persistent().MarkIndependent();\r\n\e[0;1;32m    ~~~~~~~~~~~~ ^\r\n\e[0m\e[1m../../nan/nan_object_wrap.h:124:26: \e[0m\e[0;1;31merror: \e[0m\e[1mno member named 'IsNearDeath' in 'Nan::Persistent<v8::Object, v8::NonCopyablePersistentTraits<v8::Object> >'\e[0m\r\n\e[1m    assert(wrap->handle_.IsNearDeath());../../nan/nan_object_wrap.h\r\n:\e[0;1;32m124           ~~~~~~~~~~~~~ ^:\r\n26\e[0m: \e[0m\e[0;1;31m\e[1merror/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/assert.h: :\e[0m93\e[1m:no25 :member \e[0m \e[0;1;30mnamednote : 'IsNearDeath' in\e[0m 'Nan::Persistent<v8::Object, v8::NonCopyablePersistentTraits<v8::Object> >'expanded\e[0m \r\nfrom macro\r\n      'assert'\e[0m\r\n    assert(wrap->handle_.IsNearDeath());\r\n\e[0;1;32m           ~~~~~~~~~~~~~ ^\r\n\e[0m    (__builtin_expect(!(e), 0) ? __assert_rtn(__func__, __FILE__, __LINE__, #e) : (void)0)\r\n\e[0;1;32m                        ^\r\n\e[0m\e[1m/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/assert.h:93:25: \e[0m\e[0;1;30mnote: \e[0mexpanded from macro\r\n      'assert'\e[0m\r\n    (__builtin_expect(!(e), 0) ? __assert_rtn(__func__, __FILE__, __LINE__, #e) : (void)0)\r\n\e[0;1;32m                        ^\r\n\e[0m"
+  - delay: 5
+    content: "In file included from ../fsevents.cc:6:\r\nIn file included from ../../nan/nan.h:2649:\r\n\e[1m../../nan/nan_typedarray_contents.h:34:43: \e[0m\e[0;1;35mwarning: \e[0m\e[1m'GetContents' is deprecated: Use GetBackingStore. See http://crbug.com/v8/9908.\r\n      [-Wdeprecated-declarations]\e[0m\r\n      data   = static_cast<char*>(buffer->GetContents().Data()) + byte_offset;\r\n\e[0;1;32m                                          ^\r\n\e[0m\e[1m/Users/zwlzwt/Library/Caches/node-gyp/14.15.4/include/node/v8.h:5272:3: \e[0m\e[0;1;30mnote: \e[0m'GetContents' has been explicitly marked deprecated here\e[0m\r\n  V8_DEPRECATE_SOON(\"Use GetBackingStore. See http://crbug.com/v8/9908.\")\r\n\e[0;1;32m  ^\r\n\e[0m\e[1m/Users/zwlzwt/Library/Caches/node-gyp/14.15.4/include/node/v8config.h:402:39: \e[0m\e[0;1;30mnote: \e[0mexpanded from macro 'V8_DEPRECATE_SOON'\e[0m\r\nIn file included from ../fsevents.cc:6:\r\nIn file included from ../../nan/nan.h:2649:\r\n\e[1m../../nan/nan_typedarray_contents.h:34:43: \e[0m\e[0;1;35m# define V8_DEPRECATE_SOON(message) [[deprecated(message)]]warning\r\n: \e[0;1;32m\e[0m                                      ^\e[1m\r\n'GetContents'\e[0m is deprecated: Use GetBackingStore. See http://crbug.com/v8/9908.\r\n      [-Wdeprecated-declarations]\e[0m\r\n      data   = static_cast<char*>(buffer->GetContents().Data()) + byte_offset;\r\n\e[0;1;32m                                          ^\r\n\e[0m\e[1m/Users/zwlzwt/Library/Caches/node-gyp/14.15.4/include/node/v8.h:5272:3: \e[0m\e[0;1;30mnote: \e[0m'GetContents' has been explicitly marked deprecated here\e[0m\r\n  V8_DEPRECATE_SOON(\"Use GetBackingStore. See http://crbug.com/v8/9908.\")\r\n\e[0;1;32m  ^\r\n\e[0m\e[1m/Users/zwlzwt/Library/Caches/node-gyp/14.15.4/include/node/v8config.h:402:39: \e[0m\e[0;1;30mnote: \e[0mexpanded from macro 'V8_DEPRECATE_SOON'\e[0m\r\n# define V8_DEPRECATE_SOON(message) [[deprecated(message)]]\r\n\e[0;1;32m                                      ^\r\n\e[0m"
+  - delay: 560
+    content: "\e[1m../fsevents.cc:50:32:\e[1m ../fsevents.cc\e[0m:\e[0;1;31m50error:: 32\e[0m:\e[1m no\e[0m \e[0;1;31mtemplateerror : named\e[0m \e[1m'Handle'no  intemplate  namespacenamed  'v8''Handle'\e[0m \r\nin namespace 'v8'\e[0m\r\n    static void Initialize(v8::Handle<v8::Object> exports);\r\n\e[0;1;32m                           ~~~~^    static void Initialize(v8::Handle<v8::Object> exports);\r\n\r\n\e[0m\e[0;1;32m                           ~~~~^\r\n\e[0m"
+  - delay: 5
+    content: "In file included from ../fsevents.cc:In file included from ../fsevents.cc:84:\r\n84\e[1m../src/constants.cc:89:\r\n:11:\e[1m ../src/constants.cc\e[0m:\e[0;1;31m89error:: 11\e[0m:\e[1m no\e[0m \e[0;1;31mmatchingerror : member\e[0m \e[1mfunctionno  formatching  callmember  tofunction  'Set'for\e[0m \r\ncall to 'Set'\e[0m\r\n  object->Set(Nan::New<v8::String>(\"kFSEventStreamEventFlagNone\").ToLocalChecked(), Nan::New<v8::Integer>(kFSEventStreamEventFlagNone));\r\n\e[0;1;32m  ~~~~~~~~^~~\r\n\e[0m  object->Set(Nan::New<v8::String>(\"kFSEventStreamEventFlagNone\").ToLocalChecked(), Nan::New<v8::Integer>(kFSEventStreamEventFlagNone));\r\n\e[1m\e[0;1;32m/Users/zwlzwt/Library/Caches/node-gyp/14.15.4/include/node/v8.h  ~~~~~~~~^~~:\r\n3670\e[0m:37: \e[0m\e[0;1;30mnote: \e[0m\e[1mcandidate/Users/zwlzwt/Library/Caches/node-gyp/14.15.4/include/node/v8.h :function3670 :not37 :viable:  \e[0mrequires\e[0;1;30m note3:  \e[0marguments,candidate  butfunction  2not  wereviable:  providedrequires\e[0m \r\n3 arguments, but 2 were provided\e[0m\r\n  V8_WARN_UNUSED_RESULT Maybe<bool> Set(Local<Context> context,\r\n\e[0;1;32m                                    ^\r\n\e[0m\e[1m/Users/zwlzwt/Library/Caches/node-gyp/14.15.4/include/node/v8.h  V8_WARN_UNUSED_RESULT Maybe<bool> Set(Local<Context> context,:\r\n3673\e[0;1;32m:                                    ^37\r\n:\e[0m \e[0m\e[0;1;30mnote\e[1m: /Users/zwlzwt/Library/Caches/node-gyp/14.15.4/include/node/v8.h\e[0m:candidate3673 :function37 :not  \e[0mviable:\e[0;1;30m noterequires:  \e[0m3candidate  arguments,function  butnot  2viable:  wererequires  provided3\e[0m \r\narguments, but 2 were provided\e[0m\r\n  V8_WARN_UNUSED_RESULT Maybe<bool> Set(Local<Context> context, uint32_t index,\r\n\e[0;1;32m                                    ^\r\n\e[0m  V8_WARN_UNUSED_RESULT Maybe<bool> Set(Local<Context> context, uint32_t index,\r\n\e[0;1;32m                                    ^\r\n\e[0mIn file included from ../fsevents.cc:84:\r\n\e[1m../src/constants.cc:90:11: \e[0m\e[0;1;31merror: \e[0m\e[1mno matching member function for call to 'Set'\e[0m\r\nIn file included from ../fsevents.cc:84:\r\n\e[1m../src/constants.cc:90:11: \e[0m\e[0;1;31merror: \e[0m\e[1mno matching member function for call to 'Set'\e[0m\r\n  object->Set(Nan::New<v8::String>(\"kFSEventStreamEventFlagMustScanSubDirs\").ToLocalChecked(), Nan::New<v8::Integer>(kFSEventStreamEventFlagMus...\r\n\e[0;1;32m  ~~~~~~~~^~~\r\n\e[0m\e[1m/Users/zwlzwt/Library/Caches/node-gyp/14.15.4/include/node/v8.h:3670:37: \e[0m\e[0;1;30mnote: \e[0mcandidate function not viable: requires 3 arguments, but 2 were provided\e[0m\r\n  object->Set(Nan::New<v8::String>(\"kFSEventStreamEventFlagMustScanSubDirs\").ToLocalChecked(), Nan::New<v8::Integer>(kFSEventStreamEventFlagMus...\r\n\e[0;1;32m  ~~~~~~~~^~~\r\n\e[0m  V8_WARN_UNUSED_RESULT Maybe<bool> Set(Local<Context> context,\e[1m\r\n/Users/zwlzwt/Library/Caches/node-gyp/14.15.4/include/node/v8.h\e[0;1;32m:                                    ^3670\r\n:\e[0m37: \e[1m\e[0m/Users/zwlzwt/Library/Caches/node-gyp/14.15.4/include/node/v8.h\e[0;1;30m:note3673: :\e[0m37candidate:  function\e[0m \e[0;1;30mnotnote : viable:\e[0m candidaterequires  function3  notarguments,  viable:but requires  23  werearguments,  providedbut\e[0m \r\n2 were provided\e[0m\r\n  V8_WARN_UNUSED_RESULT Maybe<bool> Set(Local<Context> context,\r\n\e[0;1;32m                                    ^\r\n\e[0m\e[1m  V8_WARN_UNUSED_RESULT Maybe<bool> Set(Local<Context> context, uint32_t index,/Users/zwlzwt/Library/Caches/node-gyp/14.15.4/include/node/v8.h\r\n:\e[0;1;32m3673                                    ^:\r\n37\e[0m: \e[0m\e[0;1;30mnote: \e[0mcandidate function not viable: requires 3 arguments, but 2 were provided\e[0m\r\n  V8_WARN_UNUSED_RESULT Maybe<bool> Set(Local<Context> context, uint32_t index,\r\n\e[0;1;32m                                    ^\r\n\e[0mIn file included from ../fsevents.cc:84:\r\n\e[1m../src/constants.cc:91:11: \e[0m\e[0;1;31merror: \e[0m\e[1mno matching member function for call to 'Set'\e[0m\r\n  object->Set(Nan::New<v8::String>(\"kFSEventStreamEventFlagUserDropped\").ToLocalChecked(), Nan::New<v8::Integer>(kFSEventStreamEventFlagUserDropped));\r\n\e[0;1;32m  ~~~~~~~~^~~\r\n\e[0m\e[1m/Users/zwlzwt/Library/Caches/node-gyp/14.15.4/include/node/v8.hIn file included from :../fsevents.cc:367084::\r\n37\e[1m:../src/constants.cc :\e[0m91\e[0;1;30m:note11: :\e[0m \e[0mcandidate\e[0;1;31m errorfunction:  \e[0mnot\e[1m noviable:  matchingrequires  member3  functionarguments,  forbut  call2  towere  'Set'provided\e[0m\e[0m\r\n\r\n  V8_WARN_UNUSED_RESULT Maybe<bool> Set(Local<Context> context,\r\n\e[0;1;32m                                    ^\r\n\e[0m\e[1m/Users/zwlzwt/Library/Caches/node-gyp/14.15.4/include/node/v8.h:3673:37: \e[0m\e[0;1;30mnote: \e[0mcandidate function not  object->Set(Nan::New<v8::String>(\"kFSEventStreamEventFlagUserDropped\").ToLocalChecked(), Nan::New<v8::Integer>(kFSEventStreamEventFlagUserDropped)); \r\nviable:\e[0;1;32m   ~~~~~~~~^~~requires\r\n \e[0m3 arguments, but\e[1m /Users/zwlzwt/Library/Caches/node-gyp/14.15.4/include/node/v8.h2: 3670were: 37provided:\e[0m \r\n\e[0m\e[0;1;30mnote: \e[0mcandidate function not viable: requires 3 arguments, but 2 were provided\e[0m\r\n  V8_WARN_UNUSED_RESULT Maybe<bool> Set(Local<Context> context, uint32_t index,\r\n\e[0;1;32m                                    ^\r\n\e[0m  V8_WARN_UNUSED_RESULT Maybe<bool> Set(Local<Context> context,\r\n\e[0;1;32m                                    ^\r\n\e[0m\e[1m/Users/zwlzwt/Library/Caches/node-gyp/14.15.4/include/node/v8.h:3673:37: \e[0m\e[0;1;30mnote: \e[0mcandidate function not viable: requires 3 arguments, but 2 were provided\e[0m\r\n  V8_WARN_UNUSED_RESULT Maybe<bool> Set(Local<Context> context, uint32_t index,\r\n\e[0;1;32m                                    ^\r\n\e[0m\e[0;1;31mfatal error: \e[0mtoo many \e[0;1;31merrorsfatal error : emitted,\e[0m toostopping  manynow  errors[-ferror-limit=] \e[0memitted,\r\n stopping now [-ferror-limit=]\e[0m\r\n5 warnings and 20 errors generated.\r\n5 warnings and 20 errors generated.\r\n"
+  - delay: 10
+    content: "make: *** [Release/obj.target/fse/fsevents.o] Error 1make: \r\n*** [Release/obj.target/fse/fsevents.o] Error 1\r\n\e[37;40mgyp\e[0m\e[37;40mgyp\e[0m \e[0m \e[0m\e[31;40mERR!\e[0m\e[31;40mERR!\e[0m \e[0m \e[0m\e[35mbuild error\e[0m\e[35mbuild error\e[0m \r\n\e[0m \r\n\e[0m\e[37;40mgyp\e[0m\e[37;40mgyp\e[0m \e[0m \e[0m\e[31;40mERR!\e[0m\e[31;40mERR!\e[0m \e[0m \e[0m\e[35mstack\e[0m\e[35mstack\e[0m Error: `make` failed with exit code: 2\r\n\e[0m Error: `make` failed with exit code: 2\r\n\e[0m\e[37;40mgyp\e[0m\e[37;40mgyp\e[0m \e[0m \e[0m\e[31;40mERR!\e[0m\e[31;40mERR!\e[0m \e[0m \e[0m\e[35mstack\e[0m\e[35mstack\e[0m     at ChildProcess.onExit (/Users/zwlzwt/.nvm/versions/node/v14.15.4/lib/node_modules/npm/node_modules/node-gyp/lib/build.js:194:23)\r\n\e[0m     at ChildProcess.onExit (/Users/zwlzwt/.nvm/versions/node/v14.15.4/lib/node_modules/npm/node_modules/node-gyp/lib/build.js:194:23)\r\n\e[0m\e[37;40mgyp\e[0m\e[37;40mgyp\e[0m \e[0m \e[0m\e[31;40mERR!\e[0m\e[31;40mERR!\e[0m \e[0m \e[0m\e[35mstack\e[0m\e[35mstack\e[0m     at ChildProcess.emit (events.js:315:20)\r\n\e[0m     at ChildProcess.emit (events.js:315:20)\r\n\e[0m\e[37;40mgyp\e[0m\e[37;40mgyp\e[0m \e[0m \e[0m\e[31;40mERR!\e[0m\e[31;40mERR!\e[0m \e[0m \e[0m\e[35mstack\e[0m\e[35mstack\e[0m     at Process.ChildProcess._handle.onexit (internal/child_process.js:277:12)\r\n\e[0m     at Process.ChildProcess._handle.onexit (internal/child_process.js:277:12)\r\n\e[0m\e[37;40mgyp\e[0m\e[37;40mgyp\e[0m \e[0m \e[0m\e[31;40mERR!\e[0m\e[31;40mERR!\e[0m \e[0m \e[0m\e[35mSystem\e[0m\e[35mSystem\e[0m Darwin 19.6.0\r\n\e[0m Darwin 19.6.0\r\n\e[0m\e[37;40mgyp\e[0m\e[37;40mgyp\e[0m \e[0m \e[0m\e[31;40mERR!\e[0m\e[31;40mERR!\e[0m \e[0m \e[0m\e[35mcommand\e[0m\e[35mcommand\e[0m \"/Users/zwlzwt/.nvm/versions/node/v14.15.4/bin/node\" \"/Users/zwlzwt/.nvm/versions/node/v14.15.4/lib/node_modules/npm/node_modules/node-gyp/bin/node-gyp.js\" \"build\" \"--fallback-to-build\" \"--module=/Users/zwlzwt/Documents/test-template/react-frame-application/node_modules/fsevents/lib/binding/Release/node-v83-darwin-x64/fse.node\" \"--module_name=fse\" \"--module_path=/Users/zwlzwt/Documents/test-template/react-frame-application/node_modules/fsevents/lib/binding/Release/node-v83-darwin-x64\"\r\n\e[0m \"/Users/zwlzwt/.nvm/versions/node/v14.15.4/bin/node\" \"/Users/zwlzwt/.nvm/versions/node/v14.15.4/lib/node_modules/npm/node_modules/node-gyp/bin/node-gyp.js\" \"build\" \"--fallback-to-build\" \"--module=/Users/zwlzwt/Documents/test-template/react-frame-application/node_modules/fsevents/lib/binding/Release/node-v83-darwin-x64/fse.node\" \"--module_name=fse\" \"--module_path=/Users/zwlzwt/Documents/test-template/react-frame-application/node_modules/fsevents/lib/binding/Release/node-v83-darwin-x64\"\r\n\e[0m\e[37;40mgyp\e[0m \e[0m\e[31;40mERR!\e[0m \e[0m\e[35mcwd\e[0m /Users/zwlzwt/Documents/test-template/react-frame-application/node_modules/fsevents\r\n\e[0m\e[37;40mgyp\e[0m\e[37;40mgyp\e[0m \e[0m \e[0m\e[31;40mERR!\e[0m\e[31;40mERR!\e[0m \e[0m \e[0m\e[35mcwd\e[0m\e[35mnode -v\e[0m /Users/zwlzwt/Documents/test-template/react-frame-application/node_modules/fsevents\r\n\e[0m v14.15.4\r\n\e[0m\e[37;40mgyp\e[0m\e[37;40mgyp\e[0m \e[0m \e[0m\e[31;40mERR!\e[0m\e[31;40mERR!\e[0m \e[0m \e[0m\e[35mnode-gyp -v\e[0m\e[35mnode -v\e[0m v5.1.0\r\n\e[0m v14.15.4\r\n\e[0m\e[37;40mgyp\e[0m\e[37;40mgyp\e[0m \e[0m \e[0m\e[31;40mERR!\e[0m\e[31;40mERR!\e[0m \e[0m \e[0m\e[35mnot ok\e[0m\e[35mnode-gyp -v\e[0m \r\n\e[0m v5.1.0\r\n\e[0m\e[37;40mgyp\e[0m \e[0m\e[31;40mERR!\e[0m \e[0m\e[35mnot ok\e[0m \r\n\e[0m"
+  - delay: 6
+    content: "\e[37;40mnode-pre-gyp\e[0m \e[0m\e[31;40mERR!\e[0m \e[0m\e[35mbuild error\e[0m \r\n\e[0m\e[37;40mnode-pre-gyp\e[0m \e[0m\e[31;40mERR!\e[0m \e[0m\e[35mstack\e[0m Error: Failed to execute '/Users/zwlzwt/.nvm/versions/node/v14.15.4/bin/node /Users/zwlzwt/.nvm/versions/node/v14.15.4/lib/node_modules/npm/node_modules/node-gyp/bin/node-gyp.js build --fallback-to-build --module=/Users/zwlzwt/Documents/test-template/react-frame-application/node_modules/fsevents/lib/binding/Release/node-v83-darwin-x64/fse.node --module_name=fse --module_path=/Users/zwlzwt/Documents/test-template/react-frame-application/node_modules/fsevents/lib/binding/Release/node-v83-darwin-x64' (1)\r\n\e[0m\e[37;40mnode-pre-gyp\e[0m \e[0m\e[31;40mERR!\e[0m \e[0m\e[35mstack\e[0m     at ChildProcess.<anonymous> (/Users/zwlzwt/Documents/test-template/react-frame-application/node_modules/fsevents/node_modules/node-pre-gyp/lib/util/compile.js:83:29)\r\n\e[0m\e[37;40mnode-pre-gyp\e[0m \e[0m\e[31;40mERR!\e[0m \e[0m\e[35mstack\e[0m     at ChildProcess.emit (events.js:315:20)\r\n\e[0m\e[37;40mnode-pre-gyp\e[0m \e[0m\e[31;40mERR!\e[0m \e[0m\e[35mstack\e[0m     at maybeClose (internal/child_process.js:1048:16)\r\n\e[0m\e[37;40mnode-pre-gyp\e[0m \e[0m\e[31;40mERR!\e[0m \e[0m\e[35mstack\e[0m     at Process.ChildProcess._handle.onexit (internal/child_process.js:288:5)\r\n\e[0m\e[37;40mnode-pre-gyp\e[0m \e[0m\e[31;40mERR!\e[0m \e[0m\e[35mSystem\e[0m Darwin 19.6.0\r\n\e[0m\e[37;40mnode-pre-gyp\e[0m \e[0m\e[31;40mERR!\e[0m \e[0m\e[35mcommand\e[0m \"/Users/zwlzwt/.nvm/versions/node/v14.15.4/bin/node\" \"/Users/zwlzwt/Documents/test-template/react-frame-application/node_modules/fsevents/node_modules/node-pre-gyp/bin/node-pre-gyp\" \"install\" \"--fallback-to-build\"\r\n\e[0m\e[37;40mnode-pre-gyp\e[0m \e[0m\e[31;40mERR!\e[0m \e[0m\e[35mcwd\e[0m /Users/zwlzwt/Documents/test-template/react-frame-application/node_modules/fsevents\r\n\e[0m\e[37;40mnode-pre-gyp\e[0m \e[0m\e[31;40mERR!\e[0m \e[0m\e[35mnode -v\e[0m v14.15.4\r\n\e[0m\e[37;40mnode-pre-gyp\e[0m \e[0m\e[31;40mERR!\e[0m \e[0m\e[35mnode-pre-gyp -v\e[0m v0.6.39\r\n\e[0m\e[37;40mnode-pre-gyp\e[0m \e[0m\e[31;40mERR!\e[0m \e[0m\e[35mnot ok\e[0m \r\n\e[0mFailed to execute '/Users/zwlzwt/.nvm/versions/node/v14.15.4/bin/node /Users/zwlzwt/.nvm/versions/node/v14.15.4/lib/node_modules/npm/node_modules/node-gyp/bin/node-gyp.js build --fallback-to-build --module=/Users/zwlzwt/Documents/test-template/react-frame-application/node_modules/fsevents/lib/binding/Release/node-v83-darwin-x64/fse.node --module_name=fse --module_path=/Users/zwlzwt/Documents/test-template/react-frame-application/node_modules/fsevents/lib/binding/Release/node-v83-darwin-x64' (1)\r\n"
+  - delay: 62
+    content: "\e[?25l⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠼ install:braces: \e[32minfo\e[0m \e[35mlifecycle\e[0m braces@1.8.5~install: braces@1.8.5\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠋ install:babel-plugin-transform-es2015-object-super: \e[32minfo\e[0m \e[35mlifecycle\e[0m babel-plugin-transform-es2015-object-super@6.24.1~install: b\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠼ install:rc-tabs: \e[32minfo\e[0m \e[35mlifecycle\e[0m rc-tabs@9.2.4~install: rc-tabs@9.2.4\e[0m\e[K\r"
+  - delay: 73
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠦ postinstall:webpack-hot-middleware: \e[7msill\e[0m \e[35mdoSerial\e[0m postinstall 11172\e[0m\e[K\r"
+  - delay: 49
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠦ postinstall:fast-json-stable-stringify: \e[32minfo\e[0m \e[35mlifecycle\e[0m fast-json-stable-stringify@2.0.0~postinstall: fast-json-stable-stringify\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠦ postinstall:cli-cursor: \e[32minfo\e[0m \e[35mlifecycle\e[0m cli-cursor@1.0.2~postinstall: cli-cursor@1.0.2\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠼ postinstall:utila: \e[32minfo\e[0m \e[35mlifecycle\e[0m utila@0.3.3~postinstall: utila@0.3.3\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠼ postinstall:tough-cookie: \e[32minfo\e[0m \e[35mlifecycle\e[0m tough-cookie@2.3.4~postinstall: tough-cookie@2.3.4\e[0m\e[K\r"
+  - delay: 21
+    content: "\r\e[K\e[?25h\r\n> spawn-sync@1.0.15 postinstall /Users/zwlzwt/Documents/test-template/react-frame-application/node_modules/spawn-sync\r\n> node postinstall\r\n\r\n"
+  - delay: 79
+    content: "\r\n> react-slick@0.17.1 postinstall /Users/zwlzwt/Documents/test-template/react-frame-application/node_modules/react-slick\r\n> opencollective postinstall\r\n\r\n"
+  - delay: 650
+    content: "                     \e[34m            ..,::::::::::,..            \e[39m\r\n"
+  - delay: 10
+    content: "                     \e[34m         .,::::::::::::::::::,.         \e[39m\r\n"
+  - delay: 8
+    content: "                     \e[34m      .,:::::::::::::::::::::,.         \e[39m\r\n"
+  - delay: 11
+    content: "                     \e[34m    .:::::::::::,,,,,,,,:::,.           \e[39m\r\n"
+  - delay: 10
+    content: "                     \e[34m   ,::::::::,.                      .   \e[39m\r\n"
+  - delay: 8
+    content: "                     \e[34m  ,:::::::,                       .,,.  \e[39m\r\n"
+  - delay: 13
+    content: "                     \e[34m ,:::::::.                      .,,,,,. \e[39m\r\n"
+  - delay: 10
+    content: "                     \e[34m.:::::::.                       .,,,,,, \e[39m\r\n"
+  - delay: 9
+    content: "                     \e[34m:::::::.                        .,,,,,,.\e[39m\r\n"
+  - delay: 11
+    content: "                     \e[34m:::::::                          ,,,,,,,\e[39m\r\n"
+  - delay: 9
+    content: "                     \e[34m:::::::                          ,,,,,,,\e[39m\r\n"
+  - delay: 10
+    content: "                     \e[34m:::::::.                        .,,,,,,.\e[39m\r\n"
+  - delay: 10
+    content: "                     \e[34m.:::::::.                       .,,,,,, \e[39m\r\n"
+  - delay: 9
+    content: "                     \e[34m ,:::::::.                      .,,,,,. \e[39m\r\n"
+  - delay: 11
+    content: "                     \e[34m  ,:::::::,                       .,,.  \e[39m\r\n"
+  - delay: 9
+    content: "                     \e[34m   ,::::::::,.                      .   \e[39m\r\n"
+  - delay: 10
+    content: "                     \e[34m    .:::::::::::,,,,,,,,:::,.           \e[39m\r\n"
+  - delay: 9
+    content: "                     \e[34m      .,:::::::::::::::::::::,.         \e[39m\r\n"
+  - delay: 10
+    content: "                     \e[34m         .,::::::::::::::::::,.         \e[39m\r\n"
+  - delay: 10
+    content: "                     \e[34m            ..,::::::::::,..            \e[39m\r\n"
+  - delay: 9
+    content: "                                         \r\n\r\n"
+  - delay: 10
+    content: "                       \e[33mThanks for installing react-slick \U0001F64F\e[39m\r\n"
+  - delay: 9
+    content: "                 \e[2mPlease consider donating to our open collective\e[22m\r\n"
+  - delay: 9
+    content: "                        \e[2mto help us maintain this package.\e[22m\r\n\r\n"
+  - delay: 10
+    content: "                            Number of contributors: 0\r\n"
+  - delay: 10
+    content: "                               Number of backers: 5\r\n"
+  - delay: 11
+    content: "                                Annual budget: $49\r\n"
+  - delay: 10
+    content: "                              \e[1mCurrent balance: $142\e[22m\r\n\r\n"
+  - delay: 12
+    content: "        \e[1m\U0001F449  Donate:\e[22m \e[4mhttps://opencollective.com/react-slick/donate\e[24m\r\n\r\n"
+  - delay: 50
+    content: "\r\n> nodemon@1.17.2 postinstall /Users/zwlzwt/Documents/test-template/react-frame-application/node_modules/nodemon\r\n> node -e \"console.log('\\u001b[32mLove nodemon? You can now support the project via the open collective:\\u001b[22m\\u001b[39m\\n > \\u001b[96m\\u001b[1mhttps://opencollective.com/nodemon/donate\\u001b[0m\\n')\" || exit 0\r\n\r\n"
+  - delay: 63
+    content: "\e[32mLove nodemon? You can now support the project via the open collective:\e[22m\e[39m\r\n > \e[96m\e[1mhttps://opencollective.com/nodemon/donate\e[0m\r\n\r\n"
+  - delay: 10
+    content: "\r\n> styled-components@3.2.0 postinstall /Users/zwlzwt/Documents/test-template/react-frame-application/node_modules/styled-components\r\n> opencollective postinstall\r\n\r\n"
+  - delay: 390
+    content: "\r\n"
+  - delay: 12
+    content: "                    \e[33mThanks for installing styled-components \U0001F64F\e[39m\r\n"
+  - delay: 10
+    content: "                 \e[2mPlease consider donating to our open collective\e[22m\r\n"
+  - delay: 10
+    content: "                        \e[2mto help us maintain this package.\e[22m\r\n\r\n"
+  - delay: 11
+    content: "                            Number of contributors: 0\r\n"
+  - delay: 12
+    content: "                              Number of backers: 182\r\n"
+  - delay: 13
+    content: "                              Annual budget: $5,677\r\n"
+  - delay: 11
+    content: "                             \e[1mCurrent balance: $11,213\e[22m\r\n\r\n"
+  - delay: 14
+    content: "     \e[1m\U0001F449  Donate:\e[22m \e[4mhttps://opencollective.com/styled-components/donate\e[24m\r\n\r\n"
+  - delay: 70
+    content: "\e[?25l⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠴ postinstall: \e[32minfo\e[0m \e[35mlifecycle\e[0m webpack-hot-middleware@2.21.2~postinstall: webpack-hot-middleware@2.21.2\e[0m\e[K\r"
+  - delay: 53
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠴ postinstall: \e[32minfo\e[0m \e[35mlifecycle\e[0m webpack-hot-middleware@2.21.2~postinstall: webpack-hot-middleware@2.21.2\e[0m\e[K\r"
+  - delay: 49
+    content: "⸨\e[7m            \e[27m\e[90m░░░░░░\e[0m⸩ ⠴ postinstall: \e[32minfo\e[0m \e[35mlifecycle\e[0m webpack-hot-middleware@2.21.2~postinstall: webpack-hot-middleware@2.21.2\e[0m\e[K\r"
+  - delay: 700
+    content: "⸨\e[7m             \e[27m\e[90m░░░░░\e[0m⸩ ⠋ prepare:react-frame-application: \e[32minfo\e[0m \e[35mlifecycle\e[0m fe-car-management@1.0.0~prepare: fe-car-management@1.0.0\e[0m\e[K\r"
+  - delay: 166
+    content: "⸨\e[7m             \e[27m\e[90m░░░░░\e[0m⸩ ⠼ prepare:react-frame-application: \e[32minfo\e[0m \e[35mlifecycle\e[0m fe-car-management@1.0.0~prepare: fe-car-management@1.0.0\e[0m\e[K\r"
+  - delay: 50
+    content: "⸨\e[7m             \e[27m\e[90m░░░░░\e[0m⸩ ⠼ prepare:react-frame-application: \e[32minfo\e[0m \e[35mlifecycle\e[0m fe-car-management@1.0.0~prepare: fe-car-management@1.0.0\e[0m\e[K\r"
+  - delay: 30
+    content: "\r\e[K\e[?25hadded 1309 packages from 783 contributors and audited 1426 packages in 26.568s\r\n"
+  - delay: 656
+    content: "found \e[91m2396\e[0m vulnerabilities (991 \e[1mlow\e[0m, 49 \e[93mmoderate\e[0m, 1355 \e[91mhigh\e[0m, 1 \e[95mcritical\e[0m)\r\n  run `npm audit fix` to fix them, or `npm audit` for details\r\n\e[?25l⸨\e[7m             \e[27m\e[90m░░░░░\e[0m⸩ ⠋ prepare:react-frame-application: \e[7msill\e[0m \e[35minstall\e[0m printInstalled\e[0m\e[K\r"
+  - delay: 11
+    content: "\r\e[K\e[?25h"
+  - delay: 46
+    content: "\e[1;34mzwlzwt \e[1;32m~/Documents \e[1;37m \U0001D77A "
+  - delay: 1161
+    content: c
+  - delay: 102
+    content: d
+  - delay: 201
+    content: ' '
+  - delay: 487
+    content: t
+  - delay: 96
+    content: e
+  - delay: 233
+    content: s
+  - delay: 264
+    content: "\at"
+  - delay: 561
+    content: "\a"
+  - delay: 399
+    content: "\r\ntest/            test-cli/        test-template/   test_stackAdapt/ \r\n\e[1;34mzwlzwt \e[1;32m~/Documents \e[1;37m \U0001D77A cd test"
+  - delay: 794
+    content: "\r\ntest/            test-cli/        test-template/   test_stackAdapt/ \r\n\e[1;34mzwlzwt \e[1;32m~/Documents \e[1;37m \U0001D77A cd test"
+  - delay: 221
+    content: "\r\ntest/            test-cli/        test-template/   test_stackAdapt/ \r\n\e[1;34mzwlzwt \e[1;32m~/Documents \e[1;37m \U0001D77A cd test"
+  - delay: 1849
+    content: '-'
+  - delay: 256
+    content: t
+  - delay: 78
+    content: e
+  - delay: 274
+    content: m
+  - delay: 296
+    content: plate/
+  - delay: 857
+    content: "\r\n\e[1;34mzwlzwt \e[1;32m~/Documents/test-template \e[1;37m \U0001D77A "
+  - delay: 919
+    content: l
+  - delay: 127
+    content: s
+  - delay: 144
+    content: "\r\n"
+  - delay: 8
+    content: "\e[0m\e[36mreact-frame-application\e[0m/\r\n\e[1;34mzwlzwt \e[1;32m~/Documents/test-template \e[1;37m \U0001D77A "
+  - delay: 616
+    content: c
+  - delay: 104
+    content: d
+  - delay: 119
+    content: ' '
+  - delay: 257
+    content: r
+  - delay: 79
+    content: e
+  - delay: 209
+    content: a
+  - delay: 175
+    content: c
+  - delay: 265
+    content: t-frame-application/
+  - delay: 672
+    content: "\r\n\e[1;34mzwlzwt \e[1;32m~/Documents/test-template/react-frame-application \e[1;37m \U0001D77A "
+  - delay: 704
+    content: l
+  - delay: 143
+    content: s
+  - delay: 208
+    content: "\r\n\e[0m\e[00mMakefile\e[0m  \e[32mREADME.md\e[0m  \e[36mdist\e[0m/  \e[36mnode_modules\e[0m/  \e[00mpackage-lock.json\e[0m  \e[00mpackage.json\e[0m  \e[32mserver.js\e[0m  \e[36msrc\e[0m/  \e[32mwebpack.config.js\e[0m  \e[32mwebpack.config.pro.js\e[0m\r\n\e[1;34mzwlzwt \e[1;32m~/Documents/test-template/react-frame-application \e[1;37m \U0001D77A "
+  - delay: 2292
+    content: i
+  - delay: 375
+    content: "\b\e[K"
+  - delay: 224
+    content: g
+  - delay: 168
+    content: i
+  - delay: 169
+    content: t
+  - delay: 192
+    content: ' '
+  - delay: 375
+    content: l
+  - delay: 177
+    content: o
+  - delay: 248
+    content: g
+  - delay: 728
+    content: "\b\e[K"
+  - delay: 201
+    content: "\b\e[K"
+  - delay: 375
+    content: "\b\e[K"
+  - delay: 2754
+    content: "\b\e[K"
+  - delay: 189
+    content: "\b\e[K"
+  - delay: 171
+    content: "\b\e[K"
+  - delay: 165
+    content: "\b\e[K"
+  - delay: 170
+    content: "\a"
+  - delay: 3110
+    content: g
+  - delay: 209
+    content: i
+  - delay: 240
+    content: t
+  - delay: 167
+    content: ' '
+  - delay: 560
+    content: l
+  - delay: 184
+    content: o
+  - delay: 256
+    content: g
+  - delay: 328
+    content: "\r\n"
+  - delay: 24
+    content: "\e[?1049h\e[?1h\e=\r\e[33mcommit 3f0456f58870991e5d0ddce4ee81ac6058c507ac\e[m\e[33m (\e[m\e[1;36mHEAD -> \e[m\e[1;32mmaster\e[m\e[33m)\e[m\e[m\r\nAuthor: zwl <339842263zwl@gmail.com>\e[m\r\nDate:   Sun Feb 14 14:05:51 2021 -0500\e[m\r\n\e[m\r\n    create front-end app\e[m\r\n\e[7m(END)\e[27m\e[K"
+  - delay: 2641
+    content: "\r\e[K\e[?1l\e>\e[?1049l\e[1;34mzwlzwt \e[1;32m~/Documents/test-template/react-frame-application \e[1;37m \U0001D77A "
+  - delay: 4142
+    content: "logout\r\n"

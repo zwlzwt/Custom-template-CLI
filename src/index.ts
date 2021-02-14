@@ -7,15 +7,23 @@ const fs = require('fs-extra')
 const util = require('util')
 const exec = util.promisify(require('child_process').exec)
 const spawn = require('cross-spawn')
+const input = require('@inquirer/input')
+const select = require('@inquirer/select')
 
 const packageJson = require('../package.json')
 
 let projectName: string
 type Url = {
   'react-starter': string
+  'react-material-admin-template': string
+  'react-frame-application': string
 }
-const templeUrls: Url = {
+const templateUrls: Url = {
   'react-starter': 'https://github.com/webpack/react-starter.git',
+  'react-material-admin-template':
+    'https://github.com/rafaelhz/react-material-admin-template.git',
+  'react-frame-application':
+    'https://github.com/zwlzwt/react-frame-application.git',
 }
 
 // check the app name is valid
@@ -142,7 +150,59 @@ async function creatApp(
   }
 }
 
-function init(): void {
+// question for choose the template
+const templateSelectQuestion = {
+  type: 'list',
+  message: 'Which template you want choice?',
+  name: 'templateChoice',
+  choices: [
+    {
+      name: 'react-starter',
+      value: 'react-starter',
+      description: 'webpack official template for react',
+    },
+    {
+      name: 'react-material-admin-template',
+      value: 'react-material-admin-template',
+      description:
+        'This is a simple responsive admin template using React and Material-UI components.',
+    },
+    {
+      name: 'react-frame-application',
+      value: 'react-frame-application',
+      description: 'A React + Redux application without server render.',
+    },
+    {
+      name: 'custom template',
+      value: 'custom',
+    },
+  ],
+}
+
+const templateNameQuestion = {
+  type: 'input',
+  message: 'Please input your own template git name:',
+  name: 'templateName',
+}
+
+const templateUrlQuestion = {
+  type: 'input',
+  message: 'Please input your own template git url:',
+  name: 'templateUrl',
+}
+
+async function qa(): Promise<string[]> {
+  const selectName = await select(templateSelectQuestion)
+  if (selectName === 'custom') {
+    const cusName = await input(templateNameQuestion)
+    const cusUrl = await input(templateUrlQuestion)
+    return [selectName, cusName, cusUrl]
+  } else {
+    return [selectName]
+  }
+}
+
+async function init(): Promise<void> {
   // config arguments and options
   const program = new Command(packageJson.name)
     .version(packageJson.version)
@@ -151,11 +211,6 @@ function init(): void {
     .action((name) => {
       projectName = name
     })
-    .option(
-      '-t --template <template>',
-      'choose the template you have options: [micro-starter]',
-      'react-starter'
-    )
     .on('--help', () => {
       console.log()
       console.log(
@@ -181,7 +236,7 @@ function init(): void {
     console.log()
     console.log('For example:')
     console.log(
-      `  ${chalk.cyan(program.name())} ${chalk.green(`Ceridian-project`)}`
+      `  ${chalk.cyan(program.name())} ${chalk.green('Custom-react-project')}`
     )
     console.log()
     console.log(
@@ -189,11 +244,24 @@ function init(): void {
     )
     process.exit()
   }
-  const options = program.opts()
-  let templeName: string = options.template
-  let templateUrl: string = templeUrls[options.template]
 
-  creatApp(projectName, templeName, templateUrl)
+  const [selectAnswer, cusName, cusUrl] = await qa()
+  let templateUrl: string
+  let templateName: string
+  if (selectAnswer === 'custom' && (!cusName || !cusUrl)) {
+    console.log()
+    console.log(`${chalk.cyan('You must input your own template!!!')}`)
+    console.log()
+    process.exit()
+  } else if (selectAnswer === 'custom') {
+    templateName = cusName
+    templateUrl = cusUrl
+    await creatApp(projectName, templateName, templateUrl)
+  } else {
+    templateName = selectAnswer
+    templateUrl = templateUrls[selectAnswer]
+    await creatApp(projectName, templateName, templateUrl)
+  }
 }
 // module.exports === export default
 module.exports = init
